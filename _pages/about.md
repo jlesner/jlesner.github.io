@@ -1,49 +1,137 @@
 ---
 permalink: /
-title: "About"
+title: "Jasmine Lesner"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Hi! I am a first-year MSc student in the Computer Science Department at the University of California, Santa Barbara.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+My research focuses on the intersection of `Human-AI Interaction`, `Interactive AI Systems`, `Educational Technology`. 
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+**Research Mission:** To make AI systems more accessible and comprehensible to diverse users, particularly learners and educators, by creating intuitive, multimodal interfaces that bridge the gap between complex AI capabilities and everyday user needs. I believe that AI-powered educational tools should be so engaging and natural to use that learning through technology becomes as intuitive as learning from a human teacher.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+Feel free to reach out to me at `jlesner [at] ucsb.edu`!
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<div class="projects">
+  <h2>Recent Projects</h2>
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+  <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem;">
+    <div class="project-image" style="flex: 1; max-width: 50%;">
+      <img src="images/500x300.png" alt="AIPIF Project" style="width: 100%; height: auto;">
+    </div>
+    <div class="project-content" style="flex: 1; max-width: 50%;">
+      <h3>AI Personalized Interactive Fiction (AIPIF)</h3>
+      <p>Led the development of a multimodal AI system that creates personalized interactive stories for young children, integrating:</p>
+      <ul>
+        <li>Large Language Models for dynamic narrative generation</li>
+        <li>Text-to-Image (StableDiffusion XL) for visual storytelling</li>
+        <li>Text-to-Speech (Bark) and Music Generation (MusicGen) for immersive audio</li>
+      </ul>
+      <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+        <a href="https://github.com/jlesner/aipif" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fab fa-github" style="margin-right: 0.5rem;"></i>GitHub
+        </a>
+        <a href="https://youtu.be/TaVGem3nFrk" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fab fa-youtube" style="margin-right: 0.5rem;"></i>Demo Video
+        </a>
+        <a href="https://www.ufafu.com/" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Live Demo
+        </a>
+      </div>
+    </div>
+  </div>
 
-**Markdown generator**
+  <div class="project-container" style="display: flex; gap: 2rem;">
+    <div class="project-image" style="flex: 1; max-width: 50%;">
+      <img src="images/500x300.png" alt="SMV Project" style="width: 100%; height: auto;">
+    </div>
+    <div class="project-content" style="flex: 1; max-width: 50%;">
+      <h3>State Machine Visualizer (SMV)</h3>
+      <p>Developed a tool to help students better understand complex computational systems by:</p>
+      <ul>
+        <li>Automatically generating visual representations of state machines</li>
+        <li>Creating an intuitive bridge between code and visual understanding</li>
+        <li>Supporting computer science education through improved system visualization</li>
+      </ul>
+      <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+        <a href="https://github.com/jlesner/smv2" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fab fa-github" style="margin-right: 0.5rem;"></i>GitHub
+        </a>
+        <a href="https://www.youtube.com/watch?v=IHp0X0J5Di8" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fab fa-youtube" style="margin-right: 0.5rem;"></i>Demo Video
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+<!-- Add Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+<section class="gallery" style="padding: 2rem 0;">
+    <h2 style="text-align: center; margin-bottom: 2rem;">Gallery</h2>
+    
+    <div id="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; padding: 0 1rem;">
+        <!-- Images will be dynamically inserted here -->
+    </div>
+</section>
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+<script>
+async function loadGalleryImages() {
+    try {
+        const dirPath = 'images/gallery/';
+        // Create a test list of image paths (this would normally come from your server/backend)
+        const sampleImages = [
+            'images/gallery/image1.jpg',
+            'images/gallery/image2.jpg',
+            'images/gallery/image3.jpg',
+            'images/gallery/image4.jpg',
+            'images/gallery/image5.jpg',
+            'images/gallery/image6.jpg',
+            // Add more image paths as needed
+        ];
+        
+        const galleryGrid = document.getElementById('gallery-grid');
+        
+        // Create and append image elements for each path
+        sampleImages.forEach(imagePath => {
+            const imgContainer = document.createElement('div');
+            imgContainer.style.cssText = `
+                aspect-ratio: 1;
+                overflow: hidden;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            `;
+            
+            const img = document.createElement('img');
+            img.src = imagePath;
+            img.alt = `Gallery image - ${imagePath.split('/').pop()}`;
+            img.style.cssText = `
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.3s ease;
+            `;
+            
+            // Add hover effect
+            imgContainer.addEventListener('mouseenter', () => {
+                img.style.transform = 'scale(1.05)';
+            });
+            imgContainer.addEventListener('mouseleave', () => {
+                img.style.transform = 'scale(1)';
+            });
+            
+            imgContainer.appendChild(img);
+            galleryGrid.appendChild(imgContainer);
+        });
+    } catch (error) {
+        console.error('Error loading gallery images:', error);
+    }
+}
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+// Load images when the page loads
+document.addEventListener('DOMContentLoaded', loadGalleryImages);
+</script>
