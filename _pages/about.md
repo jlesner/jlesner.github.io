@@ -82,15 +82,14 @@ Feel free to reach out to me at `jlesner [at] ucsb.edu`!
 <script>
 async function loadGalleryImages() {
     try {
-        const dirPath = 'images/gallery/';
-        // Create a test list of image paths (this would normally come from your server/backend)
+        
         const sampleImages = [
-            'images/gallery/image1.jpg',
-            'images/gallery/image2.jpg',
-            'images/gallery/image3.jpg',
-            'images/gallery/image4.jpg',
-            'images/gallery/image5.jpg',
-            'images/gallery/image6.jpg',
+            'images/image1.jpg',
+            'images/image2.jpg',
+            'images/image3.jpg',
+            'images/image4.jpg',
+            'images/image5.jpg',
+            'images/image6.jpg',
             // Add more image paths as needed
         ];
         
