@@ -72,65 +72,31 @@ Feel free to reach out to me at `jlesner [at] ucsb.edu`!
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 <section class="gallery" style="padding: 2rem 0;">
-    <h2 style="text-align: center; margin-bottom: 2rem;">Gallery</h2>
-    
-    <div id="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; padding: 0 1rem;">
-        <!-- Images will be dynamically inserted here -->
-    </div>
+   <h2 style="text-align: center; margin-bottom: 2rem;">Gallery</h2>
+   
+   <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; padding: 0 1rem;">
+       <div class="img-container" style="aspect-ratio: 1; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+           <img src="images/image1.jpg" alt="Gallery image 1" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+       </div>
+       
+       <div class="img-container" style="aspect-ratio: 1; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+           <img src="images/image2.jpg" alt="Gallery image 2" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+       </div>
+       
+       <div class="img-container" style="aspect-ratio: 1; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+           <img src="images/image3.jpg" alt="Gallery image 3" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+       </div>
+       
+       <div class="img-container" style="aspect-ratio: 1; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+           <img src="images/image4.jpg" alt="Gallery image 4" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+       </div>
+       
+       <div class="img-container" style="aspect-ratio: 1; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+           <img src="images/image5.jpg" alt="Gallery image 5" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+       </div>
+       
+       <div class="img-container" style="aspect-ratio: 1; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+           <img src="images/image6.jpg" alt="Gallery image 6" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+       </div>
+   </div>
 </section>
-
-<script>
-async function loadGalleryImages() {
-    try {
-        
-        const sampleImages = [
-            'images/image1.jpg',
-            'images/image2.jpg',
-            'images/image3.jpg',
-            'images/image4.jpg',
-            'images/image5.jpg',
-            'images/image6.jpg',
-            // Add more image paths as needed
-        ];
-        
-        const galleryGrid = document.getElementById('gallery-grid');
-        
-        // Create and append image elements for each path
-        sampleImages.forEach(imagePath => {
-            const imgContainer = document.createElement('div');
-            imgContainer.style.cssText = `
-                aspect-ratio: 1;
-                overflow: hidden;
-                border-radius: 8px;
-                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            `;
-            
-            const img = document.createElement('img');
-            img.src = imagePath;
-            img.alt = `Gallery image - ${imagePath.split('/').pop()}`;
-            img.style.cssText = `
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                transition: transform 0.3s ease;
-            `;
-            
-            // Add hover effect
-            imgContainer.addEventListener('mouseenter', () => {
-                img.style.transform = 'scale(1.05)';
-            });
-            imgContainer.addEventListener('mouseleave', () => {
-                img.style.transform = 'scale(1)';
-            });
-            
-            imgContainer.appendChild(img);
-            galleryGrid.appendChild(imgContainer);
-        });
-    } catch (error) {
-        console.error('Error loading gallery images:', error);
-    }
-}
-
-// Load images when the page loads
-document.addEventListener('DOMContentLoaded', loadGalleryImages);
-</script>
