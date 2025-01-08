@@ -33,4 +33,67 @@ author_profile: true
 {% endif %}
 
 
+<section class="gallery" style="padding: 2rem 0;">
+  <h2 style="text-align: center; margin-bottom: 2rem;">ECAI 2024 (Santiago de Compostela, Spain)</h2>
+  
+  <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; padding: 0 1rem;">
+      <div class="img-container" style="aspect-ratio: 1; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+          <img src="../images/image1.jpg" alt="Gallery image 1" class="gallery-img" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      </div>
+      
+      <div class="img-container" style="aspect-ratio: 1; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+          <img src="../images/image2.jpg" alt="Gallery image 2" class="gallery-img" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      </div>
+      
+      <div class="img-container" style="aspect-ratio: 1; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+          <img src="../images/image3.jpg" alt="Gallery image 3" class="gallery-img" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      </div>
+      
+      <div class="img-container" style="aspect-ratio: 1; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+          <img src="../images/image4.jpg" alt="Gallery image 4" class="gallery-img" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      </div>
+      
+      <div class="img-container" style="aspect-ratio: 1; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+          <img src="../images/image5.jpg" alt="Gallery image 5" class="gallery-img" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      </div>
+      
+      <div class="img-container" style="aspect-ratio: 1; overflow: hidden; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+          <img src="../images/image6.jpg" alt="Gallery image 6" class="gallery-img" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      </div>
+  </div>
+  
+  <!-- Lightbox -->
+  <div id="lightbox" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); justify-content: center; align-items: center; z-index: 1000;">
+      <span id="close-lightbox" style="position: absolute; top: 20px; right: 30px; font-size: 2rem; color: white; cursor: pointer;">&times;</span>
+      <img id="lightbox-img" src="" alt="Expanded view" style="max-width: 90%; max-height: 90%; border-radius: 8px;">
+  </div>
+</section>
+
+<script>
+  // Get elements
+  const galleryImages = document.querySelectorAll('.gallery-img');
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const closeLightbox = document.getElementById('close-lightbox');
+
+  // Add click event to each gallery image
+  galleryImages.forEach(img => {
+      img.addEventListener('click', () => {
+          lightboxImg.src = img.src; // Set the source of the lightbox image
+          lightbox.style.display = 'flex'; // Show the lightbox
+      });
+  });
+
+  // Add click event to close button
+  closeLightbox.addEventListener('click', () => {
+      lightbox.style.display = 'none'; // Hide the lightbox
+  });
+
+  // Add click event to lightbox background to close
+  lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) {
+          lightbox.style.display = 'none'; // Hide the lightbox
+      }
+  });
+</script>
 

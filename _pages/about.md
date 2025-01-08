@@ -15,24 +15,70 @@ My research focuses on the intersection of `Human-AI Interaction`, `Interactive 
 
 Feel free to reach out to me at `jlesner [at] ucsb.edu`!
 
-<div class="projects">
-  <h2>Recent Projects</h2>
 
-  <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
+<style>
+  .project-container {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  /* @media (max-width: 768px) {
+    .project-container {
+      flex-direction: column;
+    }
+
+    .project-image, .project-content {
+      max-width: 100%;
+    }
+
+    .project-image {
+      margin-bottom: 1rem;
+    }
+  } */
+
+    @media (max-width: 768px) {
+      .project-container {
+        flex-direction: column;
+      }
+
+      .project-image, .project-content {
+        max-width: 100%;
+      }
+
+      .project-image {
+        display: none; /* Hide all images */
+      }
+    }
+
+</style>
+
+<div class="projects">
+  <h1>Projects</h1>
+
+  <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center; flex-wrap: wrap;">
+    <!-- <div class="project-image" style="flex: 1; max-width: 50%; display: flex; justify-content: center; align-items: center;">
+      <img src="images/xai_notif2.png" alt="AIPIF Project" style="width: 70%; height: auto;">
+    </div> -->
     <div class="project-image" style="flex: 1; max-width: 50%;">
-      <img src="images/500x300.png" alt="AIPIF Project" style="width: 100%; height: auto;">
+      <img src="images/xai_notif2.png" alt="AIPIF Project" style="width: 100%; height: auto;">
     </div>
-    <div class="project-content" style="flex: 1; max-width: 50%;">
-      <h3>Exploring User Reactions to XAI: Lessons from Contrasting Domains</h3>
-      <p>Led the development of a multimodal AI system that creates personalized interactive stories for young children, integrating:</p>
-      <ul>
-        <li>Large Language Models for dynamic narrative generation</li>
-        <li>Text-to-Image (StableDiffusion XL) for visual storytelling</li>
-        <li>Text-to-Speech (Bark) and Music Generation (MusicGen) for immersive audio</li>
-      </ul>
+    <div class="project-content" style="flex: 1; max-width: 90%;">
+      <h2>Exploring User Reactions to XAI: Lessons from Contrasting Domains</h2> <p>Examined user interactions with two XAI prototypes to analyze explanation strategies for repetitive and unique AI decision contexts:</p> <ul> <li><b>Moderator Prototype:</b> Standardized visual explanations and actionable feedback to support consistent decision-making in e-commerce moderation.</li> <li><b>Monitor Prototype:</b> Contextual explanations and interactive features to detect and resolve inconsistencies in communications, combining memory augmentation with fact-checking.</li> </ul>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-        <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Notebook
+        <a href="https://xai.ackop.com/xai_169.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fas fa-file-alt" style="margin-right: 0.5rem;"></i>Paper
+        </a>
+        <a href="https://xai.ackop.com/xai_169.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fas fa-file-powerpoint" style="margin-right: 0.5rem;"></i>Slides
+        </a>
+        <a href="https://xai.ackop.com/moderator.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Moderator Prototype
+        </a>
+        <a href="https://xai.ackop.com/monitor.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Monitor Prototype
         </a>
       </div>
     </div>
@@ -42,13 +88,12 @@ Feel free to reach out to me at `jlesner [at] ucsb.edu`!
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <img src="images/betterfoodgroups.png" alt="Semantic Embedding Augmentation of USDA’s Food Nutrient Imputation" style="width: 100%; height: auto;">
     </div>
-    <div class="project-content" style="flex: 1; max-width: 50%;">
-      <h3>Semantic Embedding Augmentation of USDA’s Food Nutrient Imputation</h3>
-      <p>Led the development of a multimodal AI system that creates personalized interactive stories for young children, integrating:</p>
+    <div class="project-content" style="flex: 1; max-width: 90%;">
+      <h2>Semantic Embedding Augmentation of USDA’s Food Nutrient Imputation</h2>
+      <p>Developed machine learning models to enhance the USDA National Nutrient Database by accurately predicting missing nutrient values, focusing on a single nutrient for demonstration purposes, integrating:</p>
       <ul>
-        <li>Large Language Models for dynamic narrative generation</li>
-        <li>Text-to-Image (StableDiffusion XL) for visual storytelling</li>
-        <li>Text-to-Speech (Bark) and Music Generation (MusicGen) for immersive audio</li>
+        <li>Predictive modeling leveraging measured data and food name embeddings</li>
+        <li>Evaluation through comparison with USDA imputation methods</li>
       </ul>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -62,8 +107,8 @@ Feel free to reach out to me at `jlesner [at] ucsb.edu`!
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <img src="images/aipif.png" alt="AIPIF Project" style="width: 100%; height: auto;">
     </div>
-    <div class="project-content" style="flex: 1; max-width: 50%;">
-      <h3>AI Personalized Interactive Fiction (AIPIF)</h3>
+    <div class="project-content" style="flex: 1; max-width: 90%;">
+      <h2>AI Personalized Interactive Fiction (AIPIF)</h2>
       <p>Led the development of a multimodal AI system that creates personalized interactive stories for young children, integrating:</p>
       <ul>
         <li>Large Language Models for dynamic narrative generation</li>
@@ -88,8 +133,8 @@ Feel free to reach out to me at `jlesner [at] ucsb.edu`!
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <img src="images/smv4.png" alt="SMV Project" style="width: 100%; height: auto;">
     </div>
-    <div class="project-content" style="flex: 1; max-width: 50%;">
-      <h3>State Machine Visualizer (SMV)</h3>
+    <div class="project-content" style="flex: 1; max-width: 90%;">
+      <h2>State Machine Visualizer (SMV)</h2>
       <p>Developed a tool to help students better understand complex computational systems by:</p>
       <ul>
         <li>Automatically generating visual representations of state machines</li>
@@ -111,7 +156,7 @@ Feel free to reach out to me at `jlesner [at] ucsb.edu`!
 <!-- Add Font Awesome for icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-<section class="gallery" style="padding: 2rem 0;">
+<!-- <section class="gallery" style="padding: 2rem 0;">
    <h2 style="text-align: center; margin-bottom: 2rem;">Gallery</h2>
    
    <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; padding: 0 1rem;">
@@ -139,4 +184,4 @@ Feel free to reach out to me at `jlesner [at] ucsb.edu`!
            <img src="images/image6.jpg" alt="Gallery image 6" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
        </div>
    </div>
-</section>
+</section> -->
