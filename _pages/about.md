@@ -18,9 +18,49 @@ Feel free to reach out to me at `jlesner [at] ucsb.edu`!
 <div class="projects">
   <h2>Recent Projects</h2>
 
-  <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem;">
+  <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <img src="images/500x300.png" alt="AIPIF Project" style="width: 100%; height: auto;">
+    </div>
+    <div class="project-content" style="flex: 1; max-width: 50%;">
+      <h3>Exploring User Reactions to XAI: Lessons from Contrasting Domains</h3>
+      <p>Led the development of a multimodal AI system that creates personalized interactive stories for young children, integrating:</p>
+      <ul>
+        <li>Large Language Models for dynamic narrative generation</li>
+        <li>Text-to-Image (StableDiffusion XL) for visual storytelling</li>
+        <li>Text-to-Speech (Bark) and Music Generation (MusicGen) for immersive audio</li>
+      </ul>
+      <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+        <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Notebook
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
+    <div class="project-image" style="flex: 1; max-width: 50%;">
+      <img src="images/betterfoodgroups.png" alt="Semantic Embedding Augmentation of USDA’s Food Nutrient Imputation" style="width: 100%; height: auto;">
+    </div>
+    <div class="project-content" style="flex: 1; max-width: 50%;">
+      <h3>Semantic Embedding Augmentation of USDA’s Food Nutrient Imputation</h3>
+      <p>Led the development of a multimodal AI system that creates personalized interactive stories for young children, integrating:</p>
+      <ul>
+        <li>Large Language Models for dynamic narrative generation</li>
+        <li>Text-to-Image (StableDiffusion XL) for visual storytelling</li>
+        <li>Text-to-Speech (Bark) and Music Generation (MusicGen) for immersive audio</li>
+      </ul>
+      <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+        <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Notebook
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
+    <div class="project-image" style="flex: 1; max-width: 50%;">
+      <img src="images/aipif.png" alt="AIPIF Project" style="width: 100%; height: auto;">
     </div>
     <div class="project-content" style="flex: 1; max-width: 50%;">
       <h3>AI Personalized Interactive Fiction (AIPIF)</h3>
@@ -30,7 +70,7 @@ Feel free to reach out to me at `jlesner [at] ucsb.edu`!
         <li>Text-to-Image (StableDiffusion XL) for visual storytelling</li>
         <li>Text-to-Speech (Bark) and Music Generation (MusicGen) for immersive audio</li>
       </ul>
-      <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+      <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://github.com/jlesner/aipif" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fab fa-github" style="margin-right: 0.5rem;"></i>GitHub
         </a>
@@ -44,9 +84,9 @@ Feel free to reach out to me at `jlesner [at] ucsb.edu`!
     </div>
   </div>
 
-  <div class="project-container" style="display: flex; gap: 2rem;">
+  <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-image" style="flex: 1; max-width: 50%;">
-      <img src="images/500x300.png" alt="SMV Project" style="width: 100%; height: auto;">
+      <img src="images/smv4.png" alt="SMV Project" style="width: 100%; height: auto;">
     </div>
     <div class="project-content" style="flex: 1; max-width: 50%;">
       <h3>State Machine Visualizer (SMV)</h3>
@@ -56,7 +96,7 @@ Feel free to reach out to me at `jlesner [at] ucsb.edu`!
         <li>Creating an intuitive bridge between code and visual understanding</li>
         <li>Supporting computer science education through improved system visualization</li>
       </ul>
-      <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+      <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://github.com/jlesner/smv2" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fab fa-github" style="margin-right: 0.5rem;"></i>GitHub
         </a>
