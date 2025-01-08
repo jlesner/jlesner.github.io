@@ -15,6 +15,7 @@ My research focuses on the intersection of `Human-AI Interaction`, `Interactive 
 
 Feel free to reach out to me at `jlesner [at] ucsb.edu`!
 
+<br/>
 
 <style>
   .project-container {
@@ -62,9 +63,6 @@ Feel free to reach out to me at `jlesner [at] ucsb.edu`!
     <!-- <div class="project-image" style="flex: 1; max-width: 50%; display: flex; justify-content: center; align-items: center;">
       <img src="images/xai_notif2.png" alt="AIPIF Project" style="width: 70%; height: auto;">
     </div> -->
-    <div class="project-image" style="flex: 1; max-width: 50%;">
-      <img src="images/xai_notif2.png" alt="AIPIF Project" style="width: 100%; height: auto;">
-    </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <h2>Exploring User Reactions to XAI: Lessons from Contrasting Domains</h2> <p>Examined user interactions with two XAI prototypes to analyze explanation strategies for repetitive and unique AI decision contexts:</p> <ul> <li><b>Moderator Prototype:</b> Standardized visual explanations and actionable feedback to support consistent decision-making in e-commerce moderation.</li> <li><b>Monitor Prototype:</b> Contextual explanations and interactive features to detect and resolve inconsistencies in communications, combining memory augmentation with fact-checking.</li> </ul>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
@@ -82,12 +80,12 @@ Feel free to reach out to me at `jlesner [at] ucsb.edu`!
         </a>
       </div>
     </div>
+    <div class="project-image" style="flex: 1; max-width: 50%;">
+      <img src="images/xai_notif2.png" alt="AIPIF Project" style="width: 100%; height: auto;">
+    </div>
   </div>
 
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
-    <div class="project-image" style="flex: 1; max-width: 50%;">
-      <img src="images/betterfoodgroups.png" alt="Semantic Embedding Augmentation of USDA’s Food Nutrient Imputation" style="width: 100%; height: auto;">
-    </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <h2>Semantic Embedding Augmentation of USDA’s Food Nutrient Imputation</h2>
       <p>Developed machine learning models to enhance the USDA National Nutrient Database by accurately predicting missing nutrient values, focusing on a single nutrient for demonstration purposes, integrating:</p>
@@ -101,12 +99,12 @@ Feel free to reach out to me at `jlesner [at] ucsb.edu`!
         </a>
       </div>
     </div>
+    <div class="project-image" style="flex: 1; max-width: 50%;">
+      <img src="images/betterfoodgroups.png" alt="Semantic Embedding Augmentation of USDA’s Food Nutrient Imputation" style="width: 100%; height: auto;">
+    </div>
   </div>
 
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
-    <div class="project-image" style="flex: 1; max-width: 50%;">
-      <img src="images/aipif.png" alt="AIPIF Project" style="width: 100%; height: auto;">
-    </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <h2>AI Personalized Interactive Fiction (AIPIF)</h2>
       <p>Led the development of a multimodal AI system that creates personalized interactive stories for young children, integrating:</p>
@@ -127,12 +125,12 @@ Feel free to reach out to me at `jlesner [at] ucsb.edu`!
         </a>
       </div>
     </div>
+    <div class="project-image" style="flex: 1; max-width: 50%;">
+      <img src="images/aipif.png" alt="AIPIF Project" style="width: 100%; height: auto;">
+    </div>
   </div>
 
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
-    <div class="project-image" style="flex: 1; max-width: 50%;">
-      <img src="images/smv4.png" alt="SMV Project" style="width: 100%; height: auto;">
-    </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <h2>State Machine Visualizer (SMV)</h2>
       <p>Developed a tool to help students better understand complex computational systems by:</p>
@@ -150,7 +148,11 @@ Feel free to reach out to me at `jlesner [at] ucsb.edu`!
         </a>
       </div>
     </div>
+    <div class="project-image" style="flex: 1; max-width: 50%;">
+      <img src="images/smv4.png" alt="SMV Project" style="width: 100%; height: auto;">
+    </div>
   </div>
+  
 </div>
 
 <!-- Add Font Awesome for icons -->
