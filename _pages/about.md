@@ -7,10 +7,27 @@ redirect_from:
   - /about.html
 ---
 
-<!-- Hello! I am a graduate student in the Computer Science Department at the University of California, Santa Barbara.
+I am a graduate student in the Computer Science Department at the University of California, Santa Barbara.
 
-### FAQ -->
+## What's New? 🎉
 
+- January 2025: SnipDue won "Best Use of GenAI Award" at SBHacks XI 
+- October 2024: Attened ECAI/PAIS 2024
+- September 2024: Started graduate school at UC Santa Barbara
+- July 2024: [AI Personalized Interactive Fiction]({{ base_path }}/publication/2024-10-ecai-aipif) was accepted into ECAI/PAIS 2024
+- March 2024: Graduated from UC Santa Cruz
+
+## FAQ
+
+* What are your interests? 
+    - Peek at my <a target="_blank" href="projects">Projects</a> and <a target="_blank" href="publications">Publications</a>
+
+* What is the best way to contact you?
+    - `jlesner [at] ucsb.edu`
+
+
+
+<!-- 
 What is the best way to contact you? `jlesner [at] ucsb.edu`
 
 What are your interests? Peek at my 
@@ -20,7 +37,7 @@ and
 
 Do you have siblings? Yes, I have a <a href="#">sibling</a> also in the Computer Science Department at the University of California, Santa Barbara.
 
-What is your biggest weakness? I work too hard! :-)
+What is your biggest weakness? I work too hard! :-) -->
 
 <!-- Are you looking for an internship? YES! -->
 
