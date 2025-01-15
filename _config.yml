@@ -22,9 +22,9 @@ repository               : "jlesner/jlesner.github.io"
 author:
   # Biographic information
   avatar           : # "profile2.png"
-  name             : "J.M. Lesner"
+  name             : "J. Lesner"
   pronouns         : # example: "she/her"  
-  bio              : "Comp. Sci. Graduate Student"
+  bio              : "CS Graduate Student"
   location         : # "Santa Barbara, California"
   employer         : # "UCSB"
   uri              : # URL

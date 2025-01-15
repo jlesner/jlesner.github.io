@@ -17,7 +17,7 @@ author_profile: true
 
 <div class="gallery" style="padding: 2rem 0;">
     <!--  -->
-    <h2 style="text-align: center; margin-bottom: 2rem;"><a href="#">ECAI / PAIS</a> (Santiago de Compostela, Spain, 2024)</h2>
+    <h2 style="text-align: center; margin-bottom: 2rem;"><a href="https://www.ecai2024.eu/">ECAI / PAIS</a> (Santiago de Compostela, Spain, 2024)</h2>
     <!--  -->
     <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; padding: 0 1rem;">
                 <div class="project-image" style="flex: 1; max-width: 100%;">
@@ -70,7 +70,7 @@ author_profile: true
     </div>
   
 
-  <h2 style="text-align: center; margin-bottom: 2rem;"><a href="#">SB Hacks XI</a> (Santa Barbara, California, 2025)</h2>
+  <h2 style="text-align: center; margin-bottom: 2rem;"><a href="https://sb-hacks-xi.devpost.com/">SB Hacks XI</a> (Santa Barbara, California, 2025)</h2>
   
   <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; padding: 0 1rem;">
         <!-- <div class="project-image" style="flex: 1; max-width: 100%;">

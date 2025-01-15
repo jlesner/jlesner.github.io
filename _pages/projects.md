@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<!-- <br/> -->
+<hr> 
 
 <style>
   .project-container {
@@ -62,7 +62,7 @@ redirect_from:
       <h2>SnipDue: Never Miss Another Deadline</h2>
       <p>
       Snip pictures of your class schedules, and SnipDue adds all your deadlines to your favorite calendar. It's that easy.
-      My team of two won the "Best Use of GenAI Award" out of 221 participants at <a href="https://sb-hacks-xi.devpost.com/">SbHack XI</a>
+      My team of two won the "Best Use of GenAI Award" out of 221 participants at <a href="https://sb-hacks-xi.devpost.com/">SBHack XI</a>
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://snipdue.tech/" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -72,7 +72,7 @@ redirect_from:
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Try it
         </a>
         <a href="https://www.youtube.com/embed/SXRZ5oiWmYE?autoplay=1&fs=1" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>See it
+          <i class="fab fa-youtube" style="margin-right: 0.5rem;"></i>See it
         </a>
         <a href="https://devpost.com/software/ssnip" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-file-alt" style="margin-right: 0.5rem;"></i>DevPost
@@ -92,14 +92,14 @@ redirect_from:
     </div>
   </div>
 
-
+  <hr> 
 
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <!-- <div class="project-image" style="flex: 1; max-width: 50%; display: flex; justify-content: center; align-items: center;">
       <img src="../images/xai_notif2.png" alt="AIPIF Project" style="width: 70%; height: auto;">
     </div> -->
     <div class="project-content" style="flex: 1; max-width: 90%;">
-      <h2>Exploring User Reactions to XAI: Lessons from Contrasting Domains</h2>
+      <h2>Understanding XAI Requirements: A Comparative Study of Repetitive and Unique Decision Contexts</h2>
       <p>Two Explainable AI (XAI) prototypes were designed and tested with four groups of subjects. My partner designed the "Commerce Moderator" and I designed the "Communication Monitor" shown here. 
       <!-- for detection and resolution of inconsistencies in communications, combining memory augmentation with fact-checking. -->
       </p>
@@ -126,7 +126,7 @@ redirect_from:
         <a href="https://memoir.ackop.com/mapp/split_0014/index.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>WebApp
         </a>
-        <a href="https://xai.ackop.com/xai_169.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+        <a href="https://xai.ackop.com/xai_0021.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-file-alt" style="margin-right: 0.5rem;"></i>Preprint
         </a>
       </div>
@@ -141,6 +141,7 @@ redirect_from:
     </div>
   </div>
 
+  <hr> 
 
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-content" style="flex: 1; max-width: 90%;">
@@ -180,6 +181,8 @@ redirect_from:
     </div>
   </div>
 
+  <hr> 
+
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <h2>AI Personalized Interactive Fiction</h2>
@@ -218,6 +221,8 @@ redirect_from:
       </a>
     </div>
   </div>
+
+  <hr> 
 
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-content" style="flex: 1; max-width: 90%;">

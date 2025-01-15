@@ -9,7 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-Experience
+<embed src="../files/paper1.pdf" type="application/pdf" width="100%" height="900px">
+
+<!-- Experience
 ======
 * AI Personalized Interactive Fiction (AIPIF) Project @ UCSC  (August 2023)
   * Led the development of a narrative generator using Python, XPATH/XSLT, integrating OpenAI GPT model and AWS APIs to produce dynamic storylines for AI-powered "choose your own story" experiences.
@@ -58,4 +60,4 @@ Skills
   * OpenAI APIs
   * Cloudflare
   * AWS EC2/S3
-  * Google AppSheets
+  * Google AppSheets -->
