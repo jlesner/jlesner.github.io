@@ -1,7 +1,7 @@
 ---
 title: "A Demonstration of AI Personalized Interactive Fiction for Young Children"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/2024-10-ecai-aipif
 excerpt: ''
 date: 2024-10-16

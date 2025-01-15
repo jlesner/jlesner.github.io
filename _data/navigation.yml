@@ -5,8 +5,19 @@
 # prevent it from being included in the site.
 
 main:
-  - title: "Publications"
+
+  - title: "Papers"
     url: /publications/
+
+  - title: "Projects"
+    url: /projects/    
+
+
+  - title: "Events"
+    url: /events/    
+
+  # - title: "Publications"
+  #   url: /publications/
 
   # - title: "Talks"
   #   url: /talks/    

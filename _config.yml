@@ -21,18 +21,18 @@ repository               : "jlesner/jlesner.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile2.png"
-  name             : "Jasmine Lesner"
+  avatar           : # "profile2.png"
+  name             : "J.M. Lesner"
   pronouns         : # example: "she/her"  
-  bio              : "Computer Science Master's Student"
-  location         : "Santa Barbara, California"
-  employer         : "UCSB"
+  bio              : "Comp. Sci. Graduate Student"
+  location         : # "Santa Barbara, California"
+  employer         : # "UCSB"
   uri              : # URL
-  email            : "jlesner@ucsb.edu" 
+  email            : "jlesner [at] ucsb.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=p_AOAB4AAAAJ&hl=en"
+  # googlescholar    : "https://scholar.google.com/citations?user=p_AOAB4AAAAJ&hl=en"
   impactstory      : # URL
   orcid            : 
   semantic         : # URL
@@ -58,7 +58,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "jmlesner"
+  linkedin         : # "jmlesner"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -82,6 +82,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  preprints:
+    title: 'Preprints'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
