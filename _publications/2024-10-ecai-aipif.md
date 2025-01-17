@@ -2,7 +2,7 @@
 title: "A Demonstration of AI Personalized Interactive Fiction for Young Children"
 collection: publications
 category: conferences
-permalink: /publication/2024-10-ecai-aipif
+permalink: /publication/2024-10-pais-aipif
 excerpt: ''
 date: 2024-10-16
 venue: 'European Conference on Artificial Intelligence (ECAI)'
