@@ -54,16 +54,19 @@ redirect_from:
 
 <!-- <div class="projects"> -->
 
+  <h2>SnipDue: Never Miss Another Deadline</h2>
+
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <!-- <div class="project-image" style="flex: 1; max-width: 50%; display: flex; justify-content: center; align-items: center;">
       <img src="../images/xai_notif2.png" alt="AIPIF Project" style="width: 70%; height: auto;">
     </div> -->
     <div class="project-content" style="flex: 1; max-width: 90%;">
-      <h2>SnipDue: Never Miss Another Deadline</h2>
       <p>
-      Snip pictures of your class schedules, and SnipDue adds all your deadlines to your favorite calendar. It's that easy.
-      This project was started at <a href="https://sb-hacks-xi.devpost.com/">SBHack XI</a>.
-      My team with <a href="#">Samantha Lesner</a>, won the "Best Use of GenAI Award" out of 221 participants!
+      Snip pictures of your class schedules, and SnipDue adds all your deadlines to your favorite calendar.
+      This project was built
+       <!-- in 24hrs -->
+      at <a href="https://sb-hacks-xi.devpost.com/">SBHack XI</a> and my team with <a href="#">Samantha Lesner</a>, won the "Best Use of GenAI Award" out of 221 participants!
+      STATUS: SnipDue is live 24/7.
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <!-- <a href="https://snipdue.tech/" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -73,13 +76,13 @@ redirect_from:
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Try it!
         </a> -->
         <a href="https://devpost.com/software/ssnip" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-file-alt" style="margin-right: 0.5rem;"></i>DevPost
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>DevPost
         </a>
         <a href="https://www.youtube.com/embed/SXRZ5oiWmYE?autoplay=1&fs=1" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fab fa-youtube" style="margin-right: 0.5rem;"></i>Video
         </a>
         <a href="https://github.com/sklesner/ssnip" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-file-alt" style="margin-right: 0.5rem;"></i>GitHub
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>GitHub
         </a>
         <a href="https://snipdue.tech/" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Try it!
@@ -98,6 +101,7 @@ redirect_from:
 
   <hr> 
 
+  <h2>Understanding XAI Requirements: A Comparative Study of Repetitive and Unique Decision Contexts</h2>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <!-- <div class="project-image" style="flex: 1; max-width: 50%; display: flex; justify-content: center; align-items: center;">
       <img src="../images/xai_notif2.png" alt="AIPIF Project" style="width: 70%; height: auto;">
@@ -111,22 +115,16 @@ redirect_from:
       </a> -->
     </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
-      <h2>Understanding XAI Requirements: A Comparative Study of Repetitive and Unique Decision Contexts</h2>
       <p>Two Explainable AI (XAI) prototypes were designed and tested with four groups of subjects.
        My partner <a href="https://ml.ucsb.edu/people/faculty/misha-sra">Kay Krachenfels</a>, designed the "Commerce Moderator" and I designed the "Communication Monitor". 
-      </p>
-      <p>
-      Mentor: <a href="https://ml.ucsb.edu/people/faculty/misha-sra">Dr. Misha Sra</a>
-      </p>
-      <p>
-      STATUS: Pilot study complete. Now recuriting for a full study to publish.
+      STATUS: <a href="https://ml.ucsb.edu/people/faculty/misha-sra">Pilot study</a> complete and mentored by <a href="https://ml.ucsb.edu/people/faculty/misha-sra">Dr. Misha Sra</a> we are recuriting for a full study to publish.
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-        <a href="https://xai.ackop.com/xai_169.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+        <!-- <a href="https://xai.ackop.com/xai_169.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-file-powerpoint" style="margin-right: 0.5rem;"></i>Slides
-        </a>
+        </a> -->
         <a href="https://xai.ackop.com/xai_0021.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-file-alt" style="margin-right: 0.5rem;"></i>Pilot Report
+          <i class="fas fa-file-alt" style="margin-right: 0.5rem;"></i>Pilot Study Report
         </a>
         <a href="https://memoir.ackop.com/index7.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Monitor Pitch
@@ -137,19 +135,43 @@ redirect_from:
         <a href="https://memoir.ackop.com/mapp/split_0014/index.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Monitor v0.02w
         </a>
-        <a href="https://xai.ackop.com/moderator.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+        <!-- <a href="https://xai.ackop.com/moderator.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Moderator v0.01d
-        </a>
+        </a> -->
       </div>
     </div>
   </div>
 
   <hr> 
+  <h2>Zero-Shot Document Ranking Using LLMs: Replication and Improvements</h2>
 
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <!-- <div class="project-image" style="flex: 1; max-width: 50%; display: flex; justify-content: center; align-items: center;">
       <img src="../images/xai_notif2.png" alt="AIPIF Project" style="width: 70%; height: auto;">
     </div> -->
+    <div class="project-content" style="flex: 1; max-width: 90%;">
+      <p>
+      My partner <a href="#" >Mehak Bubble Smith</a> and I conducted a replication and enhacement study of recent advances in zero-shot document ranking with Large Language Models (LLMs), focusing on the Setwise approach introduced at SIGIR 2024. 
+      STATUS: <a href="https://xai.ackop.com/xai_0021.pdf">Pilot study</a> completed and preperation for  publication is scheduled with <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a> as our mentor for June 2025.
+      </p>
+      <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+        <!-- <a href="https://xai.ackop.com/xai_169.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fas fa-file-powerpoint" style="margin-right: 0.5rem;"></i>Slides
+        </a> -->
+        <a href="https://xai.ackop.com/xai_0021.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fas fa-file-alt" style="margin-right: 0.5rem;"></i>Pilot Study Report
+        </a>
+        <a href="https://xai.ackop.com/monitor.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>GitHub
+        </a>        
+        <a href="https://memoir.ackop.com/index7.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Analysis A
+        </a>
+        <a href="https://memoir.ackop.com/index7.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Analysis B
+        </a>
+      </div>
+    </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <a href="../images/xai_notif4.png" target="_blank">  
         <img  src="../images/xai_notif4.png" alt="" style="width: 100%; height: auto;">
@@ -158,60 +180,27 @@ redirect_from:
         <img  src="../images/xai_notif4.png" alt="" style="width: 100%; height: auto;">
       </a> -->
     </div>
-    <div class="project-content" style="flex: 1; max-width: 90%;">
-      <h2>Zero-Shot Document Ranking Using LLMs: Replication and Improvements</h2>
-      <p>
-      Mehak  and I conducted a replication study of recent advances in zero-shot document ranking with Large Language Models (LLMs), focusing on the Setwise approach introduced at SIGIR 2024. 
-      Our results confirm high fidelity in effectiveness metrics (NDCG@10 within ±3%) but reveal efficiency discrepancies, including 33–40% lower token usage for setwise methods. Expanding on the original work, we evaluated performance on the NovelEval-2306 dataset, showing strong ranking capabilities for queries beyond the models’ training cutoff. Systematic prompt engineering yields up to 40.7% improvements in NDCG@10 for specific method-dataset pairs, with setwise methods benefiting the most. Experiments with instruction-tuned and conversationally fine-tuned models (Llama 3.1, Llama 2) show consistent gains without added computational cost. These findings validate the original conclusions and highlight strategies for optimizing LLM-based ranking systems through prompt engineering and model selection. 
-      </p>
-      <p>
-      Mentor: <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a>
-      </p>
-      <p>
-      STATUS: <a href="https://xai.ackop.com/xai_0021.pdf">Pilot study completed.</a> Work towards publication scheduled for June 2025.
-      </p>
-      <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-        <!-- <a href="https://xai.ackop.com/xai_169.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-file-powerpoint" style="margin-right: 0.5rem;"></i>Slides
-        </a> -->
-        <a href="https://xai.ackop.com/xai_0021.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-file-alt" style="margin-right: 0.5rem;"></i>Pilot Report
-        </a>
-        <a href="https://memoir.ackop.com/index7.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Analysis 1
-        </a>
-        <a href="https://memoir.ackop.com/index7.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Analysis 2
-        </a>
-        <a href="https://xai.ackop.com/monitor.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>GitHub
-        </a>        
-      </div>
-    </div>
   </div>
 
   <hr> 
 
+  <h2>Embedding Augmentation of USDA’s Food Nutrient Imputation</h2>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
+    <div class="project-image" style="flex: 1; max-width: 50%;">
+      <a href="../images/betterfoodgroups.png" target="_blank">  
+        <img src="../images/betterfoodgroups.png" alt="" style="width: 100%; height: auto;">
+      </a>
+    </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
-      <h2>Embedding Augmentation of USDA’s Food Nutrient Imputation</h2>
-      <p>
+      <!-- <p> -->
       UCSB gradute course <a href="https://catalog.ucsb.edu/courses/PSTAT%20231">PSTAT 231</a> 
-      asked us to pick a real world data set and investigate an interesting research question.
-      </p><p>
-      Being curious about the nutritional content of our food and whether LLM can help with this:
-      <emph>How well can <a href="#">OpenAI's embeddings</a> augment <a href="#">USDA's National Food Nutrient Database</emph>
-      </p>
-      <p>
-      For personal medical reasons my pilot study of this question is focused on estimation of Iron content in foods.
-      <!-- (1) Embeddings can cluster foods more precisely than existing food groups.
-      (2) Embeddings and their clusters can predict the nutritional content of foods.
-      (3) Imputation powered by embedding vectors may be better than traditional imputation. -->
-      </p>
-      <p>STATUS: Pilot Study Complete. <emph>Contact me if interested to take it further.</emph></p>
+      asked me to pick a real world data set and investigate an interesting research question.
+      For personal medical reasons I was curious about the nutritional content of various foods and
+      whether LLM technology from OpenAI can help estimte this better. 
+      STATUS: <a href="../images/betterfoodgroups.png">Pilot Study</a> Complete. Next steps TBD.
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Report
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Study Report
         </a>
       </div>
       <!-- <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
@@ -220,15 +209,11 @@ redirect_from:
         </a>
       </div> -->
     </div>
-    <div class="project-image" style="flex: 1; max-width: 50%;">
-      <a href="../images/betterfoodgroups.png" target="_blank">  
-        <img src="../images/betterfoodgroups.png" alt="" style="width: 100%; height: auto;">
-      </a>
-    </div>
   </div>
 
   <hr> 
 
+  <h2>AI Personalized <emph>Teaching</emph> Fiction (AIPTF)</h2>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <a href="../images/aipif.png" target="_blank">  
@@ -236,27 +221,14 @@ redirect_from:
       </a>
     </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
-      <h2>AI Personalized <emph>Teaching</emph> Fiction (AIPTF)</h2>
       <p>
-        After AIPIF (see below) I became interested in AIPTF which is my term 
-        for AI personalized stories to teach children specific lessons. 
-      </p>
-      <!-- <p> 
-        AIPTF is a solo hobby project to also learn scalable software 
-        design using serverless functions.
-      </p> -->
-      <p>
-        AIPTF preserves the UI from AIPIF but all else is rewritten using Cloudflare functions.
-        For example AIPIF uses a compiled binary tool to create
-        twine files but because Cloudflare has no way to run that 
-        I reimplemented Twine creation in javascript.
-      </p><p>  
-        To get children thinking and challange them, each AIPTF story ends
+        AIPTF preserves the UI from AIPIF but is implemented using Cloudflare functions.
+        <!--  -->
+        These stories aim to teach children specific life lessons. To get children  and to 
+        get them thinking and challange them, each AIPTF story ends
         with a quiz which tracks correct and wrong answers. 
-      </p><p>
+        <!-- TIP: AI images are revealed by clicking emoji. -->
         STATUS: Stories with quizes and illustratons are live 24x7.
-      </p><p>  
-        TIP: AI images are revealed by clicking emoji.
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <!-- <a href="https://youtu.be/TaVGem3nFrk" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -271,39 +243,25 @@ redirect_from:
 
   <hr> 
 
+
+  <h2>AI Personalized Interactive Fiction (AIPIF)</h2>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
-    <div class="project-image" style="flex: 1; max-width: 50%;">
-      <a href="../images/aipif.png" target="_blank">  
-        <img src="../images/aipif.png"  target="_blank" alt="AIPIF Project" style="width: 100%; height: auto;">
-      </a>
-    </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
-      <h2>AI Personalized Interactive Fiction (AIPIF)</h2>
-      <p>
+      <!-- <p> -->
       This project started with three partners during the 
-      <a href="https://courses.engineering.ucsc.edu/courses/cmpm146">CMPM146: Game AI<a> course
+      <a href="https://courses.engineering.ucsc.edu/courses/cmpm146">CMPM146: Game AI</a> course
       offered by <a href="http://www.isle.org/~dgs/">Dr. Daniel Shapiro</a>.
-      </p><p>
-      Our idea was to demonstrate AI generation of stories for young children. 
+      <!--  -->
+      <!-- Our idea was to demonstrate AI generation of stories for young children. 
       While my partners tackled AI illustrations, AI sound effects and AI music,
       my part was to implement AI stories with choices and branched narration. 
       I also created our WebApp that lets young children create and enjoy these stories.       
-      My tools were Python/Flask/Bash/XSLT/HTML and AI API's from OpenAI and Anthropic. 
+      My tools were Python/Flask/Bash/XSLT/HTML and AI API's from OpenAI and Anthropic.  -->
       <!-- Deployment uses AWS EC2 and AWS S3.  -->
-      </p><p>
-      After CMPM146, with the help of my team and mentorship of Dr.Shaprio 
+      Afterwards with the mentorship of Dr. Shaprio 
       our work was demonstrated at <a href="#">ECAI 2024 (demo track)</a> and 
       published as part of <a href="#">PAIS 2024 (applicaton track)</a>.
-      </p>
-      <p>
-      STATUS: New stories are disabled. All else is live 24x7.
-      <!--  -->
-      </p>
-      <!-- <ul>
-        <li>Large Language Models for dynamic narrative generation</li>
-        <li>Text-to-Image (StableDiffusion XL) for visual storytelling</li>
-        <li>Text-to-Speech (Bark) and Music Generation (MusicGen) for immersive audio</li>
-      </ul> -->
+      STATUS: New stories are disabled. All else is live 24x7.      
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://youtu.be/TaVGem3nFrk" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fab fa-youtube" style="margin-right: 0.5rem;"></i>Video
@@ -312,43 +270,44 @@ redirect_from:
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Try it!
         </a>
         <a href="https://www.ufafu.com/" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>ECAI 2024
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Poster
         </a>
         <a href="https://www.ufafu.com/" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>PAIS 2024
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>ECAI
         </a>
         <a href="https://www.ufafu.com/" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Poster PDF
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>PAIS
         </a>
         <a href="https://github.com/jlesner/aipif" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fab fa-github" style="margin-right: 0.5rem;"></i>GitHub
         </a>
       </div>
     </div>
+    <div class="project-image" style="flex: 1; max-width: 50%;">
+      <a href="../images/aipif.png" target="_blank">  
+        <img src="../images/aipif.png"  target="_blank" alt="AIPIF Project" style="width: 100%; height: auto;">
+      </a>
+    </div>
   </div>
 
   <hr> 
 
+  <h2>State Machine Visualizer (SMV)</h2>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
+    <div class="project-image" style="flex: 1; max-width: 50%;">
+      <a href="../images/smv4.png" target="_blank">
+        <img src="../images/smv4.png" alt="" style="width: 100%; height: auto;">
+      </a>
+    </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
-      <h2>State Machine Visualizer (SMV)</h2>
-      <!--  -->
       The idea came from 
       <a href="https://users.soe.ucsc.edu/~elkaim/elkaim/Home.html">Dr. Gabe Elkaim</a> 
-      for his
-      <a href="https://courses.engineering.ucsc.edu/courses/ece118">ECE118: Introduction to Mechatronics<a>
-      course and 
+      <!-- for his
+      <a href="https://courses.engineering.ucsc.edu/courses/ece118">ECE118: Introduction to Mechatronics</a>
+      course  -->
+      as a research project for my DISNEYDISNEYDISNEY sponsored internship. 
       Dr. Elkaim guided the requirements while I carried out development and testing.
-      <!--  -->
-      <!-- <p>The result is a tool to help students better understand complex computational systems by:      
-      <ul>
-        <li>Automatically generating visual representations of state machines</li>
-        <li>Creating an intuitive bridge between code and visual understanding</li>
-        <li>Supporting computer science education through improved system visualization</li>
-      </ul> -->
-      <p>
       STATUS: <a href="#">ICRA submisson</a> pending peer review. See <a href="#">video</a> or <a href="#">poster</a>. 
-      </p>
       <!--  -->
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://www.youtube.com/watch?v=IHp0X0J5Di8?autoplay=1&fs=1" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -360,18 +319,13 @@ redirect_from:
         <a href="https://github.com/jlesner/smv2" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fab fa-github" style="margin-right: 0.5rem;"></i>GitHub
         </a>
-        <a href="https://github.com/jlesner/smv2" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+        <!-- <a href="https://github.com/jlesner/smv2" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fab fa-github" style="margin-right: 0.5rem;"></i>Tech Report PDF
-        </a>
+        </a> -->
         <a href="https://github.com/jlesner/smv2" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fab fa-github" style="margin-right: 0.5rem;"></i>ICRA Submisson PDF
+          <i class="fab fa-github" style="margin-right: 0.5rem;"></i>ICRA Submisson
         </a>
       </div>
-    </div>
-    <div class="project-image" style="flex: 1; max-width: 50%;">
-      <a href="../images/smv4.png" target="_blank">
-        <img src="../images/smv4.png" alt="" style="width: 100%; height: auto;">
-      </a>
     </div>
   </div>
   
