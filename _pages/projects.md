@@ -54,7 +54,7 @@ redirect_from:
 
 <!-- <div class="projects"> -->
 
-  <h2>SnipDue: Never Miss Another Deadline</h2>
+  <h2 id="snipdue">SnipDue: Never Miss Another Deadline</h2>
 
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <!-- <div class="project-image" style="flex: 1; max-width: 50%; display: flex; justify-content: center; align-items: center;">
@@ -293,7 +293,7 @@ redirect_from:
 
   <hr> 
 
-  <h2>State Machine Visualizer (SMV)</h2>
+  <h2 id="smv">State Machine Visualizer (SMV)</h2>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-content" style="flex: 1; max-width: 90%;">
       The idea came from 

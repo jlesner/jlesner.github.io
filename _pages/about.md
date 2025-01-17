@@ -11,12 +11,12 @@ I am a graduate student in the Computer Science Department at the University of 
 
 ## What's New? 🎉
 
-- January 2025: SnipDue won "Best Use of GenAI Award" at SBHacks XI 
+- January 2025: [SnipDue]({{ base_path }}/projects#snipdue) won "Best Use of GenAI Award" at SBHacks XI 
 - October 2024: Attened ECAI/PAIS 2024
 - September 2024: Started graduate school at UC Santa Barbara
 - July 2024: [AI Personalized Interactive Fiction]({{ base_path }}/publication/2024-10-ecai-aipif) was accepted into ECAI/PAIS 2024
 - March 2024: Graduated from UC Santa Cruz
-- June 2023: Concluded CAHSI Local Research Experiences for Undergraduates (LREU) Program
+- June 2023: Concluded CAHSI Local Research Experiences for Undergraduates (LREU) Program. [See what I did]({{ base_path }}/projects#smv)
 
 ## FAQ
 
