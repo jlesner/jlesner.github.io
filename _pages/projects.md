@@ -65,7 +65,7 @@ redirect_from:
       Snip pictures of your class schedules, and SnipDue adds all your deadlines to your favorite calendar.
       This project was built
        <!-- in 24hrs -->
-      at <a href="https://sb-hacks-xi.devpost.com/" target="_blank">SBHack XI</a> and with my partner <a href="https://www.linkedin.com/in/samantha-lesner-592aa8211/" target="_blank">Samantha Lesner</a>, we won the "Best Use of GenAI Award" out of 221 participants!
+      at <a href="https://sb-hacks-xi.devpost.com/" target="_blank">SBHacks XI</a> and with my partner <a href="https://www.linkedin.com/in/samantha-lesner-592aa8211/" target="_blank">Samantha Lesner</a>, we won the "Best Use of GenAI Award" out of 221 participants!
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <!-- <a href="https://snipdue.tech/" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pitch
@@ -164,11 +164,11 @@ redirect_from:
           <i class="fab fa-github" style="margin-right: 0.5rem;"></i>GitHub
         </a>        
         <a href="https://repllmr.ackop.com/jbook_a/index.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Analysis A
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Study Analysis
         </a>
-        <a href="https://repllmr.ackop.com/jbook_b/index.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+        <!-- <a href="https://repllmr.ackop.com/jbook_b/index.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Analysis B
-        </a>
+        </a> -->
       </div>
       <p><a href="../publication/2025-01-repllmr_preprint" >Pilot study</a> has been completed. Next steps to publication are scheduled with <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a> as our mentor for June 2025.</p>
     </div>
@@ -202,7 +202,7 @@ redirect_from:
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Study Analysis
         </a>
       </div>
-      <p><a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank">Pilot Study</a> is complete and I am seeking a mentor to help me take this project further.</p>
+      <p><a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank">Pilot Study</a> is complete. Seeking a mentor to take this research further.</p>
       <!-- <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Slides
@@ -290,7 +290,7 @@ redirect_from:
           <i class="fab fa-github" style="margin-right: 0.5rem;"></i>GitHub
         </a>
       </div>
-      <p>New stories are disabled. All else is live 24x7.</p>
+      <p>Try it! New stories are disabled for cost reasons. All else is live 24x7.</p>
     </div>
   </div>
 
@@ -306,7 +306,7 @@ redirect_from:
       course  -->
       as a research project for my 
       <!-- CAHSI Local Research Experiences for Undergraduates (LREU) Program which is a  -->
-      NSF sponsored undergradute research internship. 
+      CAHSI/NSF sponsored undergradute research internship. 
       Dr.Elkaim guided the requirements while I carried out development and testing.
       <!--  -->
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
