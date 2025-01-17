@@ -137,7 +137,7 @@ redirect_from:
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Moderator v0.01d
         </a> -->
       </div>
-      <a href="../publication/2024-12-xai_preprint">Pilot study</a> complete and mentored by <a href="https://ml.ucsb.edu/people/faculty/misha-sra" target="_blank">Dr. Misha Sra</a> we are recuriting for a full study to publish.
+      <p><a href="../publication/2024-12-xai_preprint">Pilot study</a> has been completed. Mentored by <a href="https://ml.ucsb.edu/people/faculty/misha-sra" target="_blank">Dr. Misha Sra</a> we are recuriting for a full study to publish.</p>
     </div>
   </div>
 
@@ -152,7 +152,6 @@ redirect_from:
       <p>
       My partner <a href="https://mehak126.github.io/" >Mehak Dhaliwal</a> and I conducted a replication and enhacement study of recent advances in zero-shot document ranking with Large Language Models (LLMs).
       <!-- , focusing on the Setwise approach introduced at SIGIR 2024. -->
-      STATUS: <a href="../publication/2025-01-repllmr_preprint" >Pilot study</a> completed and next steps towards publication are scheduled with <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a> as our mentor for June 2025.
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <!-- <a href="https://xai.ackop.com/xai_169.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -171,6 +170,7 @@ redirect_from:
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Analysis B
         </a>
       </div>
+      <p><a href="../publication/2025-01-repllmr_preprint" >Pilot study</a> has been completed. Next steps to publication are scheduled with <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a> as our mentor for June 2025.</p>
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <a href="../images/llm_ranking_results_0010.png" target="_blank">  
@@ -202,7 +202,7 @@ redirect_from:
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Study Analysis
         </a>
       </div>
-      STATUS: <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank">Pilot Study</a> Complete. Next steps TBD.
+      <p><a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank">Pilot Study</a> is complete and I am seeking a mentor to help me take this project further.</p>
       <!-- <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Slides
@@ -230,9 +230,12 @@ redirect_from:
         </a> -->
         <a href="https://www.ufafu.com/" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Try it!
-        </a>
-        HINT: Emoji clicks reveal images.
-        STATUS: Stories with quizes and illustratons are live 24x7. 
+        </a>        
+        <p>
+        TIP: Emoji clicks reveal images. 
+        Teaching stories with quizes and illustratons are live 24x7. 
+        <!-- Story narration and music are AIPIF stubs.  -->
+        </p>
       </div>
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
@@ -265,9 +268,8 @@ redirect_from:
       My tools were Python/Flask/Bash/XSLT/HTML and AI API's from OpenAI and Anthropic.  -->
       <!-- Deployment uses AWS EC2 and AWS S3.  -->
       Afterwards with the mentorship of Dr. Shaprio 
-      our work was demonstrated at <a href="https://www.ecai2024.eu/calls/demos">ECAI 2024 (demo track)</a> and 
-      published as part of <a href="https://www.ecai2024.eu/calls/pais">PAIS 2024 (applicaton track)</a>.
-      STATUS: New stories are disabled. All else is live 24x7.      
+      our work was demonstrated at <a href="https://www.ecai2024.eu/calls/demos">ECAI 2024</a> and 
+      published as part of <a href="https://www.ecai2024.eu/calls/pais">PAIS 2024</a>.
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://youtu.be/TaVGem3nFrk" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fab fa-youtube" style="margin-right: 0.5rem;"></i>Video
@@ -288,6 +290,7 @@ redirect_from:
           <i class="fab fa-github" style="margin-right: 0.5rem;"></i>GitHub
         </a>
       </div>
+      <p>New stories are disabled. All else is live 24x7.</p>
     </div>
   </div>
 
@@ -297,13 +300,14 @@ redirect_from:
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-content" style="flex: 1; max-width: 90%;">
       The idea came from 
-      <a href="https://users.soe.ucsc.edu/~elkaim/elkaim/Home.html">Dr. Gabe Elkaim</a> 
+      <a href="https://users.soe.ucsc.edu/~elkaim/elkaim/Home.html">Dr.Gabe Elkaim</a> 
       <!-- for his
       <a href="https://courses.engineering.ucsc.edu/courses/ece118">ECE118: Introduction to Mechatronics</a>
       course  -->
-      as a research project for my CAHSI Local Research Experiences for Undergraduates (LREU) Program which is a NSF sponsored research internship. 
-      Dr. Elkaim guided the requirements while I carried out development and testing.
-      STATUS: <a href="https://smv.ackop.com/smv_ieee_ICRA_0051.pdf">ICRA submisson</a> pending peer review. See <a href="https://youtu.be/IHp0X0J5Di8">video</a> or <a href="https://github.com/jlesner/smv2/blob/main/doc/48x36_smv_poster_010.pdf">poster</a>. 
+      as a research project for my 
+      <!-- CAHSI Local Research Experiences for Undergraduates (LREU) Program which is a  -->
+      NSF sponsored undergradute research internship. 
+      Dr.Elkaim guided the requirements while I carried out development and testing.
       <!--  -->
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://www.youtube.com/watch?v=IHp0X0J5Di8?autoplay=1&fs=1" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -322,6 +326,8 @@ redirect_from:
           <i class="fas fa-file-alt" style="margin-right: 0.5rem;"></i>ICRA Submisson
         </a>
       </div>
+      <p>Our <a href="https://smv.ackop.com/smv_ieee_ICRA_0051.pdf">ICRA submisson</a> is pending peer review.</p>
+      <!-- See <a href="https://youtu.be/IHp0X0J5Di8">video</a> or <a href="https://github.com/jlesner/smv2/blob/main/doc/48x36_smv_poster_010.pdf">poster</a>.  -->
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <a href="../images/smv4.png" target="_blank">
