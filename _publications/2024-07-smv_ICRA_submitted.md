@@ -1,6 +1,6 @@
 ---
 title: "Automating Visualization of Event-Driven Control Systems"
-collection: preprints
+collection: publications
 category: preprints
 permalink: /publication/smv
 excerpt: ''
