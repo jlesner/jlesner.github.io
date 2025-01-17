@@ -55,7 +55,6 @@ redirect_from:
 <!-- <div class="projects"> -->
 
   <h2 id="snipdue">SnipDue: Never Miss Another Deadline</h2>
-
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <!-- <div class="project-image" style="flex: 1; max-width: 50%; display: flex; justify-content: center; align-items: center;">
       <img src="../images/xai_notif2.png" alt="AIPIF Project" style="width: 70%; height: auto;">
@@ -199,14 +198,15 @@ redirect_from:
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <!-- <p> -->
       <p>
-      As part of UCSB’s graduate course <a href="https://catalog.ucsb.edu/courses/PSTAT%20231">PSTAT 231</a>, I selected a real-world dataset to explore an intriguing research question. Motivated by personal health interests, I investigated whether OpenAI’s LLM technology could improve USDA's estimates of the nutritional content of various foods.
+      <!-- As part of UCSB’s graduate course <a href="https://catalog.ucsb.edu/courses/PSTAT%20231">PSTAT 231</a>, I selected a real-world dataset to explore an intriguing research question. Motivated by personal health interests, I investigated whether OpenAI’s LLM technology could improve USDA's estimates of the nutritional content of various foods. -->
+      During UCSB’s <a href="https://catalog.ucsb.edu/courses/PSTAT%20231">PSTAT 231</a> graduate course, I selected <a href="https://fdc.nal.usda.gov/">USDA's food nutrition dataset</a> and chose to explore whether OpenAI’s LLM technology could enhance estimates of food nutrition. This research was motivated by personal health interests. 
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Data Analysis Study
         </a>
       </div>
-      <p>I am currently seeking a food nutrition analysis expert to help advance this research further.</p>
+      <p>I am seeking a food nutrition expert to evaluate and help expand this work.</p>
       <!-- <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Slides
@@ -217,16 +217,14 @@ redirect_from:
 
   <hr> 
 
-  <h2>AI Personalized <emph>Teaching</emph> Fiction (AIPTF)</h2>
+  <h2>AI Personalized <span style="color: darkblue;">Teaching</span> Fiction (AIPTF)</h2>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <p>
-        AIPTF preserves the UI from AIPIF but is implemented using Cloudflare functions.
-        <!--  -->
-        It generates personalized stories that aim to teach children specific life lessons. 
-        To get children thinking and challange them, each AIPTF story ends
-        with a quiz which tracks correct and wrong answers. 
-        <!-- TIP: AI images are revealed by clicking emoji. -->        
+        This solo summer project grew from my desire to make AIPIF faster and more cost-efficient. 
+        Along the way, I explored creating stories to teach children specific life lessons. 
+        To encourage critical thinking, each story ends with a quiz that tracks correct and incorrect answers.
+        AIPTF retains the original AIPIF user interface but was re-implemented using Cloudflare functions.
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <!-- <a href="https://youtu.be/TaVGem3nFrk" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -235,24 +233,24 @@ redirect_from:
         <a href="https://www.ufafu.com/" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Try it!
         </a>        
-        <p>
-        TIP: Emoji clicks reveal images. 
-        Teaching stories with quizes and illustratons are live 24x7. 
+        AIPTF stories with quizzes and illustrations are live 24/7. 
         <!-- Story narration and music are AIPIF stubs.  -->
-        </p>
+        <!-- <p>
+        </p> -->
       </div>
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <a href="../images/aiptf_0020.png" target="_blank">  
         <img src="../images/aiptf_0020.png"  target="_blank" alt="AIPIF Project" style="width: 100%; height: auto;">
       </a>
+      TIP: Click on emojis to reveal images.
     </div>
   </div>
 
   <hr> 
 
 
-  <h2>AI Personalized Interactive Fiction (AIPIF)</h2>
+  <h2>AI Personalized <span style="color: darkblue;">Interactive</span> Fiction (AIPIF)</h2>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <a href="../images/aipif_0010.png" target="_blank">  
@@ -288,7 +286,7 @@ redirect_from:
           <i class="fab fa-github" style="margin-right: 0.5rem;"></i>GitHub
         </a>
       </div>
-      <p>Try it! New story generation is disabled to manage costs, but all other features are live 24/7.</p>
+      <p>New AIPIF stories are disabled to manage costs. All other features are live 24/7.</p>
     </div>
   </div>
 
@@ -297,21 +295,15 @@ redirect_from:
   <h2 id="smv">State Machine Visualizer (SMV)</h2>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-content" style="flex: 1; max-width: 90%;">
-      The idea came from 
-      <a href="https://users.soe.ucsc.edu/~elkaim/elkaim/Home.html">Dr.Gabe Elkaim</a> 
-      <!-- for his
-      <a href="https://courses.engineering.ucsc.edu/courses/ece118">ECE118: Introduction to Mechatronics</a>
-      course  -->
-      as a research project for my 
-      <!-- CAHSI Local Research Experiences for Undergraduates (LREU) Program which is a  -->
-      CAHSI/NSF sponsored undergradute research internship. 
-      Dr.Elkaim guided the requirements while I carried out development and testing.
+      This project was inspired by <a href="https://users.soe.ucsc.edu/~elkaim/elkaim/Home.html">Dr. Gabe Elkaim</a>
+      and began during my CAHSI/NSF-sponsored undergraduate research internship.
+      Dr. Elkaim provided guidance on requirements, while I focused on development and testing.
       <!--  -->
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://www.youtube.com/watch?v=IHp0X0J5Di8?autoplay=1&fs=1" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fab fa-youtube" style="margin-right: 0.5rem;"></i>Video
         </a>
-        <a href="https://github.com/jlesner/smv2/blob/main/doc/48x36_smv_poster_010.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+        <a href="https://jlesner0.ackop.com/48x36_smv_poster_010b.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Poster
         </a>
         <a href="https://github.com/jlesner/smv2" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -321,10 +313,12 @@ redirect_from:
           <i class="fab fa-github" style="margin-right: 0.5rem;"></i>Tech Report PDF
         </a> -->
         <a href="https://smv.ackop.com/smv_ieee_ICRA_0051.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-file-alt" style="margin-right: 0.5rem;"></i>ICRA Submisson
+          <i class="fas fa-file-alt" style="margin-right: 0.5rem;"></i>Preprint
         </a>
       </div>
-      <p>Our <a href="https://smv.ackop.com/smv_ieee_ICRA_0051.pdf">ICRA submisson</a> is pending peer review.</p>
+      <p>
+        Preprint pending ICRA-2025 peer review.
+      </p>
       <!-- See <a href="https://youtu.be/IHp0X0J5Di8">video</a> or <a href="https://github.com/jlesner/smv2/blob/main/doc/48x36_smv_poster_010.pdf">poster</a>.  -->
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
