@@ -41,8 +41,10 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          {% if post.category == 'preprints' %}
+          {% if post.category == 'pilots' %}
           <p>Posted {{ post.date | date: "%Y" }}</p>
+          {% elsif post.category == 'preprints' %}
+          <p>Pending peer review from <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
           {% else %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% endif %}
