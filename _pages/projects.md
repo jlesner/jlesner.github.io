@@ -61,11 +61,7 @@ redirect_from:
       <img src="../images/xai_notif2.png" alt="AIPIF Project" style="width: 70%; height: auto;">
     </div> -->
     <div class="project-content" style="flex: 1; max-width: 90%;">
-      <!-- <p> -->
-      Snip pictures of your class schedules, and SnipDue adds all your deadlines to your favorite calendar.
-      This project was built
-       <!-- in 24hrs -->
-      at <a href="https://sb-hacks-xi.devpost.com/" target="_blank">SBHacks XI</a> and with my partner <a href="https://www.linkedin.com/in/samantha-lesner-592aa8211/" target="_blank">Samantha Lesner</a>, we won the "Best Use of GenAI Award" out of 221 participants!
+      <p>SnipDue lets you snap a picture of your class schedules and automatically adds deadlines to your favorite calendar. Built at  <a href="https://sb-hacks-xi.devpost.com/" target="_blank">SBHacks XI</a> with my partner <a href="https://www.linkedin.com/in/samantha-lesner-592aa8211/" target="_blank">Samantha Lesner</a>, our project won the "Best Use of GenAI Award" out of 221 participants.</p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <!-- <a href="https://snipdue.tech/" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pitch
@@ -86,7 +82,7 @@ redirect_from:
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Try it!
         </a>
       </div>
-      <p>SnipDue is live 24/7!</p>
+      <p>SnipDue is live and running 24/7!</p>
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <a href="../images/snipdue_sale_0010.png" target="_blank">  
@@ -114,30 +110,34 @@ redirect_from:
       </a> -->
     </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
-      <p>Two Explainable AI (XAI) prototypes were designed and tested with four groups of subjects.
-       My partner <a href="https://ml.ucsb.edu/people/faculty/misha-sra">Kay Krachenfels</a>, designed the "Commerce Moderator" and I designed the "Communication Monitor".      
+      <p>
+        We designed and pilot study tested two Explainable AI (XAI) prototypes with four groups of participants. 
+        My partner, <a href="https://ml.ucsb.edu/people/faculty/misha-sra">Kay Krachenfels</a>, created the "Commerce Moderator," while I developed the "Communication Monitor."    
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <!-- <a href="https://xai.ackop.com/xai_169.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-file-powerpoint" style="margin-right: 0.5rem;"></i>Slides
         </a> -->
-        <a href="https://xai.ackop.com/xai_0021.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-file-alt" style="margin-right: 0.5rem;"></i>Pilot Study Report
-        </a>
         <a href="https://memoir.ackop.com/index7.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Monitor Pitch
         </a>
         <a href="https://xai.ackop.com/monitor.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Monitor v0.02d
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Monitor Design
         </a>
-        <a href="https://memoir.ackop.com/mapp/split_0014/index.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+        <a href="https://xai.ackop.com/xai_0021.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fas fa-file-alt" style="margin-right: 0.5rem;"></i>Pilot Study Report
+        </a>
+        <!-- <a href="https://memoir.ackop.com/mapp/split_0014/index.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Monitor v0.01w
-        </a>
+        </a> -->
         <!-- <a href="https://xai.ackop.com/moderator.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Moderator v0.01d
         </a> -->
       </div>
-      <p><a href="../publication/2024-12-xai_preprint">Pilot study</a> has been completed. Mentored by <a href="https://ml.ucsb.edu/people/faculty/misha-sra" target="_blank">Dr. Misha Sra</a> we are recuriting for a full study to publish.</p>
+      <p>
+      <!-- The pilot study is complete.  -->
+      Under the guidance of <a href="https://ml.ucsb.edu/people/faculty/misha-sra" target="_blank">Dr. Misha Sra</a>, we are recruiting participants for a full study aimed at publication.
+      </p>
     </div>
   </div>
 
@@ -150,7 +150,9 @@ redirect_from:
     </div> -->
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <p>
-      My partner <a href="https://mehak126.github.io/" >Mehak Dhaliwal</a> and I conducted a replication and enhacement study of recent advances in zero-shot document ranking with Large Language Models (LLMs).
+      My partner, <a href="https://mehak126.github.io/" >Mehak Dhaliwal</a>, and I conducted a study replicating and enhancing recent advancements in zero-shot document ranking using Large Language Models (LLMs).
+      <!--  -->
+      <!-- My partner <a href="https://mehak126.github.io/" >Mehak Dhaliwal</a> and I conducted a replication and enhacement study of recent advances in zero-shot document ranking with Large Language Models (LLMs). -->
       <!-- , focusing on the Setwise approach introduced at SIGIR 2024. -->
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
@@ -158,19 +160,22 @@ redirect_from:
           <i class="fas fa-file-powerpoint" style="margin-right: 0.5rem;"></i>Slides
         </a> -->
         <a href="https://repllmr.ackop.com/repllmr_0022.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-file-alt" style="margin-right: 0.5rem;"></i>Pilot Study Report
+          <i class="fas fa-file-alt" style="margin-right: 0.5rem;"></i>Study Report
         </a>
-        <a href="https://github.com/mehak126/llm-rankers" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+        <!-- <a href="https://github.com/mehak126/llm-rankers" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fab fa-github" style="margin-right: 0.5rem;"></i>GitHub
-        </a>        
+        </a>         -->
         <a href="https://repllmr.ackop.com/jbook_a/index.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Study Analysis
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Data Analysis
         </a>
         <!-- <a href="https://repllmr.ackop.com/jbook_b/index.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Analysis B
         </a> -->
       </div>
-      <p><a href="../publication/2025-01-repllmr_preprint" >Pilot study</a> has been completed. Next steps to publication are scheduled with <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a> as our mentor for June 2025.</p>
+      <p>
+      We have started preparing for publication under the guidance of <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a>, with plans to finalize it in July and August 2025.
+      <!-- Next steps to publication are scheduled with <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a> as our mentor for June 2025. -->
+      </p>
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <a href="../images/llm_ranking_results_0010.png" target="_blank">  
@@ -193,16 +198,15 @@ redirect_from:
     </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <!-- <p> -->
-      UCSB gradute course <a href="https://catalog.ucsb.edu/courses/PSTAT%20231">PSTAT 231</a> 
-      asked me to pick a real world data set and investigate an interesting research question.
-      For medical reasons, I was curious about the nutritional content of various foods and
-      whether LLM technology from OpenAI can help estimte this better. 
+      <p>
+      As part of UCSB’s graduate course <a href="https://catalog.ucsb.edu/courses/PSTAT%20231">PSTAT 231</a>, I selected a real-world dataset to explore an intriguing research question. Motivated by personal health interests, I investigated whether OpenAI’s LLM technology could improve USDA's estimates of the nutritional content of various foods.
+      </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Study Analysis
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Data Analysis Study
         </a>
       </div>
-      <p><a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank">Pilot Study</a> is complete. Seeking a mentor to take this research further.</p>
+      <p>I am currently seeking a food nutrition analysis expert to help advance this research further.</p>
       <!-- <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Slides
@@ -256,20 +260,14 @@ redirect_from:
       </a>
     </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
-      <!-- <p> -->
-      This project started with three partners during the 
-      <a href="https://courses.engineering.ucsc.edu/courses/cmpm146">CMPM146: Game AI</a> course
-      offered by <a href="http://www.isle.org/~dgs/">Dr. Daniel Shapiro</a>.
-      <!--  -->
-      <!-- Our idea was to demonstrate AI generation of stories for young children. 
-      While my partners tackled AI illustrations, AI sound effects and AI music,
-      my part was to implement AI stories with choices and branched narration. 
-      I also created our WebApp that lets young children create and enjoy these stories.       
-      My tools were Python/Flask/Bash/XSLT/HTML and AI API's from OpenAI and Anthropic.  -->
-      <!-- Deployment uses AWS EC2 and AWS S3.  -->
-      Afterwards with the mentorship of Dr. Shaprio 
+      AIPIF began 
+      <!-- as a team project  -->
+      with three partners in <a href="http://www.isle.org/~dgs/">Dr. Daniel Shapiro</a>'s <a href="https://courses.engineering.ucsc.edu/courses/cmpm146">CMPM146: Game AI</a> course. With Dr. Shapiro's mentorship, we refined the project and showcased it at ECAI 2024 and PAIS 2024.
+
+      <!-- Afterwards with the mentorship of Dr. Shaprio 
       our work was demonstrated at <a href="https://www.ecai2024.eu/calls/demos">ECAI 2024</a> and 
-      published as part of <a href="https://www.ecai2024.eu/calls/pais">PAIS 2024</a>.
+      published as part of <a href="https://www.ecai2024.eu/calls/pais">PAIS 2024</a>. -->
+
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://youtu.be/TaVGem3nFrk" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fab fa-youtube" style="margin-right: 0.5rem;"></i>Video
@@ -290,7 +288,7 @@ redirect_from:
           <i class="fab fa-github" style="margin-right: 0.5rem;"></i>GitHub
         </a>
       </div>
-      <p>Try it! New stories are disabled for cost reasons. All else is live 24x7.</p>
+      <p>Try it! New story generation is disabled to manage costs, but all other features are live 24/7.</p>
     </div>
   </div>
 
