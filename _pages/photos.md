@@ -1,7 +1,7 @@
 ---
 # layout: archive
 title: "Photos"
-permalink: /photos/
+permalink: /photos/index.html
 author_profile: true
 ---
 

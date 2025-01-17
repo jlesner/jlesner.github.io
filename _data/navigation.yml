@@ -7,13 +7,13 @@
 main:
 
   - title: "Projects"
-    url: /projects/    
+    url: /projects/index.html  
 
   - title: "Papers"
-    url: /publications/
+    url: /publications/index.html
 
   - title: "Photos"
-    url: /photos/    
+    url: /photos/index.html
 
   # - title: "Publications"
   #   url: /publications/
@@ -31,7 +31,7 @@ main:
   #   url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: /cv/index.html
     
   # - title: "Guide"
   #   url: /markdown/

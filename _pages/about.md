@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /index.html
 # title: "Jasmine Lesner"
 author_profile: true
 redirect_from: 
