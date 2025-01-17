@@ -6,15 +6,14 @@
 
 main:
 
-  - title: "Papers"
-    url: /publications/
-
   - title: "Projects"
     url: /projects/    
 
+  - title: "Papers"
+    url: /publications/
 
-  - title: "Events"
-    url: /events/    
+  - title: "Photos"
+    url: /photos/    
 
   # - title: "Publications"
   #   url: /publications/
