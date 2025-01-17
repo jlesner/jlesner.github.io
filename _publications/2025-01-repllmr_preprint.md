@@ -1,7 +1,7 @@
 ---
 title: "Zero-Shot Document Ranking Using LLMs: Replication and Improvements"
 collection: publications
-category: preprints
+category: pilots
 permalink: /publication/2025-01-repllmr_preprint
 excerpt: ''
 date: 2024-10-16

@@ -1,7 +1,7 @@
 ---
 title: "Understanding XAI Requirements: A Comparative Study of Repetitive and Unique Decision Contexts"
 collection: publications
-category: preprints
+category: pilots
 permalink: /publication/2024-12-xai_preprint
 excerpt: ''
 date: 2024-12-16

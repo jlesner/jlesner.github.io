@@ -16,6 +16,7 @@ I am a graduate student in the Computer Science Department at the University of 
 - September 2024: Started graduate school at UC Santa Barbara
 - July 2024: [AI Personalized Interactive Fiction]({{ base_path }}/publication/2024-10-ecai-aipif) was accepted into ECAI/PAIS 2024
 - March 2024: Graduated from UC Santa Cruz
+- June 2023: Concluded CAHSI Local Research Experiences for Undergraduates (LREU) Program
 
 ## FAQ
 
