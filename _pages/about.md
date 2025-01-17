@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a graduate student in the Computer Science Department at the University of California, Santa Barbara.
+I am a graduate student in the Computer Science Department at the University of California, Santa Barbara. My work delves in to the applications of AI/ML techniques to solve real-world problems. 
 
 ## What's New? 🎉
 
@@ -19,7 +19,7 @@ I am a graduate student in the Computer Science Department at the University of 
 
 ## FAQ
 
-* What are your interests? 
+* What are you working on? 
     - Peek at my <a target="_blank" href="projects">Projects</a> and <a target="_blank" href="publications">Publications</a>
 
 * What is the best way to contact you?
