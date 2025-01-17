@@ -65,7 +65,7 @@ redirect_from:
       Snip pictures of your class schedules, and SnipDue adds all your deadlines to your favorite calendar.
       This project was built
        <!-- in 24hrs -->
-      at <a href="https://sb-hacks-xi.devpost.com/">SBHack XI</a> and my team with <a href="#">Samantha Lesner</a>, won the "Best Use of GenAI Award" out of 221 participants!
+      at <a href="https://sb-hacks-xi.devpost.com/">SBHack XI</a> and with my partner <a href="#">Samantha Lesner</a>, we won the "Best Use of GenAI Award" out of 221 participants!
       STATUS: SnipDue is live 24/7.
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
@@ -151,8 +151,9 @@ redirect_from:
     </div> -->
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <p>
-      My partner <a href="#" >Mehak Bubble Smith</a> and I conducted a replication and enhacement study of recent advances in zero-shot document ranking with Large Language Models (LLMs), focusing on the Setwise approach introduced at SIGIR 2024. 
-      STATUS: <a href="https://xai.ackop.com/xai_0021.pdf">Pilot study</a> completed and preperation for  publication is scheduled with <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a> as our mentor for June 2025.
+      My partner <a href="#" >Mehak Bubble Smith</a> and I conducted a replication and enhacement study of recent advances in zero-shot document ranking with Large Language Models (LLMs).
+      <!-- , focusing on the Setwise approach introduced at SIGIR 2024. -->
+      STATUS: <a href="https://xai.ackop.com/xai_0021.pdf">Pilot study</a> completed and next steps towards publication are scheduled with <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a> as our mentor for June 2025.
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <!-- <a href="https://xai.ackop.com/xai_169.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -195,12 +196,12 @@ redirect_from:
       <!-- <p> -->
       UCSB gradute course <a href="https://catalog.ucsb.edu/courses/PSTAT%20231">PSTAT 231</a> 
       asked me to pick a real world data set and investigate an interesting research question.
-      For personal medical reasons I was curious about the nutritional content of various foods and
+      For medical reasons I was curious about the nutritional content of various foods and
       whether LLM technology from OpenAI can help estimte this better. 
       STATUS: <a href="../images/betterfoodgroups.png">Pilot Study</a> Complete. Next steps TBD.
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Study Report
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Study Analysis
         </a>
       </div>
       <!-- <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
@@ -224,11 +225,11 @@ redirect_from:
       <p>
         AIPTF preserves the UI from AIPIF but is implemented using Cloudflare functions.
         <!--  -->
-        These stories aim to teach children specific life lessons. To get children  and to 
-        get them thinking and challange them, each AIPTF story ends
+        It generates personalized stories that aim to teach children specific pre-selected life lessons. 
+        To get children thinking and challange them, each AIPTF story ends
         with a quiz which tracks correct and wrong answers. 
         <!-- TIP: AI images are revealed by clicking emoji. -->
-        STATUS: Stories with quizes and illustratons are live 24x7.
+        STATUS: Stories with quizes and illustratons are live 24x7. (TIP: Click the emoji.)
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <!-- <a href="https://youtu.be/TaVGem3nFrk" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -305,7 +306,7 @@ redirect_from:
       <!-- for his
       <a href="https://courses.engineering.ucsc.edu/courses/ece118">ECE118: Introduction to Mechatronics</a>
       course  -->
-      as a research project for my DISNEYDISNEYDISNEY sponsored internship. 
+      as a research project for my DISNEYDISNEYDISNEY sponsored research internship. 
       Dr. Elkaim guided the requirements while I carried out development and testing.
       STATUS: <a href="#">ICRA submisson</a> pending peer review. See <a href="#">video</a> or <a href="#">poster</a>. 
       <!--  -->
