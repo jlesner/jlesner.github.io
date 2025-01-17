@@ -61,13 +61,11 @@ redirect_from:
       <img src="../images/xai_notif2.png" alt="AIPIF Project" style="width: 70%; height: auto;">
     </div> -->
     <div class="project-content" style="flex: 1; max-width: 90%;">
-      <p>
+      <!-- <p> -->
       Snip pictures of your class schedules, and SnipDue adds all your deadlines to your favorite calendar.
       This project was built
        <!-- in 24hrs -->
       at <a href="https://sb-hacks-xi.devpost.com/" target="_blank">SBHack XI</a> and with my partner <a href="https://www.linkedin.com/in/samantha-lesner-592aa8211/" target="_blank">Samantha Lesner</a>, we won the "Best Use of GenAI Award" out of 221 participants!
-      STATUS: SnipDue is live 24/7.
-      </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <!-- <a href="https://snipdue.tech/" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pitch
@@ -88,6 +86,7 @@ redirect_from:
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Try it!
         </a>
       </div>
+      <p>SnipDue is live 24/7!</p>
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <a href="../images/snipdue_sale_0010.png" target="_blank">  
@@ -116,8 +115,7 @@ redirect_from:
     </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <p>Two Explainable AI (XAI) prototypes were designed and tested with four groups of subjects.
-       My partner <a href="https://ml.ucsb.edu/people/faculty/misha-sra">Kay Krachenfels</a>, designed the "Commerce Moderator" and I designed the "Communication Monitor". 
-      STATUS: <a href="../publication/2024-12-xai_preprint">Pilot study</a> complete and mentored by <a href="https://ml.ucsb.edu/people/faculty/misha-sra" target="_blank">Dr. Misha Sra</a> we are recuriting for a full study to publish.
+       My partner <a href="https://ml.ucsb.edu/people/faculty/misha-sra">Kay Krachenfels</a>, designed the "Commerce Moderator" and I designed the "Communication Monitor".      
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <!-- <a href="https://xai.ackop.com/xai_169.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -133,12 +131,13 @@ redirect_from:
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Monitor v0.02d
         </a>
         <a href="https://memoir.ackop.com/mapp/split_0014/index.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Monitor v0.02w
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Monitor v0.01w
         </a>
         <!-- <a href="https://xai.ackop.com/moderator.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Moderator v0.01d
         </a> -->
       </div>
+      <a href="../publication/2024-12-xai_preprint">Pilot study</a> complete and mentored by <a href="https://ml.ucsb.edu/people/faculty/misha-sra" target="_blank">Dr. Misha Sra</a> we are recuriting for a full study to publish.
     </div>
   </div>
 
@@ -174,8 +173,8 @@ redirect_from:
       </div>
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
-      <a href="../images/xai_notif4.png" target="_blank">  
-        <img  src="../images/xai_notif4.png" alt="" style="width: 100%; height: auto;">
+      <a href="../images/llm_ranking_results_0010.png" target="_blank">  
+        <img  src="../images/llm_ranking_results_0010.png" alt="" style="width: 100%; height: auto;">
       </a>
       <!-- <a href="../images/xai_notif4.png" target="_blank">  
         <img  src="../images/xai_notif4.png" alt="" style="width: 100%; height: auto;">
@@ -198,12 +197,12 @@ redirect_from:
       asked me to pick a real world data set and investigate an interesting research question.
       For medical reasons, I was curious about the nutritional content of various foods and
       whether LLM technology from OpenAI can help estimte this better. 
-      STATUS: <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank">Pilot Study</a> Complete. Next steps TBD.
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Study Analysis
         </a>
       </div>
+      STATUS: <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank">Pilot Study</a> Complete. Next steps TBD.
       <!-- <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Slides
@@ -220,11 +219,10 @@ redirect_from:
       <p>
         AIPTF preserves the UI from AIPIF but is implemented using Cloudflare functions.
         <!--  -->
-        It generates personalized stories that aim to teach children specific pre-selected life lessons. 
+        It generates personalized stories that aim to teach children specific life lessons. 
         To get children thinking and challange them, each AIPTF story ends
         with a quiz which tracks correct and wrong answers. 
-        <!-- TIP: AI images are revealed by clicking emoji. -->
-        STATUS: Stories with quizes and illustratons are live 24x7. (TIP: Click the emoji.)
+        <!-- TIP: AI images are revealed by clicking emoji. -->        
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <!-- <a href="https://youtu.be/TaVGem3nFrk" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -233,11 +231,13 @@ redirect_from:
         <a href="https://www.ufafu.com/" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Try it!
         </a>
+        HINT: Emoji clicks reveal images.
+        STATUS: Stories with quizes and illustratons are live 24x7. 
       </div>
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
-      <a href="../images/aipif.png" target="_blank">  
-        <img src="../images/aipif.png"  target="_blank" alt="AIPIF Project" style="width: 100%; height: auto;">
+      <a href="../images/aiptf_0020.png" target="_blank">  
+        <img src="../images/aiptf_0020.png"  target="_blank" alt="AIPIF Project" style="width: 100%; height: auto;">
       </a>
     </div>
   </div>
@@ -248,8 +248,8 @@ redirect_from:
   <h2>AI Personalized Interactive Fiction (AIPIF)</h2>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-image" style="flex: 1; max-width: 50%;">
-      <a href="../images/aipif.png" target="_blank">  
-        <img src="../images/aipif.png"  target="_blank" alt="AIPIF Project" style="width: 100%; height: auto;">
+      <a href="../images/aipif_0010.png" target="_blank">  
+        <img src="../images/aipif_0010.png"  target="_blank" alt="AIPIF Project" style="width: 100%; height: auto;">
       </a>
     </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
