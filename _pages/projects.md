@@ -303,7 +303,7 @@ redirect_from:
       course  -->
       as a research project for my CAHSI Local Research Experiences for Undergraduates (LREU) Program which is a NSF sponsored research internship. 
       Dr. Elkaim guided the requirements while I carried out development and testing.
-      STATUS: <a href="#">ICRA submisson</a> pending peer review. See <a href="https://youtu.be/IHp0X0J5Di8">video</a> or <a href="https://github.com/jlesner/smv2/blob/main/doc/48x36_smv_poster_010.pdf">poster</a>. 
+      STATUS: <a href="https://smv.ackop.com/smv_ieee_ICRA_0051.pdf">ICRA submisson</a> pending peer review. See <a href="https://youtu.be/IHp0X0J5Di8">video</a> or <a href="https://github.com/jlesner/smv2/blob/main/doc/48x36_smv_poster_010.pdf">poster</a>. 
       <!--  -->
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://www.youtube.com/watch?v=IHp0X0J5Di8?autoplay=1&fs=1" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
