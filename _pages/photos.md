@@ -4,7 +4,8 @@ title: "Photos"
 permalink: /photos/
 author_profile: true
 ---
-
+<!-- {% include base_path %} -->
+<!-- <hr>  -->
 <div class="gallery" style="padding: 2rem 0;">
     <h2 style="text-align: center; margin-bottom: 2rem;"><a href="https://sb-hacks-xi.devpost.com/" target="_blank">SB Hacks XI</a> (Santa Barbara, California, 2025)</h2>
     <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; padding: 0 1rem;">

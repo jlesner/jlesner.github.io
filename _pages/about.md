@@ -7,23 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<!-- 
-I am a graduate student in the Computer Science Department at the University of California, Santa Barbara. 
- -->
-
-<!-- 
-# TODO standardize date format
-
-# TODO add bit more detail to each event 
-
-# double check dates
-
-# add club activities?
-
-# add hackthons from the past ?
-
--->
-
 ## What's New? 🎉
 
 - 2025-01: [SnipDue]({{ base_path }}/projects#snipdue) won "Best Use of GenAI Award" at SBHacks XI 
@@ -44,8 +27,24 @@ I am a graduate student in the Computer Science Department at the University of 
 
 - 2021-06: Graduted Gunn Secondary School Palo Alto with 3.9 GPA 
 
+<!-- 
+I am a graduate student in the Computer Science Department at the University of California, Santa Barbara. 
+ -->
 
 <!-- 
+
+# TODO fix header alignment
+
+# TODO standardize date format
+
+# TODO add bit more detail to each event 
+
+# double check dates
+
+# add club activities?
+
+# add hackthons from the past ?
+
 
 - 2020-04: Accepted to COSMOS @ UC Santa Cruz => but COVID cancelled it.
 
