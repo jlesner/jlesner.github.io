@@ -68,13 +68,7 @@ redirect_from:
     </div> -->
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <p>
-      Our deadline import
-      <!-- schedule import  -->
-      tool 
-      <!-- lets you snip (or snap) pictures of your class schedules and automatically adds deadlines to your favorite calendar. It  -->
-      has nearly universal support for all the ways a schedule can be represented.
-      <!-- as an input -->
-      It uses Claude Sonet 3.5 and works with Google Calendar, Apple Calendar, Outlook, and any iCal-compatible app. 
+        A deadline import tool with near universal support for all the ways to represent a schedule. Our tool uses Claude 3.5 Sonnet and works with Google Calendar, Apple Calendar, Outlook, and any iCal-compatible app. 
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <!-- <a href="https://snipdue.tech/" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -97,7 +91,7 @@ redirect_from:
         </a>
       </div>
         <p>
-        Built at  <a href="https://sb-hacks-xi.devpost.com/" target="_blank">SBHacks XI</a> with my partner <a href="https://www.linkedin.com/in/samantha-lesner-592aa8211/" target="_blank">Samantha Lesner</a>, our project won the "Best Use of GenAI Award" out of 221 participants.
+        Built at <a href="https://sb-hacks-xi.devpost.com/" target="_blank">SBHacks XI</a> with my partner <a href="https://www.linkedin.com/in/samantha-lesner-592aa8211/" target="_blank">Samantha Lesner</a>, our project won the "Best Use of GenAI Award" out of 221 hackathon participants.
         </p>
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
@@ -136,11 +130,11 @@ redirect_from:
           <i class="fas fa-file-powerpoint" style="margin-right: 0.5rem;"></i>Slides
         </a> -->
         <a href="https://memoir.ackop.com/index7.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Monitor Pitch
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Monitor Pitch + Design
         </a>
-        <a href="https://xai.ackop.com/monitor.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+        <!-- <a href="https://xai.ackop.com/monitor.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Monitor Design
-        </a>
+        </a> -->
         <a href="https://xai.ackop.com/xai_0021.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-file-alt" style="margin-right: 0.5rem;"></i>Pilot Study Report
         </a>
@@ -224,7 +218,7 @@ redirect_from:
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Data Analysis Study
         </a>
       </div>
-      <p>Seeking a food nutrition expert to review and help guide this work.</p>
+      <p>Seeking a food nutrition expert to review and help guide this research further.</p>
       <!-- <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Slides
@@ -323,9 +317,9 @@ redirect_from:
         <a href="https://www.youtube.com/watch?v=IHp0X0J5Di8?autoplay=1&fs=1" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fab fa-youtube" style="margin-right: 0.5rem;"></i>Video
         </a>
-        <a href="https://jlesner0.ackop.com/48x36_smv_poster_010b.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+        <!-- <a href="https://jlesner0.ackop.com/48x36_smv_poster_010b.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Poster
-        </a>
+        </a> -->
         <a href="https://github.com/jlesner/smv2" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fab fa-github" style="margin-right: 0.5rem;"></i>GitHub
         </a>
@@ -347,7 +341,8 @@ redirect_from:
       </a>
     </div>
   </div>
-  
+  <hr style="height: 5px; background-color: black; border: none;">
+
 <!-- </div> -->
 
 <!-- Add Font Awesome for icons -->
