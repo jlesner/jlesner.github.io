@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-## What's New? 🎉
+# What's New? 🎉
 
 - 2025-01: [SnipDue]({{ base_path }}/projects#snipdue) won "Best Use of GenAI Award" at SBHacks XI 
 
@@ -21,11 +21,17 @@ redirect_from:
 
 - 2023-06: Concluded paid research internship [but continued work on my SMV project]({{ base_path }}/projects#smv)
 
-- 2023-10: Started CAHSI/NSF-sponsored undergraduate research internship with <a href="https://users.soe.ucsc.edu/~elkaim/elkaim/Home.html">Dr. Gabe Elkaim</a>
+- 2023-10: Started CAHSI/NSF-sponsored undergraduate research internship with <a href="https://users.soe.ucsc.edu/~elkaim/elkaim/Home.html" target="_blank">Dr. Gabe Elkaim</a>
 
 - 2021-09: Started Comp Sci @ UC Santa Cruz
 
 - 2021-06: Graduted Gunn Secondary School Palo Alto with 3.9 GPA 
+
+<!-- - 2021-02: Attended [GunnHacks 7.0](https://devpost.com/software/dungeon-rouge-like) Hackathon 
+
+- 2020-03: Attended [Superposition IV](https://devpost.com/software/new-seeds) Hackathon
+
+- 2018-02: Attended [GunnHacks 5.0](https://devpost.com/software/chemistry-danger) -->
 
 <!-- 
 I am a graduate student in the Computer Science Department at the University of California, Santa Barbara. 
