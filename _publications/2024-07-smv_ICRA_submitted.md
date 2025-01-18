@@ -7,7 +7,7 @@ excerpt: ''
 date: 2024-10-05
 venue: 'ICRA'
 paperurl: 'https://smv.ackop.com/smv_ieee_ICRA_0051.pdf'
-citation: '<b>Lesner, J.</b>, Elkaim, L., (2024). Automating Visualization of Event-Driven Control Systems.'
+# citation: '<b>Lesner, J.</b>, Elkaim, L., (2024). Automating Visualization of Event-Driven Control Systems.'
 ---
 
 Abstract

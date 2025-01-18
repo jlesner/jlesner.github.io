@@ -7,7 +7,7 @@ excerpt: ''
 date: 2024-10-16
 venue: ''
 paperurl: 'https://repllmr.ackop.com/repllmr_0022.pdf'
-citation: '<b>Lesner, J.</b>,  Dhaliwal, M., & Yang, T. (2024). Zero-Shot Document Ranking Using LLMs: Replication and Improvements.'
+# citation: '<b>Lesner, J.</b>,  Dhaliwal, M., & Yang, T. (2024). Zero-Shot Document Ranking Using LLMs: Replication and Improvements.'
 ---
 
 Abstract

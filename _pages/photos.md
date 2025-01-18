@@ -17,7 +17,7 @@ author_profile: true
   .project-image {
       /* padding-right: 70px; */
       flex: 1; 
-      max-width: 95%;
+      max-width: 110%;
   }
 </style>
 
@@ -26,7 +26,7 @@ author_profile: true
 <!-- style="padding: 2rem 0;" -->
 <div class="gallery" >
     <hr style="height: 5px; background-color: black; border: none;">
-    <h1 style="text-align: center; margin-bottom: 2rem;"><a href="https://sb-hacks-xi.devpost.com/" target="_blank">SB Hacks XI</a> (Santa Barbara, California, 2025)</h1>
+    <h1 style="text-align: center; margin-bottom: 2rem;"><a href="https://sb-hacks-xi.devpost.com/" target="_blank">SB Hacks XI</a> (Santa Barbara, 2025)</h1>
     <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; padding: 0 1rem;">
         <div class="project-image" >
             <a href="https://jlesner0.ackop.com/sbhack_2025_selected/p0005_sbhack_countdown.jpg" target="_blank">  

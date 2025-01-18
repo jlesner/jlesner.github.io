@@ -8,7 +8,7 @@ date: 2024-10-16
 venue: 'European Conference on Artificial Intelligence (ECAI)'
 slidesurl: 'http://jlesner.github.io/files/aipif_slides.pdf'
 paperurl: 'http://dx.doi.org/10.3233/FAIA241036'
-citation: '<b>Lesner, J.</b>, Murayama, L., Guizar, T., Phunjamaneechot, P., & Shapiro, D. (2024). A Demonstration of AI Personalized Interactive Fiction for Young Children. In ECAI 2024 (pp. 4756-4763). IOS Press.'
+# citation: '<b>Lesner, J.</b>, Murayama, L., Guizar, T., Phunjamaneechot, P., & Shapiro, D. (2024). A Demonstration of AI Personalized Interactive Fiction for Young Children. In ECAI 2024 (pp. 4756-4763). IOS Press.'
 ---
 
 Abstract

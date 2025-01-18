@@ -7,7 +7,7 @@ excerpt: ''
 date: 2024-12-16
 venue: ''
 paperurl: 'https://xai.ackop.com/xai_0021.pdf'
-citation: '<b>Lesner, J.</b>, Krachenfels, K., & Sra, M. (2024). Understanding XAI Requirements: A Comparative Study of Repetitive and Unique Decision Contexts.'
+# citation: '<b>Lesner, J.</b>, Krachenfels, K., & Sra, M. (2024). Understanding XAI Requirements: A Comparative Study of Repetitive and Unique Decision Contexts.'
 ---
 
 Abstract

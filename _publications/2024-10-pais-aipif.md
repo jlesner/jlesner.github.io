@@ -8,7 +8,7 @@ date: 2024-10-16
 venue: 'Prestigious Applications of Intelligent Systems (PAIS)'
 slidesurl: 'http://jlesner.github.io/files/aipif_slides.pdf'
 paperurl: 'http://dx.doi.org/10.3233/FAIA241074'
-citation: '<b>Lesner, J.</b>, Murayama, L., Guizar, T., Phunjamaneechot, P., & Shapiro, D. (2024). AI Personalized Interactive Fiction for Young Children. In ECAI 2024 (pp. 4756-4763). IOS Press.'
+# citation: '<b>Lesner, J.</b>, Murayama, L., Guizar, T., Phunjamaneechot, P., & Shapiro, D. (2024). AI Personalized Interactive Fiction for Young Children. In ECAI 2024 (pp. 4487-4490). IOS Press.'
 ---
 
 Abstract

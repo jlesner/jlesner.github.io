@@ -20,22 +20,23 @@ redirect_from:
 
 - 2025-01: [SnipDue]({{ base_path }}/projects#snipdue) won "Best Use of GenAI Award" at SBHacks XI 
 
-- 2024-10: Traveled to Spain to present [AIPIF]({{ base_path }}/projects#aipif) at ECAI-2024 and PAIS-2024
+- 2024-10: Present [AIPIF]({{ base_path }}/projects#aipif) at ECAI-2024 and PAIS-2024 in Spain
 
 - 2024-09: Started Computer Science Graduate School at UCSB 
 
 - 2024-07: [AIPIF]({{ base_path }}/projects#aipif) accepted for both ECAI-2024 and PAIS-2024
 
-- 2024-03: Graduated with Honors Cum Lade Computer Science from UCSC
+- 2024-03: Graduated with Honors Cum Lade from UCSC
 
-- 2023-06: Concluded Research Internship yet continued improving [SMV]({{ base_path }}/projects#smv)
+- 2023-06: Completed Internship yet continued improving [SMV]({{ base_path }}/projects#smv)
 
-- 2023-10: Started CAHSI/NSF-sponsored Undergraduate Research Internship
+- 2023-10: Started CAHSI/NSF Undergraduate Research Internship
  <!-- with <a href="https://users.soe.ucsc.edu/~elkaim/elkaim/Home.html" target="_blank">Dr. Gabe Elkaim</a> -->
 
-- 2021-09: Started Comp Sci Bachelors @ UC Santa Cruz
+- 2021-09: Started Comp Sci Bachelors @ UCSC
 
-- 2021-06: Graduted Gunn Secondary School in Palo Alto with 3.9 GPA 
+- 2021-06: Graduted Gunn Secondary School in Palo Alto
+ <!-- with 3.9 GPA  -->
 
 <!-- - 2021-02: Attended [GunnHacks 7.0](https://devpost.com/software/dungeon-rouge-like) Hackathon 
 

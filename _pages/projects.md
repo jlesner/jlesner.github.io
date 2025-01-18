@@ -68,13 +68,13 @@ redirect_from:
     </div> -->
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <p>
-      Our due date 
+      Our deadline import
       <!-- schedule import  -->
       tool 
       <!-- lets you snip (or snap) pictures of your class schedules and automatically adds deadlines to your favorite calendar. It  -->
-      has nearly universal support for all the ways a schedule can be represented 
+      has nearly universal support for all the ways a schedule can be represented.
       <!-- as an input -->
-      and works with Google Calendar, Apple Calendar, Outlook, and any iCal-compatible app. 
+      It uses Claude Sonet 3.5 and works with Google Calendar, Apple Calendar, Outlook, and any iCal-compatible app. 
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <!-- <a href="https://snipdue.tech/" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -128,7 +128,8 @@ redirect_from:
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <p>
         We designed and tested two Explainable AI (XAI) prototypes with four groups of participants. 
-        My partner, <a href="https://ml.ucsb.edu/people/faculty/misha-sra">Kay Krachenfels</a>, created the "Commerce Moderator," while I developed the "Communication Monitor."    
+        My partner, <a href="https://ml.ucsb.edu/people/faculty/misha-sra">Kay Krachenfels</a>, created the 
+        "Commerce Moderator," while I developed the "Communication Monitor."    
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <!-- <a href="https://xai.ackop.com/xai_169.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -152,7 +153,7 @@ redirect_from:
       </div>
       <p>
       <!-- The pilot study is complete.  -->
-      Under the guidance of <a href="https://ml.ucsb.edu/people/faculty/misha-sra" target="_blank">Dr. Misha Sra</a>, we are recruiting more participants for a full study aimed at publication.
+      We are deciding on a full study for publication under the guidance of <a href="https://ml.ucsb.edu/people/faculty/misha-sra" target="_blank">Dr. Misha Sra</a>. 
       </p>
     </div>
   </div>
@@ -188,7 +189,7 @@ redirect_from:
         </a> -->
       </div>
       <p>
-      We have started preparing for publication under the guidance of <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a>, with the plan to resume this research at the end of June 2025.
+      We plan to resume this research at the end of June 2025 under the guidance of <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a>.
       <!-- Next steps to publication are scheduled with <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a> as our mentor for June 2025. -->
       </p>
     </div>
@@ -223,7 +224,7 @@ redirect_from:
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Data Analysis Study
         </a>
       </div>
-      <p>I am seeking a food nutrition expert to evaluate and help expand this work.</p>
+      <p>Seeking a food nutrition expert to review and help guide this work.</p>
       <!-- <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pilot Slides
@@ -292,7 +293,7 @@ redirect_from:
         <!-- <a href="https://github.com/jlesner/aipif/blob/main/doc/aipif_ecai2024_poster_0016.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Poster
         </a> -->
-        <a href="/photos#ecai" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+        <a href="/photos#ecai2024" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Conferences
         </a>
         <!-- <a href="https://ebooks.iospress.nl/doi/10.3233/FAIA241036" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -302,9 +303,9 @@ redirect_from:
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Publication
           <!-- PAIS-2025 -->
         </a>
-        <a href="https://github.com/jlesner/aipif" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+        <!-- <a href="https://github.com/jlesner/aipif" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fab fa-github" style="margin-right: 0.5rem;"></i>GitHub
-        </a>
+        </a> -->
       </div>
       <p>New AIPIF stories are disabled to manage costs. All other features are live 24/7.</p>
     </div>
