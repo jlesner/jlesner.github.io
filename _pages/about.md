@@ -6,26 +6,36 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<style>
+  /* body {
+      padding: 60px 0 0;
+  } */
+
+  .author__bio {
+      padding-right: 70px;
+  }
+</style>
 
 # What's New? 🎉
 
 - 2025-01: [SnipDue]({{ base_path }}/projects#snipdue) won "Best Use of GenAI Award" at SBHacks XI 
 
-- 2024-10: Traveled to Spain for ECAI-2024 and PAIS-2024
+- 2024-10: Traveled to Spain to present [AIPIF]({{ base_path }}/projects#aipif) at ECAI-2024 and PAIS-2024
 
-- 2024-09: Started computer science graduate school at UCSB 
+- 2024-09: Started Computer Science Graduate School at UCSB 
 
-- 2024-07: [AI Personalized Interactive Fiction]({{ base_path }}/publication/2024-10-ecai-aipif) was accepted into ECAI/PAIS 2024
+- 2024-07: [AIPIF]({{ base_path }}/projects#aipif) accepted for both ECAI-2024 and PAIS-2024
 
-- 2024-03: Graduated with Honors Cum Lade computer science from UCSC
+- 2024-03: Graduated with Honors Cum Lade Computer Science from UCSC
 
-- 2023-06: Concluded paid research internship [but continued work on my SMV project]({{ base_path }}/projects#smv)
+- 2023-06: Concluded Research Internship yet continued improving [SMV]({{ base_path }}/projects#smv)
 
-- 2023-10: Started CAHSI/NSF-sponsored undergraduate research internship with <a href="https://users.soe.ucsc.edu/~elkaim/elkaim/Home.html" target="_blank">Dr. Gabe Elkaim</a>
+- 2023-10: Started CAHSI/NSF-sponsored Undergraduate Research Internship
+ <!-- with <a href="https://users.soe.ucsc.edu/~elkaim/elkaim/Home.html" target="_blank">Dr. Gabe Elkaim</a> -->
 
-- 2021-09: Started Comp Sci @ UC Santa Cruz
+- 2021-09: Started Comp Sci Bachelors @ UC Santa Cruz
 
-- 2021-06: Graduted Gunn Secondary School Palo Alto with 3.9 GPA 
+- 2021-06: Graduted Gunn Secondary School in Palo Alto with 3.9 GPA 
 
 <!-- - 2021-02: Attended [GunnHacks 7.0](https://devpost.com/software/dungeon-rouge-like) Hackathon 
 

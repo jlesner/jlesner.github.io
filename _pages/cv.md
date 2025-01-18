@@ -9,6 +9,17 @@ redirect_from:
 
 {% include base_path %}
 
+<style>
+  body {
+      padding: 60px 0 0;
+  }
+
+  .author__bio {
+      padding-right: 70px;
+  }
+</style>
+
+
 <embed src="../files/paper1.pdf" type="application/pdf" width="100%" height="900px">
 
 <!-- Experience

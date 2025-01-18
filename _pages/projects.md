@@ -15,6 +15,10 @@ redirect_from:
       padding: 60px 0 0;
   }
 
+  .author__bio {
+      padding-right: 70px;
+  }
+
   .project-container {
     display: flex;
     gap: 2rem;
@@ -56,6 +60,7 @@ redirect_from:
 
 <!-- <div class="projects"> -->
 
+  <hr style="height: 5px; background-color: black; border: none;">
   <h1 id="snipdue">SnipDue: Never Miss Another Deadline</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <!-- <div class="project-image" style="flex: 1; max-width: 50%; display: flex; justify-content: center; align-items: center;">
@@ -106,8 +111,7 @@ redirect_from:
     </div>
   </div>
 
-  <!-- <hr>  -->
-
+  <hr style="height: 5px; background-color: black; border: none;">
   <h1>Understanding Explainable AI Requirements: A Comparative Study of Repetitive and Unique Decision Contexts</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <!-- <div class="project-image" style="flex: 1; max-width: 50%; display: flex; justify-content: center; align-items: center;">
@@ -153,9 +157,8 @@ redirect_from:
     </div>
   </div>
 
-  <!-- <hr>  -->
+  <hr style="height: 5px; background-color: black; border: none;">
   <h1>Zero-Shot Document Ranking Using LLMs: Replication and Improvements</h1>
-
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <!-- <div class="project-image" style="flex: 1; max-width: 50%; display: flex; justify-content: center; align-items: center;">
       <img src="../images/xai_notif2.png" alt="AIPIF Project" style="width: 70%; height: auto;">
@@ -199,8 +202,7 @@ redirect_from:
     </div>
   </div>
 
-  <!-- <hr>  -->
-
+  <hr style="height: 5px; background-color: black; border: none;">
   <h1>Embedding Augmentation of USDA’s Food Nutrient Imputation</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-image" style="flex: 1; max-width: 50%;">
@@ -230,9 +232,8 @@ redirect_from:
     </div>
   </div>
 
-  <!-- <hr>  -->
-
-  <h1>AI Personalized <span style="color: darkblue;">Teaching</span> Fiction (AIPTF)</h1>
+  <hr style="height: 5px; background-color: black; border: none;">
+  <h1 id="aiptf">AI Personalized <span style="color: darkblue;">Teaching</span> Fiction (AIPTF)</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <p>
@@ -262,10 +263,8 @@ redirect_from:
     </div>
   </div>
 
-  <!-- <hr>  -->
-
-
-  <h1>AI Personalized <span style="color: darkblue;">Interactive</span> Fiction (AIPIF)</h1>
+  <hr style="height: 5px; background-color: black; border: none;">
+  <h1 id="aipif">AI Personalized <span style="color: darkblue;">Interactive</span> Fiction (AIPIF)</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <a href="../images/aipif_0010.png" target="_blank">  
@@ -311,8 +310,7 @@ redirect_from:
     </div>
   </div>
 
-  <!-- <hr>  -->
-
+  <hr style="height: 5px; background-color: black; border: none;">
   <h1 id="smv">State Machine Visualizer (SMV)</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-content" style="flex: 1; max-width: 90%;">
