@@ -4,11 +4,18 @@ title: ""
 permalink: /photos/
 author_profile: true
 ---
+
+<style>
+  body {
+      padding: 60px 0 0;
+  }
+</style>
+
 <!-- {% include base_path %} -->
 <!-- <hr>  -->
 <!-- style="padding: 2rem 0;" -->
 <div class="gallery" >
-    <h2 style="text-align: center; margin-bottom: 2rem;"><a href="https://sb-hacks-xi.devpost.com/" target="_blank">SB Hacks XI</a> (Santa Barbara, California, 2025)</h2>
+    <h1 style="text-align: center; margin-bottom: 2rem;"><a href="https://sb-hacks-xi.devpost.com/" target="_blank">SB Hacks XI</a> (Santa Barbara, California, 2025)</h1>
     <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; padding: 0 1rem;">
         <div class="project-image" style="flex: 1; max-width: 100%;">
             <a href="https://jlesner0.ackop.com/sbhack_2025_selected/p0005_sbhack_countdown.jpg" target="_blank">  
@@ -57,7 +64,7 @@ author_profile: true
             </a>
         </div> -->
     </div>
-    <h2 style="text-align: center; margin-bottom: 2rem;">European Conference on Artificial Intelligence (<a href="https://www.ecai2024.eu/calls/demos" target="_blank">ECAI-2024</a>)</h2>
+    <h1 style="text-align: center; margin-bottom: 2rem;">European Conference on Artificial Intelligence (<a href="https://www.ecai2024.eu/calls/demos" target="_blank">ECAI-2024</a>)</h1>
     <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; padding: 0 1rem;">
         <div class="project-image" style="flex: 1; max-width: 100%;">
             <a href="https://jlesner0.ackop.com/ecai_2024_selected/p0015_PXL_20241022_124842733.jpg" target="_blank">  
@@ -91,7 +98,7 @@ author_profile: true
         </div>
     </div>
     
-    <h2 style="text-align: center; margin-bottom: 2rem;">Conference on Prestigious Applications of Intelligent Systems (<a href="https://www.ecai2024.eu/calls/pais" target="_blank">PAIS-2024</a>)</h2>
+    <h1 style="text-align: center; margin-bottom: 2rem;">Conference on Prestigious Applications of Intelligent Systems (<a href="https://www.ecai2024.eu/calls/pais" target="_blank">PAIS-2024</a>)</h1>
     <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; padding: 0 1rem;">
         <div class="project-image" style="flex: 1; max-width: 100%;">
             <a href="https://jlesner0.ackop.com/ecai_2024_selected/p0030_PXL_20241023_131053269.jpg" target="_blank">  
@@ -125,7 +132,7 @@ author_profile: true
         </div>
     </div>
 
-    <h2 style="text-align: center; margin-bottom: 2rem;">LAN Party in my Living Room (Palo Alto ~2016)</h2>
+    <h1 style="text-align: center; margin-bottom: 2rem;">LAN Party in my Living Room (Palo Alto ~2016)</h1>
     <iframe 
         width="560" 
         height="315" 

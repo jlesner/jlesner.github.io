@@ -7,9 +7,14 @@ redirect_from:
   - /portfolio
 ---
 {% include base_path %}
-<hr> 
+<!-- <hr>  -->
 
 <style>
+
+  body {
+      padding: 60px 0 0;
+  }
+
   .project-container {
     display: flex;
     gap: 2rem;
@@ -45,14 +50,13 @@ redirect_from:
         display: none; /* Hide all images */
       }
     }
-
 </style>
 
 <!-- <h1>Projects</h1> -->
 
 <!-- <div class="projects"> -->
 
-  <h2 id="snipdue">SnipDue: Never Miss Another Deadline</h2>
+  <h1 id="snipdue">SnipDue: Never Miss Another Deadline</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <!-- <div class="project-image" style="flex: 1; max-width: 50%; display: flex; justify-content: center; align-items: center;">
       <img src="../images/xai_notif2.png" alt="AIPIF Project" style="width: 70%; height: auto;">
@@ -102,9 +106,9 @@ redirect_from:
     </div>
   </div>
 
-  <hr> 
+  <!-- <hr>  -->
 
-  <h2>Understanding Explainable AI Requirements: A Comparative Study of Repetitive and Unique Decision Contexts</h2>
+  <h1>Understanding Explainable AI Requirements: A Comparative Study of Repetitive and Unique Decision Contexts</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <!-- <div class="project-image" style="flex: 1; max-width: 50%; display: flex; justify-content: center; align-items: center;">
       <img src="../images/xai_notif2.png" alt="AIPIF Project" style="width: 70%; height: auto;">
@@ -149,8 +153,8 @@ redirect_from:
     </div>
   </div>
 
-  <hr> 
-  <h2>Zero-Shot Document Ranking Using LLMs: Replication and Improvements</h2>
+  <!-- <hr>  -->
+  <h1>Zero-Shot Document Ranking Using LLMs: Replication and Improvements</h1>
 
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <!-- <div class="project-image" style="flex: 1; max-width: 50%; display: flex; justify-content: center; align-items: center;">
@@ -195,9 +199,9 @@ redirect_from:
     </div>
   </div>
 
-  <hr> 
+  <!-- <hr>  -->
 
-  <h2>Embedding Augmentation of USDA’s Food Nutrient Imputation</h2>
+  <h1>Embedding Augmentation of USDA’s Food Nutrient Imputation</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <a href="../images/betterfoodgroups.png" target="_blank">  
@@ -226,9 +230,9 @@ redirect_from:
     </div>
   </div>
 
-  <hr> 
+  <!-- <hr>  -->
 
-  <h2>AI Personalized <span style="color: darkblue;">Teaching</span> Fiction (AIPTF)</h2>
+  <h1>AI Personalized <span style="color: darkblue;">Teaching</span> Fiction (AIPTF)</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <p>
@@ -244,11 +248,11 @@ redirect_from:
         <a href="https://www.ufafu.com/" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Try it!
         </a>        
-        AIPTF stories with quizzes and illustrations are live 24/7. 
-        <!-- Story narration and music are AIPIF stubs.  -->
         <!-- <p>
         </p> -->
       </div>
+      <p>AIPTF stories with quizzes and illustrations are live 24/7. </p>
+      <!-- Story narration and music are AIPIF stubs.  -->
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <a href="../images/aiptf_0020.png" target="_blank">  
@@ -258,10 +262,10 @@ redirect_from:
     </div>
   </div>
 
-  <hr> 
+  <!-- <hr>  -->
 
 
-  <h2>AI Personalized <span style="color: darkblue;">Interactive</span> Fiction (AIPIF)</h2>
+  <h1>AI Personalized <span style="color: darkblue;">Interactive</span> Fiction (AIPIF)</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <a href="../images/aipif_0010.png" target="_blank">  
@@ -307,9 +311,9 @@ redirect_from:
     </div>
   </div>
 
-  <hr> 
+  <!-- <hr>  -->
 
-  <h2 id="smv">State Machine Visualizer (SMV)</h2>
+  <h1 id="smv">State Machine Visualizer (SMV)</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-content" style="flex: 1; max-width: 90%;">
       This project was inspired by <a href="https://users.soe.ucsc.edu/~elkaim/elkaim/Home.html">Dr. Gabe Elkaim</a>

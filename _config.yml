@@ -82,11 +82,11 @@ publication_category:
   manuscripts:
     title: 'Journal Articles'    
   conferences:
-    title: 'Conference Papers'
+    title: 'Conference Articles'
   preprints:
-    title: 'Preprints'
+    title: 'Preprint Articles'
   pilots:
-    title: 'Pilot Study Reports'
+    title: 'Technical Reports'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
