@@ -88,6 +88,7 @@ author_profile: true
             </a>
         </div>
     </div>
+    
     <h2 style="text-align: center; margin-bottom: 2rem;">Conference on Prestigious Applications of Intelligent Systems (<a href="https://www.ecai2024.eu/calls/pais" target="_blank">PAIS-2024</a>)</h2>
     <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; padding: 0 1rem;">
         <div class="project-image" style="flex: 1; max-width: 100%;">
@@ -121,4 +122,15 @@ author_profile: true
             </a>
         </div>
     </div>
+
+    <h2 style="text-align: center; margin-bottom: 2rem;">LAN Party in my Living Room (Palo Alto ~2016)</h2>
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/EUhp46ZZG80" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen >
+    </iframe>
 </div>

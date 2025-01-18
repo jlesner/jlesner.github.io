@@ -60,11 +60,15 @@ redirect_from:
       <img src="../images/xai_notif2.png" alt="AIPIF Project" style="width: 70%; height: auto;">
     </div> -->
     <div class="project-content" style="flex: 1; max-width: 90%;">
-      <p>Our due date schedule import tool 
+      <p>
+      Our due date 
+      <!-- schedule import  -->
+      tool 
       <!-- lets you snip (or snap) pictures of your class schedules and automatically adds deadlines to your favorite calendar. It  -->
       has nearly universal support for all the ways a schedule can be represented 
       <!-- as an input -->
-      and works with Google Calendar, Apple Calendar, Outlook, and any iCal-compatible app. Built at  <a href="https://sb-hacks-xi.devpost.com/" target="_blank">SBHacks XI</a> with my partner <a href="https://www.linkedin.com/in/samantha-lesner-592aa8211/" target="_blank">Samantha Lesner</a>, our project won the "Best Use of GenAI Award" out of 221 participants.</p>
+      and works with Google Calendar, Apple Calendar, Outlook, and any iCal-compatible app. 
+      </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <!-- <a href="https://snipdue.tech/" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pitch
@@ -78,19 +82,22 @@ redirect_from:
         <a href="https://www.youtube.com/embed/SXRZ5oiWmYE?autoplay=1&fs=1" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fab fa-youtube" style="margin-right: 0.5rem;"></i>Video
         </a>
-        <a href="https://github.com/sklesner/ssnip" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+        <!-- <a href="https://github.com/sklesner/ssnip" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>GitHub
-        </a>
+        </a> -->
         <a href="https://snipdue.tech/" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Try it!
         </a>
       </div>
+        <p>
+        Built at  <a href="https://sb-hacks-xi.devpost.com/" target="_blank">SBHacks XI</a> with my partner <a href="https://www.linkedin.com/in/samantha-lesner-592aa8211/" target="_blank">Samantha Lesner</a>, our project won the "Best Use of GenAI Award" out of 221 participants.
+        </p>
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <a href="../images/snipdue_sale_0010.png" target="_blank">  
         <img  src="../images/snipdue_sale_0010.png" alt="" style="width: 100%; height: auto;">
       </a>
-      <p>SnipDue is live and running 24/7.</p>
+      <p>SnipDue is live and running 24/7!</p>
       <!-- <a href="../images/xai_notif4.png" target="_blank">  
         <img  src="../images/xai_notif4.png" alt="" style="width: 100%; height: auto;">
       </a> -->
@@ -99,7 +106,7 @@ redirect_from:
 
   <hr> 
 
-  <h2>Understanding XAI Requirements: A Comparative Study of Repetitive and Unique Decision Contexts</h2>
+  <h2>Understanding Explainable AI Requirements: A Comparative Study of Repetitive and Unique Decision Contexts</h2>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <!-- <div class="project-image" style="flex: 1; max-width: 50%; display: flex; justify-content: center; align-items: center;">
       <img src="../images/xai_notif2.png" alt="AIPIF Project" style="width: 70%; height: auto;">
@@ -203,7 +210,7 @@ redirect_from:
       <!-- <p> -->
       <p>
       <!-- As part of UCSB’s graduate course <a href="https://catalog.ucsb.edu/courses/PSTAT%20231">PSTAT 231</a>, I selected a real-world dataset to explore an intriguing research question. Motivated by personal health interests, I investigated whether OpenAI’s LLM technology could improve USDA's estimates of the nutritional content of various foods. -->
-      During UCSB’s <a href="https://catalog.ucsb.edu/courses/PSTAT%20231">PSTAT 231</a> graduate course, I selected <a href="https://fdc.nal.usda.gov/">USDA's food nutrition dataset</a> and chose to explore whether OpenAI’s LLM technology could enhance estimates of food nutrition. This research was motivated by personal health interests. 
+      During UCSB’s <a href="https://catalog.ucsb.edu/courses/PSTAT%20231">PSTAT 231</a> graduate course, I selected <a href="https://fdc.nal.usda.gov/">USDA's food nutrition dataset</a> and chose to explore whether OpenAI’s LLM technology can enhance estimates of food nutrition. This research was motivated by personal health interests. 
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -226,7 +233,7 @@ redirect_from:
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <p>
         This solo summer project grew from my desire to make AIPIF faster and more cost-efficient. 
-        Along the way, I explored creating stories to teach children specific life lessons. 
+        Along the way, I explored creating stories to teach children specific "life lessons". 
         To encourage critical thinking, each story ends with a quiz that tracks correct and incorrect answers.
         AIPTF retains the original AIPIF user interface but was re-implemented using Cloudflare functions.
       </p>
@@ -262,10 +269,13 @@ redirect_from:
       </a>
     </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
+      <p>
       AIPIF began 
       <!-- as a team project  -->
-      with three partners in <a href="http://www.isle.org/~dgs/">Dr. Daniel Shapiro</a>'s <a href="https://courses.engineering.ucsc.edu/courses/cmpm146">CMPM146: Game AI</a> course. With Dr. Shapiro's mentorship, we refined the project and showcased it at ECAI 2024 and PAIS 2024.
-
+      with three partners in <a href="http://www.isle.org/~dgs/">Dr. Daniel Shapiro</a>'s 
+      <a href="https://courses.engineering.ucsc.edu/courses/cmpm146">CMPM146: Game AI</a> course. 
+      With Dr. Shapiro's mentorship, we refined the project and showcased it at ECAI-2024 and PAIS-2024.
+      </p>
       <!-- Afterwards with the mentorship of Dr. Shaprio 
       our work was demonstrated at <a href="https://www.ecai2024.eu/calls/demos">ECAI 2024</a> and 
       published as part of <a href="https://www.ecai2024.eu/calls/pais">PAIS 2024</a>. -->
