@@ -278,7 +278,7 @@ redirect_from:
       our work was demonstrated at <a href="https://www.ecai2024.eu/calls/demos">ECAI 2024</a> and 
       published as part of <a href="https://www.ecai2024.eu/calls/pais">PAIS 2024</a>. -->
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-        <a href="https://youtu.be/TaVGem3nFrk" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+        <a href="https://youtu.be/TaVGem3nFrk?autoplay=1&fs=1" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fab fa-youtube" style="margin-right: 0.5rem;"></i>Video
         </a>
         <a href="https://www.ufafu.com/" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -336,6 +336,17 @@ redirect_from:
       <!-- See <a href="https://youtu.be/IHp0X0J5Di8">video</a> or <a href="https://github.com/jlesner/smv2/blob/main/doc/48x36_smv_poster_010.pdf">poster</a>.  -->
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
+          <!-- width="560" 
+          height="315"  -->
+      <!-- <iframe 
+          src="https://www.youtube.com/embed/IHp0X0J5Di8" 
+          title="YouTube video player" 
+          frameborder="0" 
+          width="560" 
+          height="315" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen >
+      </iframe>       -->
       <a href="../images/smv4.png" target="_blank">
         <img src="../images/smv4.png" alt="" style="width: 100%; height: auto;">
       </a>
