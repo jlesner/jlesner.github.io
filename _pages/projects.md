@@ -60,7 +60,11 @@ redirect_from:
       <img src="../images/xai_notif2.png" alt="AIPIF Project" style="width: 70%; height: auto;">
     </div> -->
     <div class="project-content" style="flex: 1; max-width: 90%;">
-      <p>SnipDue lets you snap a picture of your class schedules and automatically adds deadlines to your favorite calendar. Built at  <a href="https://sb-hacks-xi.devpost.com/" target="_blank">SBHacks XI</a> with my partner <a href="https://www.linkedin.com/in/samantha-lesner-592aa8211/" target="_blank">Samantha Lesner</a>, our project won the "Best Use of GenAI Award" out of 221 participants.</p>
+      <p>Our due date schedule import tool 
+      <!-- lets you snip (or snap) pictures of your class schedules and automatically adds deadlines to your favorite calendar. It  -->
+      has nearly universal support for all the ways a schedule can be represented 
+      <!-- as an input -->
+      and works with Google Calendar, Apple Calendar, Outlook, and any iCal-compatible app. Built at  <a href="https://sb-hacks-xi.devpost.com/" target="_blank">SBHacks XI</a> with my partner <a href="https://www.linkedin.com/in/samantha-lesner-592aa8211/" target="_blank">Samantha Lesner</a>, our project won the "Best Use of GenAI Award" out of 221 participants.</p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <!-- <a href="https://snipdue.tech/" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Pitch
@@ -81,12 +85,12 @@ redirect_from:
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Try it!
         </a>
       </div>
-      <p>SnipDue is live and running 24/7!</p>
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <a href="../images/snipdue_sale_0010.png" target="_blank">  
         <img  src="../images/snipdue_sale_0010.png" alt="" style="width: 100%; height: auto;">
       </a>
+      <p>SnipDue is live and running 24/7.</p>
       <!-- <a href="../images/xai_notif4.png" target="_blank">  
         <img  src="../images/xai_notif4.png" alt="" style="width: 100%; height: auto;">
       </a> -->
@@ -172,7 +176,7 @@ redirect_from:
         </a> -->
       </div>
       <p>
-      We have started preparing for publication under the guidance of <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a>, with plans to finalize it in July and August 2025.
+      We have started preparing for publication under the guidance of <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a>, with the plan to resume this research at the end of June 2025.
       <!-- Next steps to publication are scheduled with <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a> as our mentor for June 2025. -->
       </p>
     </div>
