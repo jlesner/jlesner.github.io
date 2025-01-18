@@ -14,26 +14,70 @@ redirect_from:
   .author__bio {
       padding-right: 70px;
   }
+
+
+  @media (min-width: 80em) {
+    .list__item {
+        padding-right: 10px;
+    }
+  }
+  
+  @media (min-width: 57.8125em) {
+      .list__item {
+          padding-right: 10px;
+      }
+  }
+
+  @media (min-width: 48em) {
+      .list__item {
+          padding-right: 10px;
+      }
+  }
 </style>
+
+# What's New? 🎉
+
+- 2025-01: [SnipDue]({{ base_path }}/projects#snipdue) wins "Best Use of GenAI Award" at SBHacks XI
+
+- 2024-10: [AIPIF]({{ base_path }}/projects#aipif) presented at ECAI-2024 and PAIS-2024 in Spain
+
+- 2024-09: Commenced Comp Sci M.S. at UC Santa Barbara
+
+- 2024-07: [AIPIF]({{ base_path }}/projects#aipif) paper accepted at ECAI-2024 and PAIS-2024
+
+- 2024-03: Graduated UCSC with Honors Cum Laude 
+<!-- (~30 months) -->
+<!-- in Computer Science -->
+
+- 2023-06: Completed Internship; Continued [SMV]({{ base_path }}/projects#smv) development
+
+- 2023-10: Secured CAHSI/NSF Undergraduate Internship
+
+- 2021-09: Began Computer Science B.S. at UC Santa Cruz
+
+
+<!-- 
 
 # What's New? 🎉
 
 - 2025-01: [SnipDue]({{ base_path }}/projects#snipdue) won "Best Use of GenAI Award" at SBHacks XI 
 
-- 2024-10: Present [AIPIF]({{ base_path }}/projects#aipif) at ECAI-2024 and PAIS-2024 in Spain
+- 2024-10: Presented [AIPIF]({{ base_path }}/projects#aipif) at ECAI-2024 and PAIS-2024 in Spain
 
 - 2024-09: Started Computer Science Graduate School at UCSB 
 
 - 2024-07: [AIPIF]({{ base_path }}/projects#aipif) accepted for both ECAI-2024 and PAIS-2024
 
-- 2024-03: Graduated from UCSC with Honors Cum Laude (~30 months)
+- 2024-03: Graduated from UCSC with Honors Cum Laude 
 
 - 2023-06: Completed Internship yet continued improving [SMV]({{ base_path }}/projects#smv)
 
 - 2023-10: Started CAHSI/NSF Undergraduate Research Internship
- <!-- with <a href="https://users.soe.ucsc.edu/~elkaim/elkaim/Home.html" target="_blank">Dr. Gabe Elkaim</a> -->
 
-- 2021-09: Started Computer Science Bachelors @ UCSC
+- 2021-09: Started Computer Science Bachelors @ UCSC -->
+
+<!-- (~30 months) -->
+ <!-- with <a href="https://users.soe.ucsc.edu/~elkaim/elkaim/Home.html" target="_blank">Dr. Gabe Elkaim</a> -->
 
 <!-- - 2021-06: Graduted Gunn Secondary School in Palo Alto -->
  <!-- with 3.9 GPA  -->
