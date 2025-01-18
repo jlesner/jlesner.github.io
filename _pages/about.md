@@ -7,24 +7,53 @@ redirect_from:
   - /about.html
 ---
 
-I am a graduate student in the Computer Science Department at the University of California, Santa Barbara. My work delves in to the applications of AI/ML techniques to solve real-world problems. 
+I am passionate about applying AI automation and machine learning to solve real-world problems.
+
+<!-- 
+I am a graduate student in the Computer Science Department at the University of California, Santa Barbara. 
+ -->
+
+<!-- 
+# TODO standardize date format
+# TODO add bit more detail to each event 
+-->
 
 ## What's New? 🎉
 
-- January 2025: [SnipDue]({{ base_path }}/projects#snipdue) won "Best Use of GenAI Award" at SBHacks XI 
-- October 2024: Attened ECAI/PAIS 2024
-- September 2024: Started graduate school at UC Santa Barbara
-- July 2024: [AI Personalized Interactive Fiction]({{ base_path }}/publication/2024-10-ecai-aipif) was accepted into ECAI/PAIS 2024
-- March 2024: Graduated from UC Santa Cruz
-- June 2023: Concluded CAHSI Local Research Experiences for Undergraduates (LREU) Program. [See what I did]({{ base_path }}/projects#smv)
+- 2025-01: [SnipDue]({{ base_path }}/projects#snipdue) won "Best Use of GenAI Award" at SBHacks XI 
 
-## FAQ
+- 2024-10: Traveled to Spain for ECAI-2024 and PAIS-2024
+
+- 2024-09: Started computer science graduate school at UCSB 
+
+- 2024-07: [AI Personalized Interactive Fiction]({{ base_path }}/publication/2024-10-ecai-aipif) was accepted into ECAI/PAIS 2024
+
+- 2024-03: Graduated with Honors Cum Lade computer science from UCSC
+
+- 2023-06: Concluded paid research internship [but continued work on my SMV project]({{ base_path }}/projects#smv)
+
+- 2023-10: Started CAHSI/NSF-sponsored undergraduate research internship with <a href="https://users.soe.ucsc.edu/~elkaim/elkaim/Home.html">Dr. Gabe Elkaim</a>
+
+- 2021-09: Started Comp Sci @ UC Santa Cruz
+
+<!-- 
+
+- 2020-04: Accepted to COSMOS @ UC Santa Cruz => but COVID cancelled it.
+
+- 2009-03: I become naturalized citizen of United State of America
+
+- 2009-03: Moved to California from Canada 
+
+-->
+
+
+<!-- ## FAQ
 
 * What are you working on? 
     - Peek at my <a target="_blank" href="projects">Projects</a> and <a target="_blank" href="publications">Publications</a>
 
 * What is the best way to contact you?
-    - `jlesner [at] ucsb.edu`
+    - `jlesner [at] ucsb.edu` -->
 
 
 
