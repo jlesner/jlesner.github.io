@@ -24,7 +24,8 @@ author:
   avatar           : # "profile2.png"
   name             : "J. Lesner"
   pronouns         : # example: "she/her"  
-  bio              : "CS Graduate Student"
+  # bio              : "CS graduate student passionate about AI/ML to solve real-world problems."
+  bio              : "UCSB Comp Sci graduate student driven to apply AI/ML to real-world problems."
   location         : # "Santa Barbara, California"
   employer         : # "UCSB"
   uri              : # URL

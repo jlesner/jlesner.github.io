@@ -7,15 +7,21 @@ redirect_from:
   - /about.html
 ---
 
-I am passionate about applying AI automation and machine learning to solve real-world problems.
-
 <!-- 
 I am a graduate student in the Computer Science Department at the University of California, Santa Barbara. 
  -->
 
 <!-- 
 # TODO standardize date format
+
 # TODO add bit more detail to each event 
+
+# double check dates
+
+# add club activities?
+
+# add hackthons from the past ?
+
 -->
 
 ## What's New? 🎉
@@ -35,6 +41,9 @@ I am a graduate student in the Computer Science Department at the University of 
 - 2023-10: Started CAHSI/NSF-sponsored undergraduate research internship with <a href="https://users.soe.ucsc.edu/~elkaim/elkaim/Home.html">Dr. Gabe Elkaim</a>
 
 - 2021-09: Started Comp Sci @ UC Santa Cruz
+
+- 2021-06: Graduted Gunn Secondary School Palo Alto with 3.9 GPA 
+
 
 <!-- 
 

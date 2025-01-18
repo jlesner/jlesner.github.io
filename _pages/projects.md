@@ -121,7 +121,7 @@ redirect_from:
     </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <p>
-        We designed and pilot study tested two Explainable AI (XAI) prototypes with four groups of participants. 
+        We designed and tested two Explainable AI (XAI) prototypes with four groups of participants. 
         My partner, <a href="https://ml.ucsb.edu/people/faculty/misha-sra">Kay Krachenfels</a>, created the "Commerce Moderator," while I developed the "Communication Monitor."    
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
@@ -146,7 +146,7 @@ redirect_from:
       </div>
       <p>
       <!-- The pilot study is complete.  -->
-      Under the guidance of <a href="https://ml.ucsb.edu/people/faculty/misha-sra" target="_blank">Dr. Misha Sra</a>, we are recruiting participants for a full study aimed at publication.
+      Under the guidance of <a href="https://ml.ucsb.edu/people/faculty/misha-sra" target="_blank">Dr. Misha Sra</a>, we are recruiting more participants for a full study aimed at publication.
       </p>
     </div>
   </div>
