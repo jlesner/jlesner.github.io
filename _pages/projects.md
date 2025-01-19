@@ -106,7 +106,7 @@ redirect_from:
   </div>
 
   <hr style="height: 5px; background-color: black; border: none;">
-  <h1>Understanding Explainable AI Requirements: A Comparative Study of Repetitive and Unique Decision Contexts</h1>
+  <h1>Explainable AI Requirements: A Comparative Study of Repetitive and Unique Decision Contexts</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <!-- <div class="project-image" style="flex: 1; max-width: 50%; display: flex; justify-content: center; align-items: center;">
       <img src="../images/xai_notif2.png" alt="AIPIF Project" style="width: 70%; height: auto;">
@@ -198,7 +198,7 @@ redirect_from:
   </div>
 
   <hr style="height: 5px; background-color: black; border: none;">
-  <h1>Embedding Augmentation of USDA’s Food Nutrient Imputation</h1>
+  <h1>Embedding Vector Augmentation of USDA’s Food Nutrient Imputation</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <a href="../images/betterfoodgroups.png" target="_blank">  
@@ -211,7 +211,7 @@ redirect_from:
       <!-- As part of UCSB’s graduate course <a href="https://catalog.ucsb.edu/courses/PSTAT%20231">PSTAT 231</a>, I selected a real-world dataset to explore an intriguing research question. Motivated by personal health interests, I investigated whether OpenAI’s LLM technology could improve USDA's estimates of the nutritional content of various foods. -->
       For a UCSB Statistical Machine Learning
       <!-- <a href="https://catalog.ucsb.edu/courses/PSTAT%20231">PSTAT 231</a>  -->
-      graduate course, I selected <a href="https://fdc.nal.usda.gov/">USDA's food nutrition dataset</a> and chose to explore whether OpenAI’s LLM technology can enhance estimates of food nutrition. This research was motivated by personal health interests. 
+      graduate course, I selected <a href="https://fdc.nal.usda.gov/">USDA's food nutrition dataset</a> and chose to explore whether OpenAI’s LLM technology can enhance estimates of food nutrition. This research effort was motivated by personal health interests. 
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
