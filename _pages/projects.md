@@ -183,7 +183,7 @@ redirect_from:
         </a> -->
       </div>
       <p>
-      Plan with <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a> is to prepare this for publication at the end of June 2025.
+      Plan with <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a> is to prepare for publication at the end of June 2025.
       <!-- Next steps to publication are scheduled with <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a> as our mentor for June 2025. -->
       </p>
     </div>
@@ -209,7 +209,7 @@ redirect_from:
       <!-- <p> -->
       <p>
       <!-- As part of UCSB’s graduate course <a href="https://catalog.ucsb.edu/courses/PSTAT%20231">PSTAT 231</a>, I selected a real-world dataset to explore an intriguing research question. Motivated by personal health interests, I investigated whether OpenAI’s LLM technology could improve USDA's estimates of the nutritional content of various foods. -->
-      For a UCSB Statistical Machine Learning
+      For a Statistical Machine Learning
       <!-- <a href="https://catalog.ucsb.edu/courses/PSTAT%20231">PSTAT 231</a>  -->
       graduate course, I selected <a href="https://fdc.nal.usda.gov/">USDA's food nutrition dataset</a> and chose to explore whether OpenAI’s LLM technology can enhance estimates of food nutrition. This research effort was motivated by personal health interests. 
       </p>

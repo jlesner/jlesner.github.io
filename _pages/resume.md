@@ -28,12 +28,12 @@ redirect_from:
   > -->
 
 <object
-  data="../files/resume_2025_0013.pdf"
+  data="../files/resume_2025_0014f.pdf"
   type="application/pdf"
   width="100%"
   >
   <!-- height="700px" -->
   <p>Your browser doesn't support PDF viewing. Please download the PDF to view it: 
-  <a href="../files/resume_2025_0013.pdf">Download PDF</a>
+  <a href="../files/resume_2025_0014f.pdf">Download PDF</a>
   </p>
 </object>

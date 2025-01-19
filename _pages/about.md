@@ -35,7 +35,8 @@ redirect_from:
   }
 </style>
 
-# What's New? 🎉
+<!-- # What's New? 🎉 -->
+# 🎉 NEWS 🎉
 
 - 2025-01: [SnipDue]({{ base_path }}/projects#snipdue) wins "Best Use of GenAI Award" at SBHacks XI
 
