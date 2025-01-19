@@ -33,6 +33,9 @@ main:
   # - title: "CV"
   #   url: /cv/
 
+  - title: "Courses"
+    url: /courses/
+
   - title: "Resume"
     url: /resume/
 

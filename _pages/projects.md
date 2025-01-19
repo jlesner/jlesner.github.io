@@ -96,7 +96,7 @@ redirect_from:
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <a href="../images/snipdue_sale_0010.png" target="_blank">  
-        <img  src="../images/snipdue_sale_0010.png" alt="" style="width: 100%; height: auto;">
+        <img  src="../images/snipdue_sale_0010.png" alt="" style="width: 100%; height: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
       </a>
       <p>SnipDue is live and running 24/7!</p>
       <!-- <a href="../images/xai_notif4.png" target="_blank">  
@@ -147,7 +147,7 @@ redirect_from:
       </div>
       <p>
       <!-- The pilot study is complete.  -->
-      We are deciding on a full study for publication under the guidance of <a href="https://ml.ucsb.edu/people/faculty/misha-sra" target="_blank">Dr. Misha Sra</a>. 
+      Deciding on a full study for publication with <a href="https://ml.ucsb.edu/people/faculty/misha-sra" target="_blank">Dr. Misha Sra</a>. 
       </p>
     </div>
   </div>
@@ -183,7 +183,7 @@ redirect_from:
         </a> -->
       </div>
       <p>
-      We plan to resume this research at the end of June 2025 under the guidance of <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a>.
+      Expect to prepare this for publication at the end of June 2025 with <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a>.
       <!-- Next steps to publication are scheduled with <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a> as our mentor for June 2025. -->
       </p>
     </div>
@@ -232,10 +232,11 @@ redirect_from:
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <p>
-        This solo summer project grew from my desire to make AIPIF faster and more cost-efficient. 
+        This solo summer project stemmed from my goal to make AIPIF faster and more cost-efficient. Along the way, I developed stories to teach children specific life lessons. Each story includes a quiz at the end to encourage critical thinking and tracks correct and incorrect answers. While AIPTF keeps the original AIPIF interface, I re-implemented the back-end using Javascript Cloudflare functions.
+        <!-- This solo summer project grew from my desire to make AIPIF faster and more cost-efficient. 
         Along the way, I explored creating stories to teach children specific "life lessons". 
         To encourage critical thinking, each story ends with a quiz that tracks correct and incorrect answers.
-        AIPTF retains the original AIPIF user interface but was re-implemented using Cloudflare functions.
+        AIPTF retains the original AIPIF user interface but was re-implemented using Cloudflare functions. -->
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <!-- <a href="https://youtu.be/TaVGem3nFrk" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -247,7 +248,7 @@ redirect_from:
         <!-- <p>
         </p> -->
       </div>
-      <p>AIPTF stories with quizzes and illustrations are live 24/7. </p>
+      <p>AIPTF is live and running 24/7!</p>
       <!-- Story narration and music are AIPIF stubs.  -->
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
