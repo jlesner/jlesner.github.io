@@ -130,7 +130,7 @@ redirect_from:
           <i class="fas fa-file-powerpoint" style="margin-right: 0.5rem;"></i>Slides
         </a> -->
         <a href="https://memoir.ackop.com/index7.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Communication Monitor
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Monitor Pitch + Design
         </a>
         <!-- <a href="https://xai.ackop.com/monitor.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Monitor Design
@@ -355,6 +355,56 @@ redirect_from:
     </div>
   </div>
   <hr style="height: 5px; background-color: black; border: none;">
+
+
+
+  <hr style="height: 5px; background-color: black; border: none;">
+  <h1 id="nseeds">New Seeds: An RPG Platformer</h1>
+  <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
+    <div class="project-content" style="flex: 1; max-width: 90%;">
+      A hero returns to fix their former home marked by climate change to fix past mistakes. New Seeds is an RPG platformer that uses simple controls and vivid imagery to spur emotion and inspiration.
+      <!--  -->
+      <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+        <!-- <a href="https://www.youtube.com/watch?v=IHp0X0J5Di8?autoplay=1&fs=1" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fab fa-youtube" style="margin-right: 0.5rem;"></i>Video
+        </a> -->
+        <a href="https://drive.google.com/drive/folders/1QSu7o4lGWNW5uqvSB6Z_UD7CY9qM_UqX" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Try it!
+        </a>
+        <!-- <a href="https://github.com/jlesner/smv2" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fab fa-github" style="margin-right: 0.5rem;"></i>GitHub
+        </a> -->
+        <!-- <a href="https://github.com/jlesner/smv2" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fab fa-github" style="margin-right: 0.5rem;"></i>Tech Report PDF
+        </a> -->
+        <!-- <a href="https://smv.ackop.com/smv_ieee_ICRA_0051.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fas fa-file-alt" style="margin-right: 0.5rem;"></i>Preprint
+        </a> -->
+      </div>
+      <p>
+          This project was inspired by <a href="https://superposition-iv.devpost.com/">Superposition IV Hackthon</a>
+      </p>
+      <!-- See <a href="https://youtu.be/IHp0X0J5Di8">video</a> or <a href="https://github.com/jlesner/smv2/blob/main/doc/48x36_smv_poster_010.pdf">poster</a>.  -->
+    </div>
+    <div class="project-image" style="flex: 1; max-width: 50%;">
+          <!-- width="560" 
+          height="315"  -->
+      <!-- <iframe 
+          src="https://www.youtube.com/embed/IHp0X0J5Di8" 
+          title="YouTube video player" 
+          frameborder="0" 
+          width="560" 
+          height="315" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen >
+      </iframe>       -->
+      <a href="../images/smv4.png" target="_blank">
+        <img src="../images/smv4.png" alt="" style="width: 100%; height: auto;">
+      </a>
+    </div>
+  </div>
+  <hr style="height: 5px; background-color: black; border: none;">
+
 
 <!-- </div> -->
 
