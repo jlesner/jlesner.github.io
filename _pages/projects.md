@@ -11,6 +11,17 @@ redirect_from:
 
 <style>
 
+  h1 {
+    text-align: center;
+    margin: 0 auto;
+    margin: 0.4em 0 0.6em;
+  }
+
+  /* h2 {
+      /* font-size: 1.25em; */
+      margin: 0.2em 0 0.2em;
+  } */
+
   body {
       padding: 60px 0 0;
   }
