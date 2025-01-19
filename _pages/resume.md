@@ -21,17 +21,19 @@ redirect_from:
 
 <!-- 
 <embed 
-  src="../files/resume_2025_0012.pdf" 
+  src="../files/resume_2025_0013.pdf" 
   type="application/pdf" 
   width="100%" 
   height="1000px"
   > -->
 
 <object
-  data="../files/resume_2025_0012.pdf"
+  data="../files/resume_2025_0013.pdf"
   type="application/pdf"
   width="100%"
   >
   <!-- height="700px" -->
-  <p>Your browser doesn't support PDF viewing. Please download the PDF to view it: <a href="../files/resume_2025_0012.pdf">Download PDF</a></p>
+  <p>Your browser doesn't support PDF viewing. Please download the PDF to view it: 
+  <a href="../files/resume_2025_0013.pdf">Download PDF</a>
+  </p>
 </object>
