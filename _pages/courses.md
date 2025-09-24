@@ -100,7 +100,7 @@ Focuses on advanced methods for neural-based information retrieval, including ve
 </h2>
 <p>
   Introduces statistical methods in machine learning with a focus on probabilistic modeling, Bayesian approaches, regression, classification, and dimensionality reduction.
-  <br><strong>Grade Achieved: B+</strong> (Missed quizzes during conference trip to Spain)
+  <br><strong>Grade Achieved: B+</strong> (Missed a quiz during conference trip to Spain)
 </p>
 
 <h2 id="cmpsc292f">

@@ -106,7 +106,7 @@ redirect_from:
   </div>
 
   <hr style="height: 5px; background-color: black; border: none;">
-  <h1>Explainable AI Requirements: A Comparative Study of Repetitive and Unique Decision Contexts</h1>
+  <h1>Understanding Explainable AI Requirements: A Comparative Study of Repetitive and Unique Decision Contexts</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <!-- <div class="project-image" style="flex: 1; max-width: 50%; display: flex; justify-content: center; align-items: center;">
       <img src="../images/xai_notif2.png" alt="AIPIF Project" style="width: 70%; height: auto;">
@@ -130,7 +130,7 @@ redirect_from:
           <i class="fas fa-file-powerpoint" style="margin-right: 0.5rem;"></i>Slides
         </a> -->
         <a href="https://memoir.ackop.com/index7.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
-          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Communication Monitor
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Monitor Pitch + Design
         </a>
         <!-- <a href="https://xai.ackop.com/monitor.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Monitor Design
@@ -183,7 +183,7 @@ redirect_from:
         </a> -->
       </div>
       <p>
-      Plan with <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a> is to prepare for publication at the end of June 2025.
+      Plan with <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a> is to prepare this for publication at the end of June 2025.
       <!-- Next steps to publication are scheduled with <a href="https://www.cs.ucsb.edu/people/faculty/tao-yang">Dr. Tao Yang</a> as our mentor for June 2025. -->
       </p>
     </div>
@@ -198,7 +198,7 @@ redirect_from:
   </div>
 
   <hr style="height: 5px; background-color: black; border: none;">
-  <h1>Embedding Vector Augmentation of USDA’s Food Nutrient Imputation</h1>
+  <h1>Embedding Augmentation of USDA’s Food Nutrient Imputation</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-image" style="flex: 1; max-width: 50%;">
       <a href="../images/betterfoodgroups.png" target="_blank">  
@@ -209,9 +209,9 @@ redirect_from:
       <!-- <p> -->
       <p>
       <!-- As part of UCSB’s graduate course <a href="https://catalog.ucsb.edu/courses/PSTAT%20231">PSTAT 231</a>, I selected a real-world dataset to explore an intriguing research question. Motivated by personal health interests, I investigated whether OpenAI’s LLM technology could improve USDA's estimates of the nutritional content of various foods. -->
-      For a Statistical Machine Learning
+      For a UCSB Statistical Machine Learning
       <!-- <a href="https://catalog.ucsb.edu/courses/PSTAT%20231">PSTAT 231</a>  -->
-      graduate course, I selected <a href="https://fdc.nal.usda.gov/">USDA's food nutrition dataset</a> and chose to explore whether OpenAI’s LLM technology can enhance estimates of food nutrition. This research effort was motivated by personal health interests. 
+      graduate course, I selected <a href="https://fdc.nal.usda.gov/">USDA's food nutrition dataset</a> and chose to explore whether OpenAI’s LLM technology can enhance estimates of food nutrition. This research was motivated by personal health interests. 
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://fnana3.ackop.com/fnana0043g.html" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -328,7 +328,7 @@ redirect_from:
         <!-- <a href="https://github.com/jlesner/smv2" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fab fa-github" style="margin-right: 0.5rem;"></i>Tech Report PDF
         </a> -->
-        <a href="https://smv.ackop.com/smv_ieee_ICRA_0054.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+        <a href="https://smv.ackop.com/smv_ieee_ICRA_0051.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
           <i class="fas fa-file-alt" style="margin-right: 0.5rem;"></i>Preprint
         </a>
       </div>
@@ -355,6 +355,56 @@ redirect_from:
     </div>
   </div>
   <hr style="height: 5px; background-color: black; border: none;">
+
+
+
+  <hr style="height: 5px; background-color: black; border: none;">
+  <h1 id="nseeds">New Seeds: An RPG Platformer</h1>
+  <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
+    <div class="project-content" style="flex: 1; max-width: 90%;">
+      A hero returns to fix their former home marked by climate change to fix past mistakes. New Seeds is an RPG platformer that uses simple controls and vivid imagery to spur emotion and inspiration.
+      <!--  -->
+      <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+        <!-- <a href="https://www.youtube.com/watch?v=IHp0X0J5Di8?autoplay=1&fs=1" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fab fa-youtube" style="margin-right: 0.5rem;"></i>Video
+        </a> -->
+        <a href="https://drive.google.com/drive/folders/1QSu7o4lGWNW5uqvSB6Z_UD7CY9qM_UqX" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fas fa-external-link-alt" style="margin-right: 0.5rem;"></i>Try it!
+        </a>
+        <!-- <a href="https://github.com/jlesner/smv2" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fab fa-github" style="margin-right: 0.5rem;"></i>GitHub
+        </a> -->
+        <!-- <a href="https://github.com/jlesner/smv2" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fab fa-github" style="margin-right: 0.5rem;"></i>Tech Report PDF
+        </a> -->
+        <!-- <a href="https://smv.ackop.com/smv_ieee_ICRA_0051.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
+          <i class="fas fa-file-alt" style="margin-right: 0.5rem;"></i>Preprint
+        </a> -->
+      </div>
+      <p>
+          This project was inspired by <a href="https://superposition-iv.devpost.com/">Superposition IV Hackthon</a>
+      </p>
+      <!-- See <a href="https://youtu.be/IHp0X0J5Di8">video</a> or <a href="https://github.com/jlesner/smv2/blob/main/doc/48x36_smv_poster_010.pdf">poster</a>.  -->
+    </div>
+    <div class="project-image" style="flex: 1; max-width: 50%;">
+          <!-- width="560" 
+          height="315"  -->
+      <!-- <iframe 
+          src="https://www.youtube.com/embed/IHp0X0J5Di8" 
+          title="YouTube video player" 
+          frameborder="0" 
+          width="560" 
+          height="315" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen >
+      </iframe>       -->
+      <a href="../images/smv4.png" target="_blank">
+        <img src="../images/smv4.png" alt="" style="width: 100%; height: auto;">
+      </a>
+    </div>
+  </div>
+  <hr style="height: 5px; background-color: black; border: none;">
+
 
 <!-- </div> -->
 
