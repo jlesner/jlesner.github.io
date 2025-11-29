@@ -1,0 +1,12 @@
+
+2. PROJECT: AI Personalized Interactive Fiction (AIPIF)  
+   1. INSTRUCTOR: Adjunct Professor Daniel G Shapiro at UCSC  
+   2. COURSE: The project started in CMPM146: Game AI: Examines the use of artificial intelligence (AI) in games. Covers core AI technologies for search, control, and learning, and the application of AI to improve game design, development, and game play. Examines the AI content in multiple commercial games. This is an online class; most lectures are asynchronous. The weekly lab is synchronous, focused on Q\&A and group discussion of work in progress.  
+   3. I applied my PYTHON/XPATH/XSLT skills from the State Machine Visualizer project to guide generative AI models to build narrative story trees, and used XPATH/XSLT to translate these XML story tries into interactive story webpages in HTML.  This work predated my knowledge of the “tree of thought” approach with LLM but I had designed a similar approach to have LLMs to develop different parallel branches of a story.       
+   4. Prototypes are available for public use at: [https://www.ufafu.com/](https://www.ufafu.com/)  
+   5. Source code available under open source licence at [https://github.com/jlesner/aipif](https://github.com/jlesner/aipif)   
+   6. Writeup: [https://www.overleaf.com/project/66c96831e34c6606d54edfb9](https://www.overleaf.com/project/66c96831e34c6606d54edfb9)   
+   7. Conference Paper: [https://ebooks.iospress.nl/volumearticle/70169](https://ebooks.iospress.nl/volumearticle/70169) Was published at PAIS 2024 as a full paper  
+   8. DEMO Paper: [https://ebooks.iospress.nl/doi/10.3233/FAIA241036](https://ebooks.iospress.nl/doi/10.3233/FAIA241036) and ECAI 2024 as a demo paper  
+   9. The hardest part of this project was to learn how to reliably use AI technology for generating stories with pictures, music and sounds in a software project. It was my first time, I was not familiar with generative AI models outside of a normal chat interface. So learning how to constrain them to my task was difficult to wrap my head around. Also understanding the problems of context rot.   
+   10. If I continued this line of work, a possible next step would be to have a world state tracking to improve the cross branch coherence.   
