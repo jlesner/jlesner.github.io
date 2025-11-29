@@ -8,80 +8,14 @@
 
 
 
-% anything better than PDF citation
-%% M. Moˇzina, S. ˇZitnik, B. K. Seljak, and T. Eftimov, Enhancing Food
-% Composition Databases: Predicting Missing Values via Knowledge
-% Graph Embeddings. PhD thesis, Univerza v Ljubljani, Fakulteta za
-% raˇcunalniˇstvo in informatiko, 2023
-
-
-
-%% bare_jrnl.tex
-%% V1.4b
-%% 2015/08/26
-%% by Michael Shell
-%% see http://www.michaelshell.org/
-%% for current contact information.
-
-\documentclass[journal]{IEEEtran}
-\usepackage{graphicx}
-\usepackage{amsmath}
-\usepackage{cite}
-\usepackage{hyperref}
-\usepackage{booktabs}
-
-% \usepackage{tcolorbox}
-% \tcbuselibrary{enhanced}
-
-% \hyphenation{op-tical net-works semi-conduc-tor}
-
-
 \begin{document}
-%
-% paper title
-% Titles are generally capitalized except for words such as a, an, and, as,
-% at, but, by, for, in, nor, of, on, or, the, to and up, which are usually
-% not capitalized unless they are the first or last word of the title.
-% Linebreaks \\ can be used within to get better formatting as desired.
-% Do not put math or special symbols in the title.
-\title{Food Nutrient Prediction with \\
-an LLM Enriched Knowledge Graph}
-%
-%
-% author names and IEEE memberships
-% note positions of commas and nonbreaking spaces ( ~ ) LaTeX will not break
-% a structure at a ~ so this keeps an author's name from being broken across
-% two lines.
-% use \thanks{} to gain access to the first footnote area
-% a separate \thanks must be used for each paragraph as LaTeX2e's \thanks
-% was not built to handle multiple paragraphs
-%
 
 \author{Jasmine~Lesner, Sathvika~Anand\\
 ~University of California, Santa Barbara}
 
-% The paper headers
 \markboth{Journal of Machine Learning on Graphs, March~2025}%
 {}
-% The only time the second header will appear is for the odd numbered pages
-% after the title page when using the twoside option.
-% 
-% *** Note that you probably will NOT want to include the author's ***
-% *** name in the headers of peer review papers.                   ***
-% You can use \ifCLASSOPTIONpeerreview for conditional compilation here if
-% you desire.
 
-
-% If you want to put a publisher's ID mark on the page you can do it like
-% this:
-%\IEEEpubid{0000--0000/00\$00.00~\copyright~2015 IEEE}
-% Remember, if you use this you must call \IEEEpubidadjcol in the second
-% column for its text to clear the IEEEpubid mark.
-
-% use for special paper notices
-%\IEEEspecialpapernotice{(Invited Paper)}
-
-% make the title area
 \maketitle
 
 \begin{abstract}
@@ -102,7 +36,7 @@ Food Composition Databases,
 
 % \title{Food Nutrient Prediction with an LLM Enriched Knowledge Graph}
 
-\section{Introduction} %--- SECTION: Introduction
+\section{Introduction} 
 
 \begin{figure}[b]
 \begin{center}

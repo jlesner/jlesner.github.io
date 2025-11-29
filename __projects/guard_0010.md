@@ -10,27 +10,6 @@ The hardest part of this project was designing an interface for a complex AI sys
 If I continued this on this prototype, the next step would be to extend the prototype with adapters to read documents and record conversations and to interface with AI tools to organize and analyze these inputs and offer targeted recommendations. 
 
 
-\documentclass[sigconf, authorversion]{acmart}
-
-\usepackage{booktabs}    % For professional table formatting
-\usepackage{multirow}    % For merged rows
-\usepackage{float} % here for H placement parameter
-\usepackage{tikz}
-\usetikzlibrary{shapes.geometric, arrows, positioning, fit, backgrounds}
-
-\AtBeginDocument{%
-  \providecommand\BibTeX{{%
-    Bib\TeX}}}
-
-\acmDOI{}
-\acmISBN{}
-\acmConference{}{}{}
-
-\settopmatter{printacmref=false} % Disable ACM reference format
-\renewcommand\footnotetextcopyrightpermission[1]{} % Remove copyright footnote
-
-\fancyhead{}
-\pagestyle{plain}
 
 \begin{document}
 
@@ -39,123 +18,11 @@ Understanding XAI Requirements:
 A Comparative Study of Repetitive and Unique Decision Contexts
 }
 
-% \title{Exploring User Reactions to XAI: \\
-% An Empirical Pilot Study in Contrasting Domains}
-
-% WHY THIS TITLE?
-% Maintains the focus on user reactions
-% Emphasizes the learning outcomes ("lessons")
-% Acknowledges the distinct nature of the domains
-% Sounds more academic than "tale of two"
-% Suggests broader applicability of findings
-% Avoids the potential cliché of "tale of two"
-
-\author{Kay Krachenfels and Jasmine Lesner}
-
-
-% \author{Kay Krachenfels}
-% \email{kkrachenfels@ucsb.edu}
-
-
-
-% \author{Jasmine Lesner}
-% \email{jlesner@ucsb.edu}
-% \affiliation{%
-%   % \institution{University of California, Santa Barbara}
-%   % \city{Santa Barbara}
-%   % \state{California}
-%   % \country{USA}
-% }
-
-
-\affiliation{%
-  \institution{University of California, Santa Barbara}
-  \city{Santa Barbara}
-  \state{California}
-  \country{USA}
-}
-
-
-% \author{Misha Sra}
-% \email{sra@cs.ucsb.edu}
-% \affiliation{%
-%   % \institution{University of California, Santa Barbara}
-%   % \city{Santa Barbara}
-%   % \state{California}
-%   % \country{USA}
-% }
-
-
-%%
-%% By default, the full list of authors will be used in the page
-%% headers. Often, this list is too long, and will overlap
-%% other information printed in the page headers. This command allows
-%% the author to define a more concise list
-%% of authors' names for this purpose.
-% \renewcommand{\shortauthors}{Trovato et al.}
-
-%%
-%% The abstract is a short summary of the work to be presented in the
-%% article.
-
-
 \begin{abstract}
 This paper examines how explanation requirements vary between repetitive and unique AI decision contexts through an empirical study of two XAI prototypes. We analyze user interactions with an e-commerce moderation system and a communication monitoring assistant, finding that standardized visual explanations benefit routine tasks while adaptive approaches suit context-specific decisions. Our results suggest design patterns for balancing transparency with usability across different usage scenarios. While our small-scale study (n=8) and prototype-based methodology limit generalizability, particularly regarding real-world implementation challenges and long-term user behavior, our findings provide valuable initial insights into context-dependent explanation design. Further research is needed to validate these patterns at scale and address open questions about optimal confidence communication and security-transparency tradeoffs.
 \end{abstract}
 
 
-%%
-%% CCS Concepts. Use the ACM Computing Classification Scheme:
-%% https://dl.acm.org/ccs/ccs_flat.cfm
-%%
-% \begin{CCSXML}
-% <ccs2012>
-% <concept>
-% <concept_id>10003120.10003121.10003122</concept_id>
-% <concept_desc>Human-centered computing~User studies</concept_desc>
-% <concept_significance>500</concept_significance>
-% </concept>
-% <concept>
-% <concept_id>10003120.10003121.10003124</concept_id>
-% <concept_desc>Human-centered computing~Interaction design</concept_desc>
-% <concept_significance>300</concept_significance>
-% </concept>
-% </ccs2012>
-% \end{CCSXML}
-
-% \ccsdesc[500]{Human-centered computing~User studies}
-% \ccsdesc[300]{Human-centered computing~Interaction design}
-
-
-\begin{CCSXML}
-<ccs2012>
-<concept>
-<concept_id>10003120.10003121.10003122</concept_id>
-<concept_desc>Human-centered computing~User studies</concept_desc>
-<concept_significance>500</concept_significance>
-</concept>
-<concept>
-<concept_id>10003120.10003121.10003124</concept_id>
-<concept_desc>Human-centered computing~Interaction design</concept_desc>
-<concept_significance>300</concept_significance>
-</concept>
-<concept>
-<concept_id>10003120.10003121.10003123</concept_id>
-<concept_desc>Human-centered computing~Empirical studies in HCI</concept_desc>
-<concept_significance>300</concept_significance>
-</concept>
-<concept>
-<concept_id>10002978.10003029</concept_id>
-<concept_desc>Security and privacy~Usability in security and privacy</concept_desc>
-<concept_significance>200</concept_significance>
-</concept>
-<concept>
-<concept_id>10003120.10003145</concept_id>
-<concept_desc>Human-centered computing~Interactive systems and tools</concept_desc>
-<concept_significance>200</concept_significance>
-</concept>
-</ccs2012>
-\end{CCSXML}
 
 \ccsdesc[500]{Human-centered computing~User studies}
 \ccsdesc[300]{Human-centered computing~Interaction design}
@@ -164,15 +31,8 @@ This paper examines how explanation requirements vary between repetitive and uni
 \ccsdesc[200]{Human-centered computing~Interactive systems and tools}
 
 
-%%
-%% Keywords. The author(s) should pick words that accurately describe
-%% the work being presented. Separate the keywords with commas.
-% \keywords{Explainable AI, Decision Support, Human Computer Interaction}
-% \keywords{Explainable AI, XAI, Human-Computer Interaction, HCI, User Interface Design, Content Moderation, Communication Monitoring}
 
-\keywords{Explainable AI, XAI, Human-Computer Interaction, HCI, User Interface Design, Content Moderation, Communication Monitoring, Interface Evaluation, AI Transparency, User Trust, Decision Support Systems, Cognitive Load Theory, 
-% Privacy-Preserving AI, 
-Human-AI Collaboration, User Experience Design}
+\keywords{Explainable AI, XAI, Human-Computer Interaction, HCI, User Interface Design, Content Moderation, Communication Monitoring, Interface Evaluation, AI Transparency, User Trust, Decision Support Systems, Cognitive Load Theory, Human-AI Collaboration, User Experience Design}
 
 \maketitle
 
@@ -214,10 +74,6 @@ This work examines how recurring and one-time decision patterns shape explanatio
 
 % \section{Contributions}
 
-% %% TODO make differentiation from prior work clear
-% %% TODO strengthen connection between prototypes and broader XAI principles
-% %% TODO Replace current bullet points with more substantive claims
-% %% TODO Highlight novel design patterns identified
 
 % This paper makes three contributions to the study of explainable AI interfaces:
 
@@ -514,9 +370,6 @@ Using a between-subjects design, participants evaluated one interface: two CS an
     \item Assess a prohibited item flag: bottom of Figure \ref{fig:other_flows} showing e-cigarette listing.
 \end{enumerate}
 
-% \pagebreak
-
-
 \textbf{Communication Monitor Tasks:}
 \begin{enumerate}
     \item Analyze a lease agreement contradiction: Figures \ref{fig:explaination_tabs} and \ref{fig:discuss_expanded} showing backyard access dispute.
@@ -527,9 +380,6 @@ Using a between-subjects design, participants evaluated one interface: two CS an
 A retrospective interview collected feedback on participants' experiences, understanding of AI explanations, and improvement suggestions. Participants also rated explanation effectiveness on Likert scales, focusing on understanding the AI's decision-making and trust in its explanations (Appendices \ref{sec:scenario1_interview}, \ref{sec:scenario2_interview}).
 
 We focused our analysis on how the explanations affected comprehension and trust metrics, with particular attention to differences between CS and non-CS participants' responses.
-
-
-
 
 \section{User Study Results}
 

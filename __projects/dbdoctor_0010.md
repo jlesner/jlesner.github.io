@@ -7,54 +7,6 @@ PROJECT: “DBDoctor: LLM-Aided SMT Refutation of SQL Query Equivalence”
       1.   
    6. The hardest part of this project was to
 
-   % This is samplepaper.tex, a sample chapter demonstrating the
-% LLNCS macro package for Springer Computer Science proceedings;
-% Version 2.21 of 2022/01/12
-%
-\documentclass[runningheads]{llncs}
-
-\usepackage[T1]{fontenc}
-\usepackage{graphicx}
-\usepackage{float}
-\usepackage{listings}
-\usepackage{xcolor}
-\usepackage[section]{placeins} % ensures floats stay within sections
-% \usepackage{caption}
-% \usepackage{subcaption}
-\usepackage{microtype} % improves spacing
-\usepackage{etoolbox}
-\usepackage{booktabs}
-
-% \usepackage{subfig}
-
-
-% Reduce extra vertical space before and after figures/tables
-\setlength{\textfloatsep}{10pt plus 2pt minus 2pt}
-\setlength{\floatsep}{8pt plus 1pt minus 1pt}
-\setlength{\intextsep}{8pt plus 1pt minus 1pt}
-
-% Tighten listings
-\lstset{
-  aboveskip=4pt,
-  belowskip=4pt,
-  basicstyle=\ttfamily\small,
-  breaklines=true,
-  frame=single,
-  numbers=left,
-  numbersep=5pt,
-  xleftmargin=10pt,
-  framexleftmargin=12pt
-}
-
-% Make figure captions smaller and more compact
-% \captionsetup[figure]{font=small,skip=4pt}
-% \captionsetup[lstlisting]{font=small,skip=4pt}
-
-% Prevent overlarge floats from forcing blank pages
-\renewcommand{\topfraction}{0.9}
-\renewcommand{\bottomfraction}{0.8}
-\renewcommand{\textfraction}{0.07}
-\renewcommand{\floatpagefraction}{0.8}
 
 \begin{document}
 %
@@ -73,8 +25,7 @@ Fuheng~Zhao\inst{1} \and
 \email{\{jlesner,fuheng\_zhao,xyan,amr\}@cs.ucsb.edu}\\
 }
 %
-\maketitle              % typeset the header of the contribution
-%
+\maketitle   
 \begin{abstract}
 Automated optimization of SQL queries hinges on knowing when a rewritten query remains semantically equivalent to the original. Yet many formal verification tools, while rigorous, cannot handle features common in modern SQL (e.g., window functions), leaving large portions of real workloads outside their scope. This paper presents \textsc{DBDoctor}, an computer-aided verification system that uses Large Language Models (LLMs) to rewrite unsupported SQL into verifier-friendly forms and then delegates refutation to a state-of-the-art SMT-based SQL equivalence checker. The verifier’s counterexamples are validated against the original queries, creating a self-correcting loop. We show that our LLM aided approach extends verifier coverage to previously unsupported queries, discovers new counterexamples missed under practical time budgets, and remains consistent with the SMT-based verifier where it already succeeds. For database systems, this capability enables safer query optimization, regression testing of query rewrites, and guardrails for automated tuning -- impacting reliability and cost at scale -- while also exemplifying how LLMs can be combined with formal reasoning.
 
@@ -168,8 +119,6 @@ The system reports \textsc{refuted} only when it has validated a counterexample 
 \caption{\textbf{Performance of \textsc{DBDoctor} vs.\ VeriEQL, with per-pair detail.} \emph{Top Middle:} Running VeriEQL on the full LeetCode set (n=23{,}994) yields 22.9\% unsupported, 62.1\% non-refuted, and 15.0\% refuted query pairs. These three buckets define our evaluation subsets. \emph{Bottom (2x3 panels):} For each bucket (Subset~1: unsupported; Subset~2: non-refuted; Subset~3: refuted), we sample 100 query pairs and run four methods (Methods~1–4). In each panel, the \emph{upper bar chart} summarizes outcomes for the 100 pairs, while the \emph{heatmap} directly below shows the same results at per-pair resolution: each column is a method, each row is a query pair, and colors match the legend (red = unsupported, yellow = non-refuted, green = refuted). The bar heights are the marginal proportions of colored cells in the heatmap beneath them—i.e., the bar chart is an aggregate view of the per-pair matrix. These results show that \textsc{DBDoctor} expands verifier coverage on previously unsupported pairs (Subset~1), discovers additional counterexamples in non-refuted pairs (Subset~2), and remains consistent with the verifier on refuted pairs (Subset~3).}
 \label{fig:results}
 \end{figure}
-
-\FloatBarrier
 
 \subsection{Methods Compared}
 

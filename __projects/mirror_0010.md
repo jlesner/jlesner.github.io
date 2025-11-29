@@ -12,37 +12,6 @@
         
       This project taught me to think of LLM-based retrieval as an end-to-end system where models, prompts, hardware, and evaluation all interact. I learned to be rigorous about replication—treating discrepancies as signals rather than noise—and to design experiments that expose tradeoffs between effectiveness, efficiency, and robustness (for example, to changes in the initial BM25 ranking). Going forward, I would like to turn MIRROR into a standardized, open benchmarking suite for LLM-based ranking and explore learned prompt or budget-aware ranking strategies, where the system adapts its ranking method to query difficulty and compute constraints.
 
-% Systematic Evaluation of Neural Retrieval Models on the Touché 2020 Argument Retrieval Subset of BEIR
-% https://arxiv.org/pdf/2407.07790
-%
-% An Investigation of Prompt Variations for Zero-shot LLM-based Rankers
-% https://arxiv.org/pdf/2406.14117
-%
-
-\documentclass[sigconf, authorversion]{acmart}
-
-\usepackage{booktabs}    % For professional table formatting
-\usepackage{multirow}    % For merged rows
-\usepackage{float} % here for H placement parameter
-\usepackage{tikz}
-\usetikzlibrary{shapes.geometric, arrows, positioning, fit, backgrounds}
-
-\usepackage{adjustbox}
-\usepackage{subcaption}
-
-\AtBeginDocument{%
-  \providecommand\BibTeX{{%
-    Bib\TeX}}}
-
-\acmDOI{}
-\acmISBN{}
-\acmConference{}{}{}
-
-\settopmatter{printacmref=false} % Disable ACM reference format
-\renewcommand\footnotetextcopyrightpermission[1]{} % Remove copyright footnote
-
-\fancyhead{}
-\pagestyle{plain}
 
 \begin{document}
 
@@ -73,25 +42,6 @@ Ranking with Open Retrieval models}
   \country{USA}
 }
 
-% \author{Mehak Dhaliwal}
-% \email{mdhaliwal@ucsb.edu}
-% \affiliation{%
-%   % \institution{University of California, Santa Barbara}
-%   \city{Santa Barbara}
-%   \state{California}
-%   \country{USA}
-% }
-
-% \author{Jasmine Lesner}
-% \email{jlesner@ucsb.edu}
-% \affiliation{%
-%   % \institution{University of California, Santa Barbara}
-%   \city{Santa Barbara}
-%   \state{California}
-%   \country{USA}
-% }
-
-
 % \author{Tao Yang}
 % \email{tyang@cs.ucsb.edu}
 % \affiliation{%
@@ -110,36 +60,6 @@ We conduct a replication study of recent advances in zero-shot document ranking 
 \end{abstract}
 
 
-
-\begin{CCSXML}
-<ccs2012>
-<concept>
-<concept_id>10002951.10002952.10002953.10002960</concept_id>
-<concept_desc>Information systemsInformation retrieval</concept_desc>
-<concept_significance>500</concept_significance>
-</concept>
-<concept>
-<concept_id>10002951.10002952.10002953.10002961</concept_id>
-<concept_desc>Information systemsLanguage models</concept_desc>
-<concept_significance>500</concept_significance>
-</concept>
-<concept>
-<concept_id>10002951.10002952.10002953.10002955</concept_id>
-<concept_desc>Information systemsRetrieval models and ranking</concept_desc>
-<concept_significance>300</concept_significance>
-</concept>
-<concept>
-<concept_id>10002951.10002952.10003002</concept_id>
-<concept_desc>Information systemsEvaluation of retrieval results</concept_desc>
-<concept_significance>200</concept_significance>
-</concept>
-<concept>
-<concept_id>10010147.10010257</concept_id>
-<concept_desc>Computing methodologies~Natural language processing</concept_desc>
-<concept_significance>200</concept_significance>
-</concept>
-</ccs2012>
-\end{CCSXML}
 \ccsdesc[500]{Information retrieval}
 \ccsdesc[500]{Language models}
 \ccsdesc[300]{Retrieval models and ranking}
