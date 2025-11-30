@@ -9,7 +9,7 @@
    7. Conference Paper: [https://ebooks.iospress.nl/volumearticle/70169](https://ebooks.iospress.nl/volumearticle/70169) Was published at PAIS 2024 as a full paper  
    8. DEMO Paper: [https://ebooks.iospress.nl/doi/10.3233/FAIA241036](https://ebooks.iospress.nl/doi/10.3233/FAIA241036) and ECAI 2024 as a demo paper  
    9. The hardest part of this project was to learn how to reliably use AI technology for generating stories with pictures, music and sounds in a software project. It was my first time, I was not familiar with generative AI models outside of a normal chat interface. So learning how to constrain them to my task was difficult to wrap my head around. Also understanding the problems of context rot.   
-   10. If I continued this line of work, a possible next step would be to have a world state tracking to improve the cross branch coherence.   
+   10. If I continued this line of work, a possible next step would be to have a world state tracking to improve the cross branch coherence. Have both the player and the LLM interacting with an enviroment.  
 
    \section{Introduction}
 
