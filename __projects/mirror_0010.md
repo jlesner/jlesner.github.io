@@ -1,9 +1,11 @@
 3. PROJECT: “MIRROR: Measuring, Improving, and Reproducing Ranking with Open Retrieval Models”
 
-		INSTRUCTOR:  Professor Tao Yang at UCSB
+	INSTRUCTOR:  Professor Tao Yang at UCSB
 
     1. COURSE: CS291A: Neural Information Retrieval: covers advanced topics on neural information retrieval and web search engines. The content to be focused includes indexing, retrieval, ranking, and system optimization for large-scale search services with deep machine learning and NLP models. Recent papers in top conferences will be reviewed, and issues in relevance, efficiency, and scalability will be studied.  
+   
    2. Writeup: [https://www.overleaf.com/project/675bc7756de4e6a85d6cd043](https://www.overleaf.com/project/675bc7756de4e6a85d6cd043)   
+   
       SUMMARY:  [https://chatgpt.com/c/6929bbd1-c378-8328-843b-18c60e5c5003](https://chatgpt.com/c/6929bbd1-c378-8328-843b-18c60e5c5003)   
         
       For my MIRROR project (\*Measuring, Improving, and Reproducing Ranking with Open Retrieval models\*), I investigated how reliably we can use large language models (LLMs) for zero-shot document re-ranking and how to make these methods more effective and efficient in practice. I started by replicating the SIGIR 2024 “Setwise” paper, which proposed a family of pointwise, pairwise, listwise, and setwise LLM rankers. Using the public \`llm-rankers\` codebase, Pyserini, and open models such as Flan-T5 (large/xl/xxl), I re-ran their experiments on TREC DL and BEIR datasets, automated the pipeline for BM25 retrieval and LLM re-ranking, and built analysis notebooks to compute discrepancy metrics between my results and the paper’s. I was able to match their effectiveness (NDCG@10 within ±3% and the same ordering of methods), but uncovered substantial efficiency differences (e.g., a 96% gap in inference counts traced to batch size differences and 33–40% fewer generated tokens for some setwise methods), highlighting how fragile reproducibility can be when implementation details are under-specified.  
@@ -13,26 +15,11 @@
       This project taught me to think of LLM-based retrieval as an end-to-end system where models, prompts, hardware, and evaluation all interact. I learned to be rigorous about replication—treating discrepancies as signals rather than noise—and to design experiments that expose tradeoffs between effectiveness, efficiency, and robustness (for example, to changes in the initial BM25 ranking). Going forward, I would like to turn MIRROR into a standardized, open benchmarking suite for LLM-based ranking and explore learned prompt or budget-aware ranking strategies, where the system adapts its ranking method to query difficulty and compute constraints.
 
 
-\begin{document}
 
+%%%% Latest Writeup
 
-% \title{Zero-Shot Document Ranking Using LLMs:\\
-% Replication and Improvements}
-
-% Zero-Shot Document Ranking with LLMs:\\
-% A Replication Study}
-
-% 
 \title{\textsc{MIRROR}: Measuring, Improving and Reproducing \\
 Ranking with Open Retrieval models}
-% Title: 
-% \title{MIRROR: Measuring, Improving, and Reproducing \\
-% Zero-Shot LLM Document Ranking}
-
-% RAZOR
-% Reproducible Analysis of Zero-shot dOcument Ranking with LLMs
-% Emphasizes replication + sharp comparison of ranking methods and efficiency.
-
 
 \author{Mehak Dhaliwal and Jasmine Lesner}
 \affiliation{%

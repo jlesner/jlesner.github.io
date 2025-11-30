@@ -14,6 +14,10 @@
       1. Run prompt optimization  
       2. Turn the interface into an extension to google calendars  
 
+
+%% LATEST WRITEUP 
+
+
 # [>>>> TRY IT <<<<<](https://snipdue.tech)
 
 #### **Our Inspiration**  
