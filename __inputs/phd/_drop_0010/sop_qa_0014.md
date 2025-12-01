@@ -1,7 +1,5 @@
 STATEMENT OF PURPOSE (SOP) ANSWERS
 
-
-
 ### **1\. Why a CS PhD (and why now)?**
 
 3. Why do you want to pursue a **PhD in computer science** rather than just a master’s or going straight to industry?

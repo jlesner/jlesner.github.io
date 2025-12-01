@@ -1,4 +1,6 @@
-https://grad.berkeley.edu/admissions/application-process/writing-your-statements/#writing-your-statement-of-purpose-section-part-4-elaborate-on-your-academic-interests 
+
+
+from https://grad.berkeley.edu/admissions/application-process/writing-your-statements/#writing-your-statement-of-purpose-section-part-4-elaborate-on-your-academic-interests 
 
 Part 1: Introduce yourself, your interests and motivations
 

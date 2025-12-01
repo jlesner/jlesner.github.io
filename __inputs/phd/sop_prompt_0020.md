@@ -1,1 +1,3 @@
 I am applying for a computer science PhD at UCSB.   Use my STATEMENT OF PURPOSE (SOP) ANSWERS in the attached file to write a 1000 word UCSB Computer Science PhD “statement of purpose" essay (see UCSB STATEMENT OF PURPOSE REQUIREMENTS below). Please make the essay rich with details from my attached answers but due to length restriction include just the details you judge are best.  Use a writing style that is humble, plain spoken and shows modesty and humility.  Avoid fancy / showy writing, avoid complex sentence constructions, Avoid using the em dash. IMPORTANT: follow the REQUIREMENTS below.
+
+
