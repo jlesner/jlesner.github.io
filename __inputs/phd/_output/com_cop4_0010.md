@@ -18,7 +18,7 @@ I want to continue my PhD with Professor Xifeng Yan, building on the collaborati
 
 More broadly, I am drawn to UCSB because of its culture of rigorous, collaborative research. I have already spent a year learning the department's rhythms—attending seminars, working with faculty across courses, and engaging with the graduate community. I know I can thrive here.
 
-After my PhD, I want to work in industry research, building AI systems that are robust enough for high-stakes deployment. The specific domain I care most about is oncology—cancer killed both my grandfather and my uncle, and as a blood relative, this is not abstract to me. But I believe the bottleneck in medical AI is not disease-specific models; it is that current systems are brittle and opaque. By working on foundational questions of LLM reliability now, I will be better positioned to build systems that clinicians can actually trust.
+After my PhD, I want to work in industry research, building AI systems that are robust enough for high-stakes deployment. The specific domain I care most about is oncology—cancer killed both my grandfather and my uncle, and as a blood relative, this is not abstract to me. But I believe the bottleneck in medical AI is not disease-specific models; it is that current systems are brittle and opaque. By working on foundational questions of AI reliability now, I will be better positioned to build systems that clinicians can actually trust.
 
 I am ready for this work. I have published, presented internationally, and spent a year proving I can do graduate research at UCSB. I want to keep going.
 
