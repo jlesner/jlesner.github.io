@@ -1,0 +1,288 @@
+\documentclass[11pt]{article}
+
+% ---------- Packages ----------
+\usepackage[top=0.6in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
+\usepackage{mathpazo} 
+\usepackage[T1]{fontenc}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage[dvipsnames]{xcolor} 
+\usepackage{hyperref}
+\usepackage{fancyhdr} 
+\usepackage{lastpage} 
+\usepackage{changepage} 
+\usepackage{xstring}    
+
+% Tighten global line spacing slightly
+\setstretch{0.95}
+
+% ---------- Configuration ----------
+\pagestyle{fancy}
+\fancyhf{} 
+\renewcommand{\headrulewidth}{0pt} 
+\setlength{\headheight}{15pt}
+
+% Header for pages > 1 
+\fancyhead[R]{\footnotesize \thepage\ / \pageref{LastPage}}
+\fancyhead[L]{\footnotesize \textbf{Jasmine Lesner} }
+
+% Suppress header on the first page
+\fancypagestyle{plain}{%
+  \fancyhf{}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+% Link colors
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,
+    urlcolor=black,
+}
+
+% --- FIXING THE INDENTS ---
+\setlist[itemize]{leftmargin=1.5em, labelsep=0.5em, itemsep=2pt, parsep=0pt, topsep=2pt, partopsep=0pt}
+
+% ---------- Convenience Macros ----------
+
+% 1. Name at top 
+\newcommand{\CVName}[1]{%
+  \begin{center}
+    {\Huge\bfseries #1}
+  \end{center}
+}
+
+% HELPER: Clean Link Display
+\newcommand{\SmartLink}[1]{%
+    \StrSubstitute{#1}{https://}{}[\tempA]%
+    \StrSubstitute{\tempA}{http://}{}[\tempB]%
+    \StrSubstitute{\tempB}{www.}{}[\tempC]%
+    \href{#1}{\tempC}%
+}
+
+% 2. Contact Line 
+\newcommand{\CVContact}[4]{%
+  \begin{center}
+    \small 
+    \href{mailto:#1}{#1} $\:\cdot\:$
+    \SmartLink{#2} $\:\cdot\:$
+    \SmartLink{#3} $\:\cdot\:$
+    \SmartLink{#4}
+  \end{center}
+  \vspace{0.2em} 
+  \hrule height 0.5pt 
+  \vspace{0.6em}
+}
+
+% 3. Section definition
+\newlength{\sectionwidth}
+\setlength{\sectionwidth}{1.35in} % Width of the left column (Header)
+
+\newcommand{\CVSection}[2]{%
+  \vspace{1.4em} 
+  % The Header (placed in the left margin using a zero-width box)
+  \noindent
+  \makebox[0pt][l]{%
+    \parbox[t]{\sectionwidth}{%
+      \raggedright\scshape\bfseries\small #1%
+    }%
+  }%
+  % The Content (indented using adjustwidth to allow page breaks)
+  \begin{adjustwidth}{\sectionwidth}{0pt}
+    #2
+  \end{adjustwidth}
+}
+
+% 4. Entry Formatting
+\newcommand{\CVEntry}[4]{%
+  \vspace{0.4em} % Slightly more space between projects
+  {\bfseries #1}\hfill {\bfseries #2}\\[0.1em] 
+  #3\hfill \textit{#4}
+}
+
+% ===============================================================
+\begin{document}
+\thispagestyle{plain} 
+
+% Negative vspace to pull header up ONLY on the first page
+\vspace*{-4em}
+
+% --- HEADER ---
+\CVName{Jasmine Lesner}
+
+\CVContact
+  {jlesner@ucsb.edu}          
+  {https://jlesner.github.io}   
+  {https://github.com/jlesner} 
+  {https://linkedin.com/in/jmlesner} 
+
+% ===================== RESEARCH INTERESTS ===============================
+\CVSection{Research\\Interests}{%
+  \small
+  Broadly interested in \textbf{Trustworthy AI} and \textbf{LLM Optimization}, specifically:
+  \begin{itemize}
+    \item \textbf{Prompt Optimization:} Inference-Time Scaling, Automatic Prompt Optimization (APO), Neuro-symbolic integration.
+    \item \textbf{Reliability \& Robustness:} Mechanistic Interpretability, Formal Verification for LLMs, and Human-AI Alignment.
+    \item \textbf{Architectures:} Large Language Models (LLMs), Graph Neural Networks (GNNs), Retrieval-Augmented Generation (RAG).
+  \end{itemize}
+}
+
+% ===================== EDUCATION ========================================
+\CVSection{Education}{%
+  \CVEntry
+    {University of California, Santa Barbara}
+    {Santa Barbara, CA}
+    {M.S.\ in Computer Science, GPA 3.8/4.0}
+    {2024 -- 2025}
+    
+  \begin{itemize}
+    \item \textbf{Advisor:} Dr. Xifeng Yan
+    \item \textbf{Masters Project:} HAPO: Hyper-reflection for Algorithmic Prompt Optimization
+    \item \textbf{Relevant Coursework:} Neural Information Retrieval, Foundation Models, Bionic Vision, Graphs \& GNNs.
+  \end{itemize}
+  \CVEntry
+    {University of California, Santa Cruz}
+    {Santa Cruz, CA}
+    {B.S.\ in Computer Science, GPA 3.9/4.0}
+    {2021 -- 2024}
+    
+  \begin{itemize}
+    \item \textbf{Honors:} Dean's Honors (top 15\% of School of Engineering).
+    \item \textbf{Research:} CAHSI/NSF-sponsored undergraduate research on State Machine Visualization (SMV).
+  \end{itemize}
+}
+
+% ===================== PUBLICATIONS =====================================
+\CVSection{Publications\\(Peer-Reviewed)}{%
+  \begin{itemize}
+      \item \textbf{Lesner, J.}, Murayama, L., Guizar, T., Phunjamaneechot, P., \& Shapiro, D. (2024). AI Personalized Interactive Fiction for Young Children. \textit{Frontiers in Artificial Intelligence and Applications: Vol. 392. ECAI 2024} (pp. 4756-4763). IOS Press.\\\href{https://doi.org/10.3233/FAIA241074}{https://doi.org/10.3233/FAIA241074}
+      
+      \item \textbf{Lesner, J.}, Murayama, L., Guizar, T., Phunjamaneechot, P., \& Shapiro, D. (2024). A Demonstration of AI Personalized Interactive Fiction for Young Children. \textit{Frontiers in Artificial Intelligence and Applications: Vol. 392. ECAI 2024} (pp. 4487-4490). IOS Press.\\ \href{https://doi.org/10.3233/FAIA241036}{https://doi.org/10.3233/FAIA241036}
+  \end{itemize}
+}
+
+\CVSection{(Preprints \&\\In-Prep)}{%
+  \begin{itemize}
+      \item \textbf{Lesner, J.}, Zhao, F., Abbadi A., \& Yan, X. (2025). DBDoctor: LLM-Aided SMT Refutation of SQL Query Equivalence. \textit{In preparation for submission to CAV 2026}.
+
+      \item \textbf{Lesner, J.}, Anand S., \& Singh, A. K. (2025). NutriGNN: Food Nutrient Prediction with an LLM Enriched Knowledge Graph. \textit{Preprint}.
+      
+      \item \textbf{Lesner, J.}, \& Beyeler, M. (2025). SymbolSight: Visual Symbol Sets That Remain Clear Despite Distortions from Retina Implants. \textit{In preparation for submission to EMBC 2026}.
+
+      \item \textbf{Lesner, J.}, Dhaliwal, M., \& Yang T. (2025). MIRROR: Measuring, Improving, and Reproducing Ranking with Open Retrieval Models. \textit{Preprint}.
+      
+      \item \textbf{Lesner, J.}, \& Elkaim, G. (2024). Automated Visualization for Flat and Hierarchical State Machines. \textit{Preprint}.
+  \end{itemize}
+}
+
+% ===================== RESEARCH EXPERIENCE ==============================
+\CVSection{Research\\Experience}{%
+\CVEntry
+{HAPO: Hyper-reflection for Algorithmic Prompt Optimization}
+    {UCSB}
+    {Advisor: Dr. Xifeng Yan \& Dr. Amr El Abbadi}
+    {Spring 2025}
+  \begin{itemize}
+    \item  
+
+  \end{itemize}
+\CVEntry
+{DBDoctor: LLM-Aided SMT Refutation}
+    {UCSB}
+    {Advisor: Dr. Xifeng Yan \& Dr. Amr El Abbadi}
+    {Spring 2025}
+  \begin{itemize}
+    \item Developing a neuro-symbolic verification framework that utilizes LLMs to assist SMT solvers in refuting SQL query equivalence, targeting high-assurance database reliability.
+    \item Designed a feedback loop where LLMs generate targeted counter-examples to guide formal solvers, bridging the gap between probabilistic generation and formal guarantees.
+    \item Currently preparing manuscript for submission to CAV 2026.
+  \end{itemize}
+  \vspace{0.4em}
+  \CVEntry
+    % TODO Give symbol sight a better title after the : 
+    {SymbolSight: Bionic Vision Encodings}
+    {UCSB}
+    {Advisor: Dr. Michael Beyeler}
+    {Winter 2025}
+  \begin{itemize}
+    % TODO write how you created a method to select an optimized symbol set based on varying amounts of distortions using confusion matrices between alphabet letters after simulation using vision neural networks
+    \item Investigated visual symbol sets designed to remain legible despite phosphene distortions caused by retinal implants.
+    \item Utilized the \texttt{pulse2percept} framework to simulate prosthetic vision; designed an optimized symbol set that significantly improved legibility in low-resolution environments.
+    \item Voted top project (1st of 16) in the graduate Bionic Vision course; preparing submission for IEEE EMBC 2026.
+  \end{itemize}
+  \vspace{0.4em}
+  \CVEntry
+    {MIRROR: Open Retrieval Model Ranking}
+    {UCSB}
+    {Advisor: Dr. Tao Yang}
+    {Fall 2024}
+  \begin{itemize}
+  % TODO fix to have more understandable statisitcs
+    \item Conducted a rigorous reproducibility study of ``Setwise'' LLM rankers, identifying critical efficiency bottlenecks (96\% inference overhead) in existing baselines.
+    \item Systematically redesigned prompts for pointwise and setwise rankers, achieving up to 40.7\% NDCG@10 gains on specific BEIR datasets.
+    \item Extended evaluation to NovelEval-2306, demonstrating robust generalization of setwise methods beyond model training cutoffs.
+  \end{itemize}
+  \vspace{0.4em}
+  \CVEntry
+    {GUARD: Explainable AI Prototype}
+    {UCSB}
+    {Advisor: Dr. Misha Sra}
+    {Fall 2024}
+  \begin{itemize}
+    \item Prototyped a mobile-first ``Guided Understanding'' system to detect ambiguities and inconsistencies in real-time spoken and written communication.
+    % TODO mention the experiments/studies performed to test UI/UX design 
+
+  \end{itemize}
+  \vspace{0.4em}
+  \CVEntry
+    {NutriGNN: Graph Neural Networks}
+    {UCSB}
+    {Advisor: Dr. Ambuj K. Singh}
+    {Winter 2024}
+  \begin{itemize}
+    \item Developed a Graph Neural Network (GNN) enriched with an LLM-generated Knowledge Graph to predict missing nutritional data.
+    \item Demonstrated that integrating semantic knowledge from LLMs improves representation learning and reasoning capabilities in sparse graph datasets.
+  \end{itemize}
+  \vspace{0.4em}
+  \CVEntry
+    {AI Personalized Interactive Fiction (AIPIF)}
+    {UCSC}
+    {Advisor: Dr. Daniel Shapiro}
+    {2023 -- 2024}
+  \begin{itemize}
+    \item Architected a system combining LLMs with XPATH/XSLT constraints to generate consistent, multi-branch interactive fiction.
+    \item Mitigated LLM ``context rot'' and hallucination by enforcing structured XML story trees, ensuring narrative coherence across long interaction sessions.
+    \item First author on full paper accepted at PAIS 2024; invited for oral presentation and demo at ECAI 2024.
+  \end{itemize}
+  \vspace{0.4em}
+  \CVEntry
+    {State Machine Visualizer (SMV)}
+    {UCSC}
+    {Advisor: Dr. Gabriel Elkaim}
+    {2022 -- 2024}
+  \begin{itemize}
+    \item Engineered a static analysis tool using XPATH/XSLT to automatically reverse-engineer state diagrams from C-based embedded control code.
+    \item Created a transpiler capable of handling diverse coding patterns, significantly improving debugging workflows for mechatronics students.
+    \item Released tool as open source and produced a technical report detailed the static analysis approach.
+  \end{itemize}
+}
+
+% ===================== SELECTED PROJECTS =================================
+\CVSection{Awards \&\\Projects}{%
+  \CVEntry
+    {SnipDue: AI Schedule Sync}
+    {SBHacks XI}
+    {Winner: ``Best Use of Gen AI''}
+    {2025}
+  \begin{itemize}
+    \item Built a schedule synchronization engine using Claude 3.5 Sonnet and Cloudflare Workers to parse unstructured course data into calendar events.
+  \end{itemize}
+}
+
+% ===================== SKILLS ===========================================
+\CVSection{Technical\\Skills}{%
+  \textbf{Languages:} Python, Java, C, SQL, JavaScript, XSLT/XPath, LaTeX\\
+  \textbf{AI/ML:} PyTorch, TensorFlow, LangChain, DSPy, Hugging Face, GNNs\\
+  \textbf{Infrastructure:} AWS (EC2/S3), Cloudflare Workers, Google Cloud, Docker, Git, Linux
+}
+
+\end{document}
