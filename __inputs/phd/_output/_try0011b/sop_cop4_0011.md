@@ -1,6 +1,6 @@
 # Statement of Purpose
 
-I was staring at logs when I realized what kind of researcher I wanted to be. It was late in my Master's year at UCSB, and I was testing a compact language model on SQL tasks. The model had consumed its entire generation budget "thinking"—pages of chain-of-thought reasoning—without ever producing an answer. It wasn't a failure of intelligence. It was a failure of reliability.
+I was staring at logs when I realized what kind of researcher I wanted to be. It was late in my Master's at UCSB, and I was testing a compact language model on SQL tasks. The model had consumed its entire generation budget "thinking"—pages of chain-of-thought reasoning—without ever producing an answer. It wasn't a failure of  intelligence. It was a failure of reliability.
 
 That moment clarified my trajectory. As AI systems scale, the gap between what they can do and what they can be trusted to do is becoming the most critical bottleneck in the field. I am applying to the PhD program to close that gap. Specifically, I want to research trustworthy AI, focusing on inference-time scaling for large language models and the intersection of neural networks with formal verification.
 
@@ -10,7 +10,7 @@ My path to this focus began as an undergraduate at UC Santa Cruz. I joined an NS
 
 My first approach used regular expressions. It collapsed on realistic inputs within weeks. I scrapped it and taught myself Abstract Syntax Tree parsing from scratch, building a pipeline with PycParser, XPATH, and XSLT to identify states, transitions, and guard conditions. The hardest part was handling the diversity of student implementations—I collected code samples across two academic years to harden the system against coding styles I hadn't anticipated.
 
-When the funding ended, I kept working. Not because I had to, but because the problem was still unsolved. The tool is now used in UCSC's mechatronics curriculum, and I am preparing a paper for publication. That project taught me something I still carry: research is not about innate genius. It is about the willingness to backtrack and rebuild.
+The project three months of funding but when the funding ended, still I kept working. Not because I had to, but because the problem was still unsolved. The tool is now used in UCSC's mechatronics curriculum, and I am preparing a paper for publication. That project taught me something I still carry: research is not about innate genius. It is about the willingness to backtrack and rebuild.
 
 ---
 
