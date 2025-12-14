@@ -12,6 +12,6 @@ bundle install
 bundle exec jekyll serve -l -H localhost -P 4000
 
 
-apt install libimage-exiftool-perl
-exiftool -Title="" -Author="" -Producer="" "`wslpath -u 'C:\Users\chris\OneDrive\jlesner\resume\jlesner_cv_2025_0010.pdf'`"
+# apt install libimage-exiftool-perl
+# exiftool -Title="" -Author="" -Producer="" "`wslpath -u 'C:\Users\chris\OneDrive\jlesner\resume\jlesner_cv_2025_0010.pdf'`"
 
