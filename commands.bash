@@ -1,5 +1,4 @@
-sudo apt install ruby-dev ruby-bundler nodejs
-sudo apt install build-essential gcc make
+sudo apt install ruby-dev ruby-bundler nodejs build-essential gcc make
 
 git clone git@github.com:jlesner/jlesner.github.io.git
 cd jlesner.github.io
