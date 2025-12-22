@@ -1,0 +1,2 @@
+url: ""      # Leave empty so builds don't hardcode a host
+baseurl: ""  # Set to "/subpath" if you host under a subdirectory
