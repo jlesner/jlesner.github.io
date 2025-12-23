@@ -9,11 +9,20 @@ main:
   - title: "Projects"
     url: /projects/    
 
+  # - title: "Papers"
+  #   url: /publications/
+
   - title: "Papers"
-    url: /publications/
+    url: /papers/
+
+  - title: "Prototypes"
+    url: /prototypes/
 
   - title: "Photos"
-    url: /photos/    
+    url: /photos/
+
+  - title: "Videos"
+    url: /videos/
 
   # - title: "Publications"
   #   url: /publications/

@@ -46,7 +46,7 @@ redirect_from:
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <p>
-        A meta-optimization framework that improves automatic prompt optimization (APO) through "hyper-reflection." HAPO iteratively refines prompts by analyzing optimization trajectories, enabling compact LLMs to achieve performance closer to frontier models on complex tasks like SQL query equivalence generation and refutation.
+        An improvement of GEPA (automatic prompt optimization) through "hyper-reflection", enabling compact LLMs to achieve performance closer to frontier models on complex tasks like SQL query equivalence generation and refutation.
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://jlesner0.ackop.com/hapo_0023.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -74,7 +74,8 @@ redirect_from:
     </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <p>
-        A verification framework that combines large language models with SMT solvers to detect semantic bugs in SQL query rewrites. DBDoctor uses LLMs to propose counterexamples and rewrite queries into SMT-friendly forms, dramatically reducing the rate of "unsupported" query pairs from 100% to 1% and successfully refuting 47% of previously unverifiable cases.
+        <!-- A verification framework that combines large language models with SMT solvers to detect semantic bugs in SQL query rewrites. -->
+        DBDoctor uses LLMs to propose counterexamples and rewrite queries into SMT-friendly forms, dramatically reducing the rate of "unsupported" query pairs from 100% to 1% and successfully refuting 47% of previously unverifiable cases.
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://jlesner0.ackop.com/dbdoctor_cav_0036.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -92,7 +93,8 @@ redirect_from:
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <p>
-        A research project optimizing visual symbol sets for patients with retinal implants. By analyzing confusion matrices over simulated letter recognition using the pulse2percept framework, SymbolSight derives symbol sets that remain distinguishable even under the severe distortions introduced by low-resolution prosthetic vision.
+        A research project optimizing visual symbol sets for patients with retinal implants. 
+        By analyzing confusion matrices over simulated letter recognition using the pulse2percept framework, SymbolSight derives symbol sets that remain distinguishable even under the severe distortions introduced by low-resolution prosthetic vision.
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://jlesner0.ackop.com/symbolsight_0034.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">
@@ -123,7 +125,8 @@ redirect_from:
     </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <p>
-        A graph neural network approach to predicting missing nutrient values in food composition databases. By building a knowledge graph enriched with LLM-derived semantic relations between foods, NutriGNN improves representation learning and prediction quality, especially for low-resource food items with sparse nutritional data.
+        A graph neural network approach to predicting missing nutrient values in food composition databases. 
+        By building a knowledge graph enriched with LLM-derived semantic relations between foods, NutriGNN improves representation learning and prediction quality, especially for low-resource food items with sparse nutritional data.
       </p>
       <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
         <a href="https://jlesner0.ackop.com/nutrignn_0032.pdf" target="_blank" style="flex: 1; display: inline-block; padding: 0.5rem; text-align: center; background-color: #333; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9rem; white-space: nowrap;">

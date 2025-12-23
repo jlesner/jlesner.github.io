@@ -37,9 +37,11 @@ redirect_from:
 
 # 🎉 NEWS 🎉
 
+- 2025-09: Graduated with CS M.S. from UC Santa Barbara
+
 - 2025-01: [SnipDue]({{ base_path }}/projects#snipdue) wins "Best Use of GenAI Award" at SBHacks XI
 
-- 2024-10: [AIPIF]({{ base_path }}/projects#aipif) presented at ECAI-2024 and PAIS-2024 in Spain
+- 2024-10: [AIPIF]({{ base_path }}/projects#aipif) presented at ECAI-2024 and PAIS-2024
 
 - 2024-09: Started CS M.S. at UC Santa Barbara
 

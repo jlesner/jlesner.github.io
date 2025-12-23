@@ -112,10 +112,6 @@ What were the results? What artifacts were created?
 
 The project reduced the percentage of "unsupported" query pairs from 100% to 1% in the tested subset and successfully refuted 47% of them. Artifacts include a paper currently in progress for the International Conference on Computer Aided Verification (CAV 2026\) and the DBDoctor system itself.
 
-What was the hardest part, and how did you handle it?
-
-Information not available in the provided text. (The text contains a placeholder "%% TODO finish" for this section).
-
 What did you learn (technically and about yourself as a researcher)?
 
 Information not available in the provided text. (The text does not contain a specific section detailing personal or technical learnings for this specific project).
@@ -154,9 +150,6 @@ What were the results? What artifacts were created?
 
 The project achieved a 75% accuracy on the SQL Analysis task using a compact 8B model, a 30% improvement over baselines, and 100% success on SQL Synthesis. The project was voted the \#1 project in the class. Artifacts include a writeup, a presentation, and a paper in preparation for IEEE EMBC.
 
-What was the hardest part, and how did you handle it?
-
-Information not available in the provided text. (The text contains a placeholder "..." for this section).
 
 What did you learn (technically and about yourself as a researcher)?
 
