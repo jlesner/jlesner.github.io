@@ -153,7 +153,14 @@ redirect_from:
 
 <h1>Undergraduate Courses</h1>
 
-
+<h2 id="cmpm146">
+  <a href="https://courses.engineering.ucsc.edu/courses/cmpm146" target="_blank">
+    CMPM 146 - Game AI
+  </a>
+</h2>
+<p>Covers AI algorithms for video games: search, control, and learning, and the application of AI to improve game design, development, and game play.
+  <br><strong>Grade Achieved: A+</strong>
+</p>
 
 <h2 id="cse142">
   <a href="https://catalog.ucsc.edu/en/current/general-catalog/courses/cse-computer-science-and-engineering/upper-division/cse-142" target="_blank">

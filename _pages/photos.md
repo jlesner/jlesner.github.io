@@ -18,6 +18,17 @@ author_profile: true
       flex: 1; 
       max-width: 110%;
   }
+
+    /* @media (min-width: 57.8125em) { */
+    .page {
+        /* width: 83.0508474576%;
+        float: right;
+        margin-right: 0;
+        padding-left: 4.2372881356%; */
+        /* padding-right: 16.9491525424%; */
+        padding-right: 0;
+    }
+    /* } */
 </style>
 
 <div class="gallery" >
@@ -29,6 +40,11 @@ author_profile: true
                 <img src="https://jlesner0.ackop.com/svbikex/PXL_20251119_214648283.jpg" alt="" style="width: 100%; height: auto;">
             </a>
         </div>
+        <!-- <div class="project-image" >
+            <a href="https://jlesner0.ackop.com/sbhack_2025_selected/p0030_PXL_20250112_165519968.jpg" target="_blank">  
+                <img src="https://jlesner0.ackop.com/sbhack_2025_selected/p0030_PXL_20250112_165519968.jpg" alt="" style="width: 100%; height: auto;">
+            </a>
+        </div> -->
         <div class="project-image" >
             <a href="https://jlesner0.ackop.com/svbikex/1254964174c.jpg" target="_blank">
                 <img src="https://jlesner0.ackop.com/svbikex/1254964174c.jpg" alt="" style="width: 100%; height: auto;">
