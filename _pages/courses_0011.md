@@ -73,6 +73,7 @@ redirect_from:
 
 
 <h1>Graduate Courses</h1>
+
 <h2 id="cmpsc291i">
   <a href="https://cs.ucsb.edu/education/courses/special-topics-seminars/special-topics-course/cmpsc-291i" target="_blank">
     CMPSC 291I - Special Topics in Computer Science: Visual Computing and Interaction
@@ -113,9 +114,8 @@ redirect_from:
 </h2>
 <p>
   Statistical machine learning for discovering patterns in large data sets. Topics include data exploration, classification and regression trees, random forests, clustering, association rules, model selection, and performance evaluation.
-  <!-- <br>Professor: <a href="https://www.pstat.ucsb.edu/people/laura-baracaldo" target="_blank">Laura Baracaldo Lancheros</a> -->
-  <br>Professor: <a href="https://www.linkedin.com/in/laura-baracaldo-lancheros-b7a97547/" target="_blank">Laura Baracaldo Lancheros</a>
-  <br><strong>Grade Achieved: B+</strong> (Missed a quiz during conference trip to Spain)
+  <br>Professor: <a href="https://www.pstat.ucsb.edu/people/laura-baracaldo" target="_blank">Laura Baracaldo Lancheros</a>
+  <br><strong>Grade Achieved: B+</strong> (Missed work during conference trip to Spain)
 </p>
 
 <h2 id="pstat235">
@@ -152,15 +152,6 @@ redirect_from:
 </p>
 
 <h1>Undergraduate Courses</h1>
-
-<h2 id="cmpm146">
-  <a href="https://courses.engineering.ucsc.edu/courses/cmpm146" target="_blank">
-    CMPM 146 - Game AI
-  </a>
-</h2>
-<p>Covers AI algorithms for video games: search, control, and learning, and the application of AI to improve game design, development, and game play.
-  <br><strong>Grade Achieved: A+</strong>
-</p>
 
 <h2 id="cse142">
   <a href="https://catalog.ucsc.edu/en/current/general-catalog/courses/cse-computer-science-and-engineering/upper-division/cse-142" target="_blank">
