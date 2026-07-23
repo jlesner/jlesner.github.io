@@ -1,0 +1,27 @@
+{% assign project = include.project %}
+{% assign flip = false %}
+{% if include.index | modulo: 2 == 0 %}{% assign flip = true %}{% endif %}
+
+<div class="project-row{% if flip %} project-row--flip{% endif %}">
+  <div class="project-row__media">
+    <div class="archive__item-teaser">
+      <a href="{{ base_path }}/images/portfolio/{{ project.image }}">
+        <img src="{{ base_path }}/images/portfolio/{{ project.image }}" alt="{{ project.title | markdownify | strip_html }}">
+      </a>
+    </div>
+    {% if project.image_caption %}<p class="page__meta">{{ project.image_caption }}</p>{% endif %}
+  </div>
+  <div class="project-row__body">
+    <h2 id="{{ project.id }}">{{ project.title }}</h2>
+    <p>{{ project.excerpt }}</p>
+    {% if project.links %}
+      <div class="project-row__links">
+        {% for link in project.links %}
+          <a href="{{ link.url }}" target="_blank" class="btn btn--info"><i class="{{ link.icon }}"></i> {{ link.label }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+    {% if project.note %}<p class="page__meta">{{ project.note }}</p>{% endif %}
+    {% if project.status %}<p class="page__meta">{{ project.status }}</p>{% endif %}
+  </div>
+</div>

@@ -6,14 +6,6 @@ author_profile: true
 ---
 
 <style>
-  body {
-      padding: 60px 0 0;
-  }
-
-  .author__bio {
-      padding-right: 70px;
-  }
-
   .project-image {
       flex: 1; 
       max-width: 110%;

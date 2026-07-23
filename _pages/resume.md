@@ -9,16 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-<style>
-  body {
-      padding: 60px 0 0;
-  }
-
-  .author__bio {
-      padding-right: 70px;
-  }
-</style>
-
 <!-- 
 <embed 
   src="../files/resume_2025_0013.pdf" 
