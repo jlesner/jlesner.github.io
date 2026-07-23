@@ -1,0 +1,11 @@
+{% assign home_item = include.item %}
+<div class="grid__item">
+  <article class="archive__item">
+    <div class="archive__item-teaser">
+      <img src="{{ base_path }}/images/portfolio/{{ home_item.image }}" alt="">
+    </div>
+    <div class="archive__item-body">
+      <h2 class="archive__item-title"><a href="{{ base_path }}{{ home_item.url }}" rel="permalink">{{ home_item.title | markdownify | remove: "<p>" | remove: "</p>" }}</a></h2>
+    </div>
+  </article>
+</div>
