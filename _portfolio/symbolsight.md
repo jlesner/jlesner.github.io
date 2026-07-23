@@ -2,7 +2,7 @@
 title: "SymbolSight: Robust Symbols for Retinal Implants"
 collection: portfolio
 permalink: /portfolio/symbolsight/
-id: symbolsight
+anchor: symbolsight
 order: 3
 image: symbolsight_0010.JPG
 excerpt: >

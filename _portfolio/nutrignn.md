@@ -2,7 +2,7 @@
 title: "NutriGNN: Food Nutrient Prediction with GNNs"
 collection: portfolio
 permalink: /portfolio/nutrignn/
-id: nutrignn
+anchor: nutrignn
 order: 4
 image: nutrignn_0010.JPG
 excerpt: >

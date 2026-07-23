@@ -2,7 +2,7 @@
 title: 'AI Personalized <span style="color: darkblue;">Interactive</span> Fiction (AIPIF)'
 collection: portfolio
 permalink: /portfolio/aipif/
-id: aipif
+anchor: aipif
 order: 10
 image: aipif_0010.png
 excerpt: >

@@ -1,10 +1,8 @@
 ---
 layout: archive
-title: ""
-permalink: /projects/
+title: "Hackathons"
+permalink: /hackathons/
 author_profile: true
-redirect_from:
-  - /portfolio
 ---
 {% include base_path %}
 <!-- <hr>  -->

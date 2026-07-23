@@ -2,7 +2,7 @@
 title: "Explainable AI Requirements: A Comparative Study of Repetitive and Unique Decision Contexts"
 collection: portfolio
 permalink: /portfolio/xai-requirements/
-id: xai-requirements
+anchor: xai-requirements
 order: 6
 image: xai_notif4.png
 excerpt: >

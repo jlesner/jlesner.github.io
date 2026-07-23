@@ -2,7 +2,7 @@
 title: 'AI Personalized <span style="color: darkblue;">Teaching</span> Fiction (AIPTF)'
 collection: portfolio
 permalink: /portfolio/aiptf/
-id: aiptf
+anchor: aiptf
 order: 9
 image: aiptf_0020.png
 image_caption: "TIP: Click on emojis to reveal images."

@@ -2,7 +2,7 @@
 title: "Embedding Vector Augmentation of USDA's Food Nutrient Imputation"
 collection: portfolio
 permalink: /portfolio/food-nutrient-imputation/
-id: food-nutrient-imputation
+anchor: food-nutrient-imputation
 order: 8
 image: betterfoodgroups.png
 excerpt: >

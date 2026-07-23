@@ -6,7 +6,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Computer Science graduate student at UC Santa Barbara (M.S. 2025), applying AI/ML to real-world problems — from LLM-aided database verification to accessible interfaces for retinal implants.
+I'm a Computer Science Ph.D. student at UC Santa Barbara, advised by Xifeng Yan, applying AI/ML to real-world problems — from LLM-aided database verification to accessible interfaces for retinal implants.
 
 ## Updates
 

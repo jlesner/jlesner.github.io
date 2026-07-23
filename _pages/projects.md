@@ -69,8 +69,8 @@ redirect_from:
       </p>
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
-      <a href="../images/hapo_0010.JPG" target="_blank">
-        <img src="../images/hapo_0010.JPG" alt="" style="width: 100%; height: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+      <a href="../images/portfolio/hapo_0010.JPG" target="_blank">
+        <img src="../images/portfolio/hapo_0010.JPG" alt="" style="width: 100%; height: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
       </a>
     </div>
   </div>
@@ -79,8 +79,8 @@ redirect_from:
   <h1 id="dbdoctor">DBDoctor: LLM-Aided SMT Refutation of SQL Query Equivalence</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <div class="project-image" style="flex: 1; max-width: 50%;">
-      <a href="../images/dbdoctor_0010.JPG" target="_blank">
-        <img src="../images/dbdoctor_0010.JPG" alt="" style="width: 100%; height: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+      <a href="../images/portfolio/dbdoctor_0010.JPG" target="_blank">
+        <img src="../images/portfolio/dbdoctor_0010.JPG" alt="" style="width: 100%; height: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
       </a>
     </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
@@ -120,8 +120,8 @@ redirect_from:
       </p>
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
-      <a href="../images/symbolsight_0010.JPG" target="_blank">
-        <img src="../images/symbolsight_0010.JPG" alt="" style="width: 100%; height: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+      <a href="../images/portfolio/symbolsight_0010.JPG" target="_blank">
+        <img src="../images/portfolio/symbolsight_0010.JPG" alt="" style="width: 100%; height: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
       </a>
     </div>
   </div>
@@ -130,8 +130,8 @@ redirect_from:
   <h1 id="nutrignn">NutriGNN: Food Nutrient Prediction with GNNs</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <div class="project-image" style="flex: 1; max-width: 50%;">
-      <a href="../images/nutrignn_0010.JPG" target="_blank">
-        <img src="../images/nutrignn_0010.JPG" alt="" style="width: 100%; height: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+      <a href="../images/portfolio/nutrignn_0010.JPG" target="_blank">
+        <img src="../images/portfolio/nutrignn_0010.JPG" alt="" style="width: 100%; height: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
       </a>
     </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
@@ -170,19 +170,19 @@ redirect_from:
         </p>
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
-      <a href="../images/snipdue_sale_0010.png" target="_blank">
-        <img  src="../images/snipdue_sale_0010.png" alt="" style="width: 100%; height: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+      <a href="../images/portfolio/snipdue_sale_0010.png" target="_blank">
+        <img  src="../images/portfolio/snipdue_sale_0010.png" alt="" style="width: 100%; height: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
       </a>
       <p>SnipDue is live and running 24/7!</p>
     </div>
   </div>
 
   <hr style="height: 5px; background-color: black; border: none;">
-  <h1>Explainable AI Requirements: A Comparative Study of Repetitive and Unique Decision Contexts</h1>
+  <h1 id="xai-requirements">Explainable AI Requirements: A Comparative Study of Repetitive and Unique Decision Contexts</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <div class="project-image" style="flex: 1; max-width: 50%;">
-      <a href="../images/xai_notif4.png" target="_blank">
-        <img  src="../images/xai_notif4.png" alt="" style="width: 100%; height: auto;">
+      <a href="../images/portfolio/xai_notif4.png" target="_blank">
+        <img  src="../images/portfolio/xai_notif4.png" alt="" style="width: 100%; height: auto;">
       </a>
     </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
@@ -206,7 +206,7 @@ redirect_from:
   </div>
 
   <hr style="height: 5px; background-color: black; border: none;">
-  <h1>Zero-Shot Document Ranking Using LLMs: Replication and Improvements</h1>
+  <h1 id="zero-shot-ranking">Zero-Shot Document Ranking Using LLMs: Replication and Improvements</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: top; flex-wrap: wrap;">
     <div class="project-content" style="flex: 1; max-width: 90%;">
       <p>
@@ -225,18 +225,18 @@ redirect_from:
       </p> -->
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
-      <a href="../images/llm_ranking_results_0010.png" target="_blank">
-        <img  src="../images/llm_ranking_results_0010.png" alt="" style="width: 100%; height: auto;">
+      <a href="../images/portfolio/llm_ranking_results_0010.png" target="_blank">
+        <img  src="../images/portfolio/llm_ranking_results_0010.png" alt="" style="width: 100%; height: auto;">
       </a>
     </div>
   </div>
 
   <hr style="height: 5px; background-color: black; border: none;">
-  <h1>Embedding Vector Augmentation of USDA's Food Nutrient Imputation</h1>
+  <h1 id="food-nutrient-imputation">Embedding Vector Augmentation of USDA's Food Nutrient Imputation</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-image" style="flex: 1; max-width: 50%;">
-      <a href="../images/betterfoodgroups.png" target="_blank">
-        <img src="../images/betterfoodgroups.png" alt="" style="width: 100%; height: auto;">
+      <a href="../images/portfolio/betterfoodgroups.png" target="_blank">
+        <img src="../images/portfolio/betterfoodgroups.png" alt="" style="width: 100%; height: auto;">
       </a>
     </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
@@ -268,8 +268,8 @@ redirect_from:
       <p>AIPTF is live and running 24/7!</p>
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
-      <a href="../images/aiptf_0020.png" target="_blank">
-        <img src="../images/aiptf_0020.png"  target="_blank" alt="AIPIF Project" style="width: 100%; height: auto;">
+      <a href="../images/portfolio/aiptf_0020.png" target="_blank">
+        <img src="../images/portfolio/aiptf_0020.png"  target="_blank" alt="AIPIF Project" style="width: 100%; height: auto;">
       </a>
       TIP: Click on emojis to reveal images.
     </div>
@@ -279,8 +279,8 @@ redirect_from:
   <h1 id="aipif">AI Personalized <span style="color: darkblue;">Interactive</span> Fiction (AIPIF)</h1>
   <div class="project-container" style="display: flex; gap: 2rem; margin-bottom: 2rem; align-items: center;">
     <div class="project-image" style="flex: 1; max-width: 50%;">
-      <a href="../images/aipif_0010.png" target="_blank">
-        <img src="../images/aipif_0010.png"  target="_blank" alt="AIPIF Project" style="width: 100%; height: auto;">
+      <a href="../images/portfolio/aipif_0010.png" target="_blank">
+        <img src="../images/portfolio/aipif_0010.png"  target="_blank" alt="AIPIF Project" style="width: 100%; height: auto;">
       </a>
     </div>
     <div class="project-content" style="flex: 1; max-width: 90%;">
@@ -332,8 +332,8 @@ redirect_from:
       </p> -->
     </div>
     <div class="project-image" style="flex: 1; max-width: 50%;">
-      <a href="../images/smv4.png" target="_blank">
-        <img src="../images/smv4.png" alt="" style="width: 100%; height: auto;">
+      <a href="../images/portfolio/smv4.png" target="_blank">
+        <img src="../images/portfolio/smv4.png" alt="" style="width: 100%; height: auto;">
       </a>
     </div>
   </div>

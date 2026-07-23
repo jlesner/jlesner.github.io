@@ -2,7 +2,7 @@
 title: "State Machine Visualizer (SMV)"
 collection: portfolio
 permalink: /portfolio/smv/
-id: smv
+anchor: smv
 order: 11
 image: smv4.png
 excerpt: >

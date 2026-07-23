@@ -2,7 +2,7 @@
 title: "SnipDue: Never Miss Another Deadline"
 collection: portfolio
 permalink: /portfolio/snipdue/
-id: snipdue
+anchor: snipdue
 order: 5
 image: snipdue_sale_0010.png
 excerpt: >

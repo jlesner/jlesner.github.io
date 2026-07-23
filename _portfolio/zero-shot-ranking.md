@@ -2,7 +2,7 @@
 title: "Zero-Shot Document Ranking Using LLMs: Replication and Improvements"
 collection: portfolio
 permalink: /portfolio/zero-shot-ranking/
-id: zero-shot-ranking
+anchor: zero-shot-ranking
 order: 7
 image: llm_ranking_results_0010.png
 excerpt: >

@@ -2,7 +2,7 @@
 title: "DBDoctor: LLM-Aided SMT Refutation of SQL Query Equivalence"
 collection: portfolio
 permalink: /portfolio/dbdoctor/
-id: dbdoctor
+anchor: dbdoctor
 order: 2
 image: dbdoctor_0010.JPG
 excerpt: >

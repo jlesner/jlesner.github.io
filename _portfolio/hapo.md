@@ -2,7 +2,7 @@
 title: "HAPO: Hyper-reflection for Automatic Prompt Optimization"
 collection: portfolio
 permalink: /portfolio/hapo/
-id: hapo
+anchor: hapo
 order: 1
 image: hapo_0010.JPG
 excerpt: >
