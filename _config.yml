@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "News"
+title                    : "J. Lesner"
 title_separator          : "-"
 name                     : &name ""
-description              : &description "personal description"
+description              : &description "Personal site of J. Lesner, a UCSB Computer Science graduate student applying AI/ML to real-world problems."
 url                      : https://jlesner.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jlesner/jlesner.github.io"
@@ -81,16 +81,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Articles'
+  publications:
+    title: 'Publications'
   preprints:
-    title: 'Preprint Articles'
-  pilots:
-    title: 'Technical Reports'
+    title: 'Preprints'
+  reports:
+    title: 'Reports'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -281,7 +277,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comments: true
   # _talks
   - scope:
       path: ""

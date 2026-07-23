@@ -1,0 +1,51 @@
+/* ==========================================================================
+   PROJECT ROWS (project-item.html, used on /projects/)
+   ========================================================================== */
+
+.project-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 3em;
+  padding-bottom: 3em;
+  border-bottom: 1px solid $border-color;
+
+  &:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  &--flip {
+    flex-direction: row-reverse;
+  }
+
+  @include breakpoint(max-width $medium) {
+    flex-direction: column;
+  }
+}
+
+.project-row__media {
+  flex: 1 1 40%;
+  min-width: 280px;
+
+  .archive__item-teaser {
+    box-shadow: $box-shadow;
+  }
+}
+
+.project-row__body {
+  flex: 1 1 55%;
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
+.project-row__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-top: 1em;
+}

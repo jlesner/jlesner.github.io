@@ -41,7 +41,7 @@ layout: default
           Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}
           {% elsif page.category == 'preprints' %}
           Pending peer review from <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}
-          {% elsif page.category == 'pilots' %}
+          {% elsif page.category == 'reports' %}
           Posted {{ page.date | default: "1900-01-01" | date: "%Y" }}
           {% endif %}
         {% elsif page.date %}
@@ -51,6 +51,12 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.image %}
+          <div class="archive__item-teaser">
+            <img src="{{ base_path }}/images/portfolio/{{ page.image }}" alt="">
+          </div>
+        {% endif %}
+
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl %}
