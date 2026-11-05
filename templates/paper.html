@@ -1,0 +1,23 @@
+{#- One paper's own page. `page` is the paper (front matter + rendered body, usually the abstract). -#}
+{% extends "base.html" %}
+{% from "_macros.html" import buttons %}
+{% block content %}
+<p class="back"><a href="/papers/">← All papers</a></p>
+<article class="detail">
+  <h1>{{ page.title }}</h1>
+  <p class="cite">{{ page.citation | mdi }}</p>
+  {% set links = ([{"label": "Paper", "url": page.paper_url}] if page.get("paper_url") else []) + page.get("links", []) %}
+  {{ buttons(links) }}
+  {% if page.body %}<div class="prose">{{ page.body }}</div>{% endif %}
+  {% if page.get("project_item") %}
+  {% set proj = page.project_item %}
+  <section class="related">
+    <h2>Project</h2>
+    <a class="related-project" href="{{ proj.url }}">
+      {% if proj.get("image") %}<img src="/images/{{ proj.image }}" alt="" loading="lazy">{% endif %}
+      <span>{{ proj.title }} →</span>
+    </a>
+  </section>
+  {% endif %}
+</article>
+{% endblock %}

@@ -1,0 +1,20 @@
+# Shown on /prototypes/. `summary` is Markdown. Add `hidden: true` to hide an entry.
+- id: snipdue
+  title: "SnipDue: AI Schedule Sync"
+  url: "https://snipdude.com/"
+  summary: A schedule-synchronization app using Claude Sonnet and Cloudflare Workers to transform unstructured course information into calendar events.
+
+- id: guard
+  title: "GUARD: Guided Understanding & Agreement Rights Detector"
+  url: "https://xai.ackop.com/monitor.html"
+  summary: A prototype UI to detect and highlight troublesome or conflicting statements inside spoken and written communications.
+
+- id: ufafu
+  title: AI Personalized Interactive and Teaching Fiction
+  url: "https://ufafu.com"
+  summary: Two web apps that use generative AI to entertain and teach young children using stories that have pictures, music, sounds, decisions and quizzes.
+
+- id: trashaware
+  title: "TrashAware: Sustainability Grades & Alternative Finder"
+  url: "https://github.com/jlesner/Trash-Aware"
+  summary: A product ratings app that flags wasteful purchases with explainable grades and suggests community-voted alternatives.

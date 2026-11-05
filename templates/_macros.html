@@ -1,0 +1,38 @@
+{#- Reusable pieces. Use with: {% from "_macros.html" import buttons, project_card %} -#}
+
+{# Row of pill buttons from a `links:` list. External links get a ↗. #}
+{% macro buttons(links) -%}
+{% if links %}
+<div class="buttons">
+  {% for link in links %}
+  <a class="btn" href="{{ link.url }}">{{ link.label }}{% if link.url.startswith("http") %} <span aria-hidden="true">↗</span>{% endif %}</a>
+  {% endfor %}
+</div>
+{% endif %}
+{%- endmacro %}
+
+{# Card used on the Projects list and the home page. Title and image open the project's own page. #}
+{% macro project_card(p, show_links=true) -%}
+<article class="card" id="{{ p.id }}">
+  {% if p.get("image") %}
+  <a class="card-img" href="{{ p.url }}" tabindex="-1" aria-hidden="true"><img src="/images/{{ p.image }}" alt="" loading="lazy"></a>
+  {% endif %}
+  <div class="card-body">
+    <h2 class="card-title"><a href="{{ p.url }}">{{ p.title }}</a></h2>
+    <div class="card-summary">{{ p.summary | md }}</div>
+    {% if show_links %}{{ buttons(p.get("links")) }}{% endif %}
+  </div>
+</article>
+{%- endmacro %}
+
+{# One line in the Papers list. #}
+{% macro paper_row(paper) -%}
+<li class="paper" id="{{ paper.id }}">
+  <a class="paper-title" href="{{ paper.url }}">{{ paper.title }}</a>
+  <div class="paper-cite">{{ paper.citation | mdi }}</div>
+  <div class="paper-links">
+    {% if paper.get("paper_url") %}<a href="{{ paper.paper_url }}">Paper ↗</a>{% endif %}
+    {% for link in paper.get("links", []) %}<a href="{{ link.url }}">{{ link.label }}{% if link.url.startswith("http") %} ↗{% endif %}</a>{% endfor %}
+  </div>
+</li>
+{%- endmacro %}

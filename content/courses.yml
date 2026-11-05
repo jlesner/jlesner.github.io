@@ -1,0 +1,93 @@
+# Shown on /courses/, grouped by `group` (in the order groups first appear).
+# `summary` and `professor` are Markdown. Grades are only shown if pages/courses.md has `show_grades: true`.
+
+- id: cmpsc291i
+  group: Graduate Courses
+  title: "CMPSC 291I - Special Topics in Computer Science: Visual Computing and Interaction"
+  url: "https://cs.ucsb.edu/education/courses/special-topics-seminars/special-topics-course/cmpsc-291i"
+  summary: Examines upcoming user interface technologies including immersive technologies (AR/VR), physiological interfaces, wearable computing, multimodal interactions, and haptics. Includes a group project on human-AI interaction techniques in AR.
+  professor: "[Misha Sra](https://sites.cs.ucsb.edu/~sra/)"
+  grade: A+
+
+- id: cmpsc291a
+  group: Graduate Courses
+  title: CMPSC 291A - Neural Information Retrieval
+  url: "https://cs.ucsb.edu/education/courses/special-topics-seminars/special-topics-course/cmpsc-291a-neural-information"
+  summary: Covers information retrieval systems and neural ranking algorithms, with emphasis on retrieval, ranking, indexing, and large-scale search services. Reviews recent research on relevance, efficiency, and scalability.
+  professor: "[Tao Yang](https://sites.cs.ucsb.edu/~tyang/)"
+  grade: A
+
+- id: cmpsc291a-foundation-models
+  group: Graduate Courses
+  title: CMPSC 291A - Special Topics in Foundation Models
+  url: "https://cs.ucsb.edu/education/courses/special-topics-seminars/special-topics-course/cmpsc-291a-special-topics-0"
+  summary: Graduate research course on foundation models, with a focus on Large Language Models (LLMs). Emphasizes reading and presenting recent papers and completing a substantial course project.
+  professor: "[Xifeng Yan](https://sites.cs.ucsb.edu/~xyan/)"
+  grade: A+
+
+- id: pstat231
+  group: Graduate Courses
+  title: PSTAT 231 - Introduction to Statistical Machine Learning
+  url: "https://catalog.ucsb.edu/courses/PSTAT%20231"
+  summary: Statistical machine learning for discovering patterns in large data sets. Topics include data exploration, classification and regression trees, random forests, clustering, association rules, model selection, and performance evaluation.
+  professor: "[Laura Baracaldo Lancheros](https://www.linkedin.com/in/laura-baracaldo-lancheros-b7a97547/)"
+  grade: B+
+
+- id: pstat235
+  group: Graduate Courses
+  title: PSTAT 235 - Big Data Analytics
+  url: "https://catalog.ucsb.edu/courses/PSTAT%20235"
+  summary: Covers distributed data storage, retrieval, processing, and cloud computing, with big data methods from high-dimensional statistics and machine learning. Topics include penalized regression, classification/clustering, dimension reduction, and random projections.
+  professor: "[Sang-Yun Oh](http://syoh.faculty.pstat.ucsb.edu/)"
+  grade: A
+
+- id: cmpsc292f
+  group: Graduate Courses
+  title: CMPSC 292F - Graphs and Graph Neural Networks
+  url: "https://cs.ucsb.edu/education/courses/special-topics-seminars/cmpsc-292f-graphs-and-graph-neural-networks"
+  summary: Examines graphs and graph neural networks from the perspectives of representation, reasoning, robustness, and symmetry. Topics include random walks, kernels, spectral methods, generative models, embeddings, and GNNs.
+  professor: "[Ambuj Singh](https://sites.cs.ucsb.edu/~ambuj/)"
+  grade: A
+
+- id: cmpsc291a-applications
+  group: Graduate Courses
+  title: "CMPSC 291A - Special Topics in Computer Science: Applications"
+  url: "https://cs.ucsb.edu/education/courses/special-topics-seminars"
+  summary: Graduate-level special topics course exploring current research areas in computer science applications. Course content varies by instructor and quarter.
+  professor: "[Michael Beyeler](https://bionicvisionlab.org/people/beyeler_michael/)"
+  grade: A+
+
+- id: cmpm146
+  group: Undergraduate Courses
+  title: CMPM 146 - Game AI
+  url: "https://catalog.ucsc.edu/en/current/general-catalog/courses/cmpm-computational-media/upper-division/cmpm-146"
+  summary: AI in games, covering core techniques for search, control, and learning, and their application to game design, development, and game play.
+  grade: A+
+
+- id: cse142
+  group: Undergraduate Courses
+  title: CSE 142 - Machine Learning
+  url: "https://catalog.ucsc.edu/en/current/general-catalog/courses/cse-computer-science-and-engineering/upper-division/cse-142"
+  summary: Introduction to machine learning algorithms and applications. Topics include classification, density estimation, Bayesian learning regression, and online learning, with coverage of standard methods such as neural networks, decision trees, boosting, and nearest neighbor techniques.
+  grade: A+
+
+- id: cse144
+  group: Undergraduate Courses
+  title: "CSE 144 - Applied Machine Learning: Deep Learning"
+  url: "https://catalog.ucsc.edu/en/current/general-catalog/courses/cse-computer-science-and-engineering/upper-division/cse-144"
+  summary: Practical, project-oriented deep learning course covering loss functions, gradient descent, logistic regression, deep neural networks, convolutional networks, and recurrent networks (including LSTMs).
+  grade: A
+
+- id: stat131
+  group: Undergraduate Courses
+  title: STAT 131 - Introduction to Probability Theory
+  url: "https://catalog.ucsc.edu/en/current/general-catalog/courses/stat-statistics/upper-division/stat-131"
+  summary: Probability theory including sample spaces, combinatorics, conditional probability, random variables, discrete and continuous distributions, expectation, variance, and limit theorems.
+  grade: A
+
+- id: am10
+  group: Undergraduate Courses
+  title: AM 10 - Mathematical Methods for Engineers I
+  url: "https://catalog.ucsc.edu/en/current/general-catalog/courses/am-applied-mathematics/lower-division/am-10"
+  summary: Mathematical methods relevant to engineering, including complex numbers and exponentials, differential equations, vector spaces, and Fourier series, with emphasis on linear algebra and Fourier series.
+  grade: A+

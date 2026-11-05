@@ -1,0 +1,25 @@
+{#- Simple list page (prototypes, courses). Items come from the page's `data:` file.
+    Optional item fields: group (section heading), url, summary, professor, grade. -#}
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ page.title }}</h1>
+{% if page.body %}<div class="prose">{{ page.body }}</div>{% endif %}
+{% set ns = namespace(group=None) %}
+{% for item in items %}
+  {% if item.get("group") and item.group != ns.group %}
+    {% if ns.group is not none %}</ul>{% endif %}
+    {% set ns.group = item.group %}
+  <h2>{{ item.group }}</h2>
+  <ul class="entries">
+  {% elif loop.first %}
+  <ul class="entries">
+  {% endif %}
+  <li class="entry" id="{{ item.get('id', '') }}">
+    <h3>{% if item.get("url") %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</h3>
+    {% if item.get("summary") %}<div>{{ item.summary | md }}</div>{% endif %}
+    {% if item.get("professor") %}<p class="muted">Professor: {{ item.professor | mdi }}</p>{% endif %}
+    {% if page.get("show_grades") and item.get("grade") %}<p class="muted">Grade: <strong>{{ item.grade }}</strong></p>{% endif %}
+  </li>
+  {% if loop.last %}</ul>{% endif %}
+{% endfor %}
+{% endblock %}

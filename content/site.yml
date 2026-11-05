@@ -1,0 +1,46 @@
+# Global settings used by every page. Restart nothing: just run `python build.py` again.
+
+name: "J. Lesner"                 # shown in the header and browser tab
+full_name: "Jay Lesner"           # also listed for search engines (JSON-LD alternateName)
+tagline: "Grad student exploring AI to improve how we learn and work."
+description: "Personal site of J. (Jay) Lesner, a UC Santa Barbara Computer Science graduate student applying AI/ML to real-world problems."
+url: "https://jlesner.github.io"  # used for the sitemap and canonical links
+email: "jlesner [at] ucsb.edu"
+github: "jlesner"
+affiliation: "UC Santa Barbara"
+
+# Folders in content/ where every .md file becomes its own page.
+#   template:      layout for each item's page
+#   url:           where each item's page lives ({id} = file name without .md)
+#   sort:          field to order the list by ("-" prefix = newest/biggest first)
+#   required:      build fails if an item is missing one of these
+#   redirect_from: old URLs that should forward to the new page
+collections:
+  projects:
+    template: project.html
+    url: "/projects/{id}/"
+    sort: order
+    required: [title, summary]
+    redirect_from: ["/portfolio/{id}/"]
+  papers:
+    template: paper.html
+    url: "/papers/{id}/"
+    sort: "-date"
+    required: [title, category, date, citation]
+    redirect_from: ["/publication/{id}/"]
+    # Headings on the Papers page, in display order. A paper's `category` must be one of these ids.
+    categories:
+      - {id: publications, title: Publications}
+      - {id: preprints, title: Preprints}
+      - {id: reports, title: Reports}
+
+# Old URL -> new URL. Each becomes a tiny forwarding page so old links and Google results keep working.
+redirects:
+  /about/: /
+  /about.html: /
+  /portfolio/: /projects/
+  /publications/: /papers/
+  /cv/: /resume/
+  /photos/: /
+  /videos/: /
+  /hackathons/: /projects/

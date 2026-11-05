@@ -1,0 +1,6 @@
+{#- Default layout: a title and the Markdown body of the page file. -#}
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ page.title }}</h1>
+<div class="prose">{{ page.body }}</div>
+{% endblock %}

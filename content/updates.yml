@@ -1,0 +1,16 @@
+# News items on the home page, newest first. `text` is Markdown.
+# The first `show` items are visible; the rest go under "Earlier updates" (set in pages/home.md).
+- date: 2025-09
+  text: Graduated with CS M.S. from UC Santa Barbara
+- date: 2025-01
+  text: '[SnipDue](/projects/snipdue/) wins "Best Use of GenAI Award" at SBHacks XI'
+- date: 2024-10
+  text: "[AIPIF](/projects/aipif/) presented at ECAI-2024 and PAIS-2024"
+- date: 2024-09
+  text: Started CS M.S. at UC Santa Barbara
+- date: 2024-07
+  text: "[AIPIF](/projects/aipif/) paper accepted at ECAI-2024 and PAIS-2024"
+- date: 2024-03
+  text: Graduated UC Santa Cruz with Honors, Cum Laude
+- date: 2021-09
+  text: Started CS B.S. at UC Santa Cruz

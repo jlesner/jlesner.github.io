@@ -1,0 +1,26 @@
+{#- One project's own page. `page` is the project (front matter + rendered body). -#}
+{% extends "base.html" %}
+{% from "_macros.html" import buttons, paper_row %}
+{% block content %}
+<p class="back"><a href="/projects/">← All projects</a></p>
+<article class="detail">
+  <h1>{{ page.title }}</h1>
+  {% if page.get("image") %}
+  <figure class="hero">
+    <a href="/images/{{ page.image }}"><img src="/images/{{ page.image }}" alt=""></a>
+    {% if page.get("image_caption") %}<figcaption>{{ page.image_caption | mdi }}</figcaption>{% endif %}
+  </figure>
+  {% endif %}
+  <div class="lead">{{ page.summary | md }}</div>
+  {{ buttons(page.get("links")) }}
+  {% if page.get("note") %}<div class="note">{{ page.note | md }}</div>{% endif %}
+  {% if page.get("status") %}<p class="status">{{ page.status | mdi }}</p>{% endif %}
+  {% if page.body %}<div class="prose">{{ page.body }}</div>{% endif %}
+  {% if page.papers %}
+  <section class="related">
+    <h2>Papers</h2>
+    <ul class="papers">{% for paper in page.papers %}{{ paper_row(paper) }}{% endfor %}</ul>
+  </section>
+  {% endif %}
+</article>
+{% endblock %}

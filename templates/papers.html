@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% from "_macros.html" import paper_row %}
+{% block content %}
+<h1>{{ page.title }}</h1>
+{% if page.body %}<div class="prose">{{ page.body }}</div>{% endif %}
+{% for cat in site.collections.papers.categories %}
+  {% set papers = collections.papers | selectattr("category", "eq", cat.id) | list %}
+  {% if papers %}
+  <section>
+    <h2>{{ cat.title }}</h2>
+    <ul class="papers">{% for paper in papers %}{{ paper_row(paper) }}{% endfor %}</ul>
+  </section>
+  {% endif %}
+{% endfor %}
+{% endblock %}

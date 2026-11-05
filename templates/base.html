@@ -1,0 +1,56 @@
+{#- Every page extends this. Blocks a child template can override: title, head, content. -#}
+{%- set is_home = page.url == "/" -%}
+{%- set desc = page.get("description") or page.get("summary") or site.description -%}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{% if is_home %}{{ site.name }} — {{ site.tagline }}{% else %}{{ page.title }} · {{ site.name }}{% endif %}{% endblock %}</title>
+  <meta name="description" content="{{ desc | plain }}">
+  <meta name="author" content="{{ site.full_name }}">
+  {% if page.get("noindex") %}<meta name="robots" content="noindex">{% endif %}
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <meta property="og:type" content="{{ 'website' if is_home else 'article' }}">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:title" content="{{ page.title if not is_home else site.name }}">
+  <meta property="og:description" content="{{ desc | plain }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  {% if page.get("image") %}<meta property="og:image" content="{{ site.url }}/images/{{ page.image }}">{% endif %}
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/style.css">
+  {% if is_home %}
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "Person", "name": {{ site.full_name | tojson }},
+   "alternateName": {{ site.name | tojson }}, "url": {{ site.url | tojson }},
+   "affiliation": {"@type": "CollegeOrUniversity", "name": {{ site.affiliation | tojson }}},
+   "sameAs": [{{ ("https://github.com/" ~ site.github) | tojson }}]}
+  </script>
+  {% endif %}
+  {% if page.get("style") %}<style>{{ page.style | safe }}</style>{% endif %}
+  {% block head %}{% endblock %}
+</head>
+<body class="{{ page.body_class }}">
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-name" href="/">{{ site.name }}</a>
+      <nav aria-label="Main">
+        {% for item in nav %}
+        <a href="{{ item.url }}"{% if page.url.startswith(item.url) %} aria-current="page"{% endif %}>{{ item.title }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© {{ site.full_name }}</span>
+      <span><a href="https://github.com/{{ site.github }}">GitHub</a> · {{ site.email }}</span>
+    </div>
+  </footer>
+</body>
+</html>
