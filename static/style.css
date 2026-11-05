@@ -83,13 +83,79 @@ p { margin: 0 0 1rem; }
 /* ---------- home ---------- */
 .intro h1 { margin-bottom: 0.25rem; font-size: 2.3rem; }
 .tagline { color: var(--muted); font-size: 1.1rem; margin-bottom: 1.25rem; }
-.updates { list-style: none; padding: 0; margin: 0; }
-.updates li { display: flex; gap: 1rem; padding: 0.35rem 0; }
-.updates time { flex: none; width: 4.5rem; color: var(--muted); font-variant-numeric: tabular-nums; }
-.more-updates { margin-top: 0.5rem; }
-.more-updates summary { cursor: pointer; color: var(--muted); font-size: 0.95rem; }
-.photo-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.5rem; }
-.photo-row img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 6px; }
+/* Updates timeline (home). Each <li> draws its dot (::after) and the progress segment down to the next dot (::before);
+   .timeline::before is the faint track behind it all. With JS, .tl-js holds the recent updates' animation paused until .tl-play. */
+.timeline {
+  --tl-x: 7px;            /* line's center, from the left edge */
+  --tl-y: 0.6rem;         /* dot's center, from the top of each item */
+  --tl-step: 0.32s;       /* time for the progress line to travel between two dots */
+  position: relative; padding-top: 1.4rem;
+}
+.timeline::before {
+  content: ""; position: absolute; top: 0; bottom: 0; left: calc(var(--tl-x) - 1px); width: 2px;
+  background: var(--border);
+  -webkit-mask-image: linear-gradient(transparent, #000 1.4rem, #000 calc(100% - 1.5rem), transparent);
+  mask-image: linear-gradient(transparent, #000 1.4rem, #000 calc(100% - 1.5rem), transparent);
+}
+.tl-list { list-style: none; margin: 0; padding: 0; }
+.tl-list > li, .tl-more > summary { position: relative; padding: 0 0 1.15rem 2rem; }
+.tl-list > li::before, .tl-more[open] > summary::before {
+  content: ""; position: absolute; z-index: 0; left: calc(var(--tl-x) - 1px); width: 2px;
+  top: var(--tl-y); bottom: calc(-1 * var(--tl-y));
+  background: var(--accent); transform-origin: bottom;
+}
+.tl-list:last-child > li:last-child::before { content: none; }
+.tl-list > li::after, .tl-more > summary::after {
+  content: ""; position: absolute; z-index: 1; width: 13px; height: 13px; border-radius: 50%;
+  left: calc(var(--tl-x) - 6.5px); top: calc(var(--tl-y) - 6.5px);
+  background: var(--accent); border: 2px solid var(--accent); box-shadow: 0 0 0 4px var(--bg);
+}
+.tl-list time {
+  display: block; font-size: 0.8rem; line-height: calc(2 * var(--tl-y)); letter-spacing: 0.04em;
+  text-transform: uppercase; color: var(--muted); font-variant-numeric: tabular-nums;
+}
+.tl-list > li > span { display: block; margin-top: 0.1rem; }
+.tl-now time { color: var(--accent); font-weight: 600; }
+.tl-now::after { box-shadow: 0 0 0 4px var(--accent-soft); }
+.tl-now time::before {    /* pulsing ring on the newest dot */
+  content: ""; position: absolute; width: 13px; height: 13px; border-radius: 50%;
+  left: calc(var(--tl-x) - 6.5px); top: calc(var(--tl-y) - 6.5px);
+  border: 2px solid var(--accent); opacity: 0; animation: tl-pulse 2.4s ease-out infinite;
+}
+.tl-more > summary {
+  list-style: none; cursor: pointer; width: fit-content;
+  font-size: 0.9rem; line-height: calc(2 * var(--tl-y)); color: var(--muted);
+}
+.tl-more > summary::-webkit-details-marker { display: none; }
+.tl-more > summary::after { background: var(--bg); border-color: var(--border); transition: border-color 0.15s; }
+.tl-more > summary:hover { color: var(--accent); }
+.tl-more > summary:hover::after, .tl-more[open] > summary::after { border-color: var(--accent); }
+.tl-chevron { display: inline-block; margin-left: 0.35rem; transition: transform 0.2s; }
+.tl-more[open] .tl-chevron { transform: rotate(180deg); }
+
+/* Only the recent updates animate; the earlier ones (inside .tl-more) always show filled in. */
+.tl-js > .tl-list > li::before {
+  animation: tl-fill var(--tl-step) linear both paused; animation-delay: calc((var(--d) - 1) * var(--tl-step));
+}
+.tl-js > .tl-list > li::after {
+  animation: tl-dot 0.45s ease-out both paused; animation-delay: calc(var(--d) * var(--tl-step));
+}
+.tl-js .tl-now time::before { animation-delay: calc(var(--d) * var(--tl-step) + 0.4s); animation-play-state: paused; }
+.tl-js > .tl-play > li::before, .tl-js > .tl-play > li::after, .tl-js .tl-play time::before { animation-play-state: running; }
+@keyframes tl-fill { from { transform: scaleY(0); } }
+@keyframes tl-dot {
+  from { background: var(--bg); border-color: var(--border); transform: scale(0.8); }
+  60% { transform: scale(1.3); }
+}
+@keyframes tl-pulse { from { transform: scale(1); opacity: 0.7; } to { transform: scale(2.6); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .tl-now time::before { animation: none; opacity: 0; } }
+
+/* Photo gallery: uncropped photos in justified rows (equal height per row, edges flush with the column). */
+.gallery { display: grid; gap: 0.5rem; }
+.gallery-row { display: flex; gap: 0.5rem; }
+.gallery-row a { flex-basis: 0; min-width: 0; }
+.gallery img { display: block; width: 100%; height: auto; border-radius: 6px; transition: opacity 0.15s; }
+.gallery a:hover img { opacity: 0.88; }
 .plain-list { padding-left: 1.1rem; }
 .plain-list li { margin-bottom: 0.4rem; }
 
@@ -143,7 +209,12 @@ p { margin: 0 0 1rem; }
 .entry .muted { font-size: 0.9rem; }
 
 /* ---------- resume ---------- */
-.pdf { width: 100%; height: 85vh; border: 1px solid var(--border); border-radius: var(--radius); margin-top: 0.5rem; }
+/* The PDF breaks out of the 760px text column: up to 1200px wide, centered, 20px gutter on small screens. */
+.pdf {
+  display: block; width: min(1200px, 100vw - 40px); height: 90vh;
+  margin: 0.5rem 0 0 calc(50% - min(600px, 50vw - 20px));
+  border: 1px solid var(--border); border-radius: var(--radius);
+}
 
 /* ---------- small screens ---------- */
 @media (max-width: 640px) {
@@ -151,6 +222,6 @@ p { margin: 0 0 1rem; }
   h1 { font-size: 1.6rem; }
   .intro h1 { font-size: 1.9rem; }
   .cards { grid-template-columns: 1fr; }
-  .photo-row { grid-template-columns: repeat(2, 1fr); }
+  .gallery-row { display: grid; gap: 0.5rem; }  /* one full-width photo per line on phones */
   .site-header .wrap { flex-direction: column; align-items: flex-start; }
 }

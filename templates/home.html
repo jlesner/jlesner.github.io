@@ -7,36 +7,68 @@
   <div class="prose">{{ page.body }}</div>
 </section>
 
+{# Updates timeline: one track line, a dot per update, and an accent "progress" line that fills upward from the
+   oldest shown update to the newest (animated once when scrolled into view; static without JS/with reduced motion).
+   Earlier updates under the "earlier updates" toggle are never animated: their line is always filled in.
+   --d is each item's step in that animation, counted from the bottom. #}
+{% macro tl_item(u, d, now=false) -%}
+{%- set y, m = (u.date | string).split("-")[:2] -%}
+<li style="--d: {{ d }}"{% if now %} class="tl-now"{% endif %}><time datetime="{{ u.date }}">{{ ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][m | int - 1] }} {{ y }}</time><span>{{ u.text | mdi }}</span></li>
+{%- endmacro %}
 <section>
   <h2>Updates</h2>
   {% set shown = page.get("updates_shown", 3) %}
-  <ul class="updates">
-    {% for u in data.updates[:shown] %}
-    <li><time>{{ u.date }}</time> <span>{{ u.text | mdi }}</span></li>
-    {% endfor %}
-  </ul>
-  {% if data.updates | length > shown %}
-  <details class="more-updates">
-    <summary>Earlier updates</summary>
-    <ul class="updates">
-      {% for u in data.updates[shown:] %}
-      <li><time>{{ u.date }}</time> <span>{{ u.text | mdi }}</span></li>
+  {% set recent = data.updates[:shown] %}
+  {% set older = data.updates[shown:] %}
+  <div class="timeline">
+    <ol class="tl-list">
+      {% for u in recent %}
+      {{ tl_item(u, recent | length - loop.index0 - (0 if older else 1), now=loop.first) }}
       {% endfor %}
-    </ul>
-  </details>
-  {% endif %}
+    </ol>
+    {% if older %}
+    <details class="tl-more">
+      <summary><span>{{ older | length }} earlier updates</span><span class="tl-chevron" aria-hidden="true">▾</span></summary>
+      <ol class="tl-list">
+        {% for u in older %}
+        {{ tl_item(u, 0) }}
+        {% endfor %}
+      </ol>
+    </details>
+    {% endif %}
+  </div>
+  <script>
+  (() => {
+    const tl = document.querySelector(".timeline");
+    if (!tl || !("IntersectionObserver" in window) || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    tl.classList.add("tl-js");
+    const io = new IntersectionObserver(entries => entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      e.target.classList.add("tl-play");
+      io.unobserve(e.target);
+    }), { threshold: 0.4 });
+    io.observe(tl.querySelector(".tl-list"));
+  })();
+  </script>
 </section>
 
-{% if page.get("photos") %}
+{# Justified rows: photos in a row share one height and together fill the column, so nothing is cropped.
+   Each link's flex-grow is its photo's width/height ratio. #}
+{% for group in page.get("photo_groups", []) %}
 <section>
-  <h2>{{ page.get("photos_title", "Photos") }}</h2>
-  <div class="photo-row">
-    {% for ph in page.photos %}
-    <a href="/images/{{ ph.src }}"><img src="/images/{{ ph.src }}" alt="{{ ph.alt }}" loading="lazy"{% if ph.get("position") %} style="object-position: {{ ph.position }}"{% endif %}></a>
+  <h2>{{ group.title }}</h2>
+  <div class="gallery">
+    {% for row in group.photos | batch(group.get("per_row", 2)) %}
+    <div class="gallery-row">
+      {% for ph in row %}
+      {% set w, h = ph.src | image_size %}
+      <a href="/images/{{ ph.src }}" style="flex-grow: {{ (w / h) | round(4) }}"><img src="/images/{{ ph.src }}" alt="{{ ph.alt }}" width="{{ w }}" height="{{ h }}" loading="lazy"></a>
+      {% endfor %}
+    </div>
     {% endfor %}
   </div>
 </section>
-{% endif %}
+{% endfor %}
 
 <section>
   <h2>Recent projects</h2>
@@ -52,7 +84,7 @@
   <h2>Recent papers</h2>
   <ul class="plain-list">
     {% for paper in (collections.papers | selectattr("category", "eq", "publications") | list)[:5] %}
-    <li><a href="{{ paper.url }}">{{ paper.title }}</a> <span class="muted">— {{ paper.venue }}</span></li>
+    <li><a href="{{ paper.url }}">{{ paper.title }}</a> <span class="muted">· {{ paper.venue }}</span></li>
     {% endfor %}
   </ul>
   <p><a href="/papers/">See all papers →</a></p>

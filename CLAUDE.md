@@ -63,6 +63,10 @@ description: Meta description for search engines.
 Markdown body.
 ```
 
+**Home page photos:** add a group under `photo_groups:` in `content/pages/home.md` (newest first), each with a
+`title`, optional `per_row` (default 2), and `photos: [{src: photos/x.jpg, alt: "..."}]`. Photos are never cropped:
+each row is scaled so its photos share one height and fill the column (sizes are read from the files by `build.py`).
+
 **Visibility keys** (work on pages, projects, and papers; `hidden` also works on entries in the .yml lists):
 - no `nav` → page exists and is in the sitemap, but isn't in the nav (pages only)
 - `hidden: true` → left off list pages; its own page still exists and is in the sitemap

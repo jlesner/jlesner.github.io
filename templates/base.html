@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% block title %}{% if is_home %}{{ site.name }} — {{ site.tagline }}{% else %}{{ page.title }} · {{ site.name }}{% endif %}{% endblock %}</title>
+  <title>{% block title %}{% if is_home %}{{ site.name }} · {{ site.tagline }}{% else %}{{ page.title }} · {{ site.name }}{% endif %}{% endblock %}</title>
   <meta name="description" content="{{ desc | plain }}">
   <meta name="author" content="{{ site.full_name }}">
   {% if page.get("noindex") %}<meta name="robots" content="noindex">{% endif %}

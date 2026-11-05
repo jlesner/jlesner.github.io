@@ -1,5 +1,9 @@
 # News items on the home page, newest first. `text` is Markdown.
 # The first `show` items are visible; the rest go under "Earlier updates" (set in pages/home.md).
+- date: 2026-09
+  text: Started CS Ph.D. at UC Santa Barbara
+- date: 2026-07
+  text: Presented [SymbolSight](/projects/symbolsight/) at IEEE EMBC 2026
 - date: 2025-09
   text: Graduated with CS M.S. from UC Santa Barbara
 - date: 2025-01

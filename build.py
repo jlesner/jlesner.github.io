@@ -41,6 +41,29 @@ def fail(msg):
     errors.append(msg)
 
 
+# ---------------------------------------------------------------- images
+
+@functools.lru_cache(maxsize=None)
+def image_size(src):
+    """(width, height) of a JPEG or PNG under static/images/, read from the file header.
+    Used by the photo gallery to give each photo its natural aspect ratio."""
+    path = STATIC / "images" / src
+    if not path.is_file():
+        fail(f"image not found: static/images/{src}")
+        return (4, 3)
+    data = path.read_bytes()
+    if data[:8] == b"\x89PNG\r\n\x1a\n":
+        return (int.from_bytes(data[16:20], "big"), int.from_bytes(data[20:24], "big"))
+    i = 2  # JPEG: walk the segments until a start-of-frame marker
+    while i + 9 < len(data) and data[i] == 0xFF:
+        marker, length = data[i + 1], int.from_bytes(data[i + 2:i + 4], "big")
+        if 0xC0 <= marker <= 0xCF and marker not in (0xC4, 0xC8, 0xCC):
+            return (int.from_bytes(data[i + 7:i + 9], "big"), int.from_bytes(data[i + 5:i + 7], "big"))
+        i += 2 + length
+    fail(f"can't read the size of static/images/{src} (only JPEG and PNG are supported)")
+    return (4, 3)
+
+
 # ---------------------------------------------------------------- markdown
 
 def render_md(text, inline=False):
@@ -184,6 +207,7 @@ def build():
     env.filters["md"] = render_md
     env.filters["mdi"] = lambda text: render_md(text, inline=True)
     env.filters["plain"] = lambda text, n=160: _plain(text, n)
+    env.filters["image_size"] = image_size
 
     nav = sorted((p for p in pages if p.get("nav") and not p.get("noindex")), key=lambda p: p["nav"])
     # Listed collections exclude hidden/noindex items; detail pages are still built for them.
