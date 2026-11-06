@@ -18,7 +18,7 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   {% if page.get("image") %}<meta property="og:image" content="{{ site.url }}/images/{{ page.image }}">{% endif %}
   <link rel="icon" href="/favicon.ico">
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="{{ "/style.css" | asset }}">
   {% if is_home %}
   <script type="application/ld+json">
   {"@context": "https://schema.org", "@type": "Person", "name": {{ site.full_name | tojson }},

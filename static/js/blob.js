@@ -2,8 +2,11 @@
 // blob-sim.js is the world and the fluid body, blob-brain.js is what it has learned; this file draws them,
 // turns pointer input into pats / pokes / drags, and runs the loop.
 
-import { makeLevel, Sim, SKILLS, PLACES, N_CONTEXTS, ROWS, SOLID, POLE, METAL } from "./blob-sim.js";
-import { Brain } from "./blob-brain.js";
+// Sibling modules are loaded with this file's ?v=<hash> (set by build.py), so a deploy never mixes old and new files.
+const version = new URL(import.meta.url).search;
+const [{ makeLevel, Sim, SKILLS, PLACES, N_CONTEXTS, ROWS, SOLID, POLE, METAL }, { Brain }] = await Promise.all([
+  import(`./blob-sim.js${version}`), import(`./blob-brain.js${version}`),
+]);
 
 const STORE = "blob-memory-v2";
 const PAT_HOLD = 0.25;        // a press shorter than this is a poke
@@ -46,7 +49,8 @@ function start(root) {
     sim = new Sim(level);
     running = false; press = null; brain.trace.length = 0;
     canvas.width = cols; canvas.height = ROWS;
-    canvas.style.aspectRatio = `${cols} / ${ROWS}`;
+    // sized here too (not only in style.css), so a stale cached stylesheet can't shrink it to raw pixels
+    Object.assign(canvas.style, { display: "block", width: "100%", height: "auto", aspectRatio: `${cols} / ${ROWS}`, imageRendering: "pixelated" });
     img = ctx.createImageData(cols, ROWS);
     buf = new Uint32Array(img.data.buffer);
     bg = new Uint32Array(cols * ROWS);

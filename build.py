@@ -13,6 +13,7 @@ How content maps to pages (see CLAUDE.md for the full guide):
 """
 import argparse
 import functools
+import hashlib
 import http.server
 import re
 import shutil
@@ -65,6 +66,17 @@ def image_size(src):
 
 
 # ---------------------------------------------------------------- markdown
+
+def asset(path):
+    """URL of a file in static/ plus ?v=<content hash>, so browsers fetch the new copy after a deploy.
+    For a .js file the hash covers every .js file next to it (modules import their siblings with the same ?v)."""
+    f = STATIC / path.lstrip("/")
+    files = sorted(f.parent.glob("*.js")) if f.suffix == ".js" else [f]
+    if not f.is_file():
+        raise SystemExit(f"asset: {path} not found in static/")
+    digest = hashlib.sha1(b"".join(p.read_bytes() for p in files)).hexdigest()[:8]
+    return f"{path}?v={digest}"
+
 
 def render_md(text, inline=False):
     """Markdown -> HTML. inline=True strips the wrapping <p> for short fields."""
@@ -208,6 +220,7 @@ def build():
     env.filters["mdi"] = lambda text: render_md(text, inline=True)
     env.filters["plain"] = lambda text, n=160: _plain(text, n)
     env.filters["image_size"] = image_size
+    env.filters["asset"] = asset
 
     nav = sorted((p for p in pages if p.get("nav") and not p.get("noindex")), key=lambda p: p["nav"])
     # Listed collections exclude hidden/noindex items; detail pages are still built for them.
