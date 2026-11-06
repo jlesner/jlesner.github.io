@@ -62,11 +62,23 @@ p { margin: 0 0 1rem; }
   display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
   gap: 0.5rem 1.5rem; padding-block: 1rem;
 }
-.site-name { font-weight: 700; font-size: 1.1rem; color: var(--text); text-decoration: none; }
-.site-header nav { display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; }
-.site-header nav a { color: var(--muted); text-decoration: none; font-size: 0.95rem; }
-.site-header nav a:hover, .site-header nav a[aria-current] { color: var(--text); }
+/* The name and nav links are pill buttons: shaded on hover, filled with the accent on the current page. */
+.site-header nav { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.site-header nav a, .site-name {
+  color: var(--muted); text-decoration: none; font-size: 0.95rem; font-weight: 500;
+  padding: 0.35rem 0.85rem; border: 1px solid transparent; border-radius: 999px;
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+}
+.site-name { font-weight: 700; font-size: 1.1rem; color: var(--text); margin-left: -0.85rem; }
+.site-header nav a:hover, .site-name:hover { color: var(--text); background: var(--border); }
+.site-header nav a:active, .site-name:active { background: var(--muted); color: var(--bg); }
+.site-header nav a:focus-visible, .site-name:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.site-header nav a[aria-current], .site-name[aria-current] {
+  color: var(--accent); background: var(--accent-soft); border-color: var(--accent);
+}
 .site-header nav a[aria-current] { font-weight: 600; }
+.site-header nav a[aria-current]:hover, .site-name[aria-current]:hover { background: var(--accent-soft); color: var(--accent); }
+@media (prefers-reduced-motion: reduce) { .site-header nav a, .site-name { transition: none; } }
 .site-footer { border-top: 1px solid var(--border); color: var(--muted); font-size: 0.85rem; }
 .site-footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem; padding-block: 1.25rem; }
 .site-footer a { color: inherit; }
@@ -257,5 +269,6 @@ p { margin: 0 0 1rem; }
   .cards { grid-template-columns: 1fr; }
   .gallery-row { display: grid; gap: 0.5rem; }  /* one full-width photo per line on phones */
   .site-header .wrap { flex-direction: column; align-items: flex-start; }
+  .site-header nav { margin-left: -0.85rem; }  /* line up the first button's text with the name */
   .goo-bars li { grid-template-columns: 7.5rem 1fr 2.2rem; gap: 0.4rem; }
 }

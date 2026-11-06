@@ -33,7 +33,7 @@
 <body class="{{ page.body_class }}">
   <header class="site-header">
     <div class="wrap">
-      <a class="site-name" href="/">{{ site.name }}</a>
+      <a class="site-name" href="/"{% if is_home %} aria-current="page"{% endif %}>{{ site.name }}</a>
       <nav aria-label="Main">
         {% for item in nav %}
         <a href="{{ item.url }}"{% if page.url.startswith(item.url) %} aria-current="page"{% endif %}>{{ item.title }}</a>
