@@ -52,6 +52,16 @@
   </script>
 </section>
 
+<section>
+  <h2>Recent projects</h2>
+  <div class="cards">
+    {% for p in collections.projects if p.get("featured") %}
+    {{ project_card(p, show_links=false) }}
+    {% endfor %}
+  </div>
+  <p><a href="/projects/">See all projects →</a></p>
+</section>
+
 {# Justified rows: photos in a row share one height and together fill the column, so nothing is cropped.
    Each link's flex-grow is its photo's width/height ratio. #}
 {% for group in page.get("photo_groups", []) %}
@@ -71,16 +81,6 @@
 {% endfor %}
 
 <section>
-  <h2>Recent projects</h2>
-  <div class="cards">
-    {% for p in collections.projects if p.get("featured") %}
-    {{ project_card(p, show_links=false) }}
-    {% endfor %}
-  </div>
-  <p><a href="/projects/">See all projects →</a></p>
-</section>
-
-<section>
   <h2>Recent papers</h2>
   <ul class="plain-list">
     {% for paper in (collections.papers | selectattr("category", "eq", "publications") | list)[:5] %}
@@ -89,4 +89,15 @@
   </ul>
   <p><a href="/papers/">See all papers →</a></p>
 </section>
+{% endblock %}
+
+{% block after_main %}
+{# The goo creature (static/js/blob.js): a fluid blob in a pixel ruin that learns how to move from pats and pokes.
+   Hidden until blob.js shows it, so devices without JavaScript get nothing here. #}
+<section class="goo-banner" data-blob aria-label="Goo creature" hidden>
+  <canvas width="320" height="45" role="img" aria-label="A goo creature crawling around a pixel ruin. Hold it to pat it, tap it quickly to poke it, or drag it to fling it. It learns which moves you like."></canvas>
+  <button type="button" class="goo-help" aria-expanded="false" aria-label="What is this?" title="What is this? (L)">?</button>
+  <div class="goo-overlay" hidden></div>
+</section>
+<script type="module" src="/js/blob.js"></script>
 {% endblock %}

@@ -216,6 +216,39 @@ p { margin: 0 0 1rem; }
   border: 1px solid var(--border); border-radius: var(--radius);
 }
 
+/* ---------- goo banner (bottom of the home page, above the footer; static/js/blob.js) ---------- */
+.goo-banner { position: relative; border-top: 1px solid var(--border); line-height: 0; }
+.goo-banner canvas {
+  display: block; width: 100%; height: auto; aspect-ratio: 320 / 45; image-rendering: pixelated;
+  touch-action: pan-y; user-select: none; -webkit-user-select: none; -webkit-tap-highlight-color: transparent;
+}
+.goo-banner canvas.over-goo { cursor: grab; }
+.goo-banner canvas.grabbing { cursor: grabbing; }
+.goo-help {
+  position: absolute; right: 10px; bottom: 8px; width: 24px; height: 24px; padding: 0; border-radius: 50%;
+  border: 1px solid var(--border); background: var(--surface); color: var(--muted);
+  font: 600 13px/1 var(--font); cursor: pointer; opacity: 0.8;
+}
+.goo-help:hover, .goo-help[aria-expanded="true"] { opacity: 1; color: var(--accent); border-color: var(--accent); }
+.goo-overlay {
+  position: absolute; z-index: 10; bottom: calc(100% + 6px); right: 10px; width: min(380px, calc(100% - 20px));
+  padding: 0.8rem 1rem; line-height: 1.45; font-size: 0.85rem;
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: 0 6px 24px rgb(0 0 0 / 14%);
+}
+.goo-overlay p { margin: 0 0 0.5rem; }
+.goo-overlay .goo-sub, .goo-overlay .goo-foot { color: var(--muted); }
+.goo-overlay .goo-foot { margin: 0; }
+.goo-bars { list-style: none; padding: 0; margin: 0 0 0.6rem; display: grid; gap: 0.2rem; }
+.goo-bars li { display: grid; grid-template-columns: 8.5rem 1fr 2.5rem; align-items: center; gap: 0.6rem; padding: 0 0.3rem; border-radius: 5px; }
+.goo-bars li.now { background: var(--accent-soft); font-weight: 600; }
+.goo-bars li.off { color: var(--muted); opacity: 0.6; }
+.goo-bar { height: 0.5rem; background: var(--border); border-radius: 999px; overflow: hidden; }
+.goo-bar i { display: block; height: 100%; background: var(--accent); border-radius: inherit; transition: width 0.4s ease; }
+.goo-bars li.up .goo-bar i { background: #2fa36b; }
+.goo-bars li.down .goo-bar i { background: #d9534f; }
+.goo-pct { text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); }
+.goo-link { background: none; border: 0; padding: 0; font: inherit; color: var(--accent); cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+
 /* ---------- small screens ---------- */
 @media (max-width: 640px) {
   body { font-size: 16px; }
@@ -224,4 +257,5 @@ p { margin: 0 0 1rem; }
   .cards { grid-template-columns: 1fr; }
   .gallery-row { display: grid; gap: 0.5rem; }  /* one full-width photo per line on phones */
   .site-header .wrap { flex-direction: column; align-items: flex-start; }
+  .goo-bars li { grid-template-columns: 7.5rem 1fr 2.2rem; gap: 0.4rem; }
 }
